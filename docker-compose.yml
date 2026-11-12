@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16
+    container_name: smart-travel-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-smart_travel}
+      POSTGRES_USER: ${POSTGRES_USER:-travel_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_this_password}
+    ports:
+      - "5434:5432"
+    volumes:
+      - smart_travel_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-travel_user} -d ${POSTGRES_DB:-smart_travel}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  smart_travel_data:
