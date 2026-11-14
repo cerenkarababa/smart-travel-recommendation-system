@@ -1157,3 +1157,278 @@ footer > span {
         margin-left: 5px;
     }
 }
+
+/* TRAVEL PREFERENCES FORM */
+
+.preferences-section {
+    position: relative;
+    padding: 105px max(6%, calc((100% - 1120px) / 2));
+    overflow: hidden;
+    color: #125d60;
+    background:
+        radial-gradient(circle at 90% 8%, rgba(25, 185, 173, .12), transparent 28%),
+        radial-gradient(circle at 5% 95%, rgba(8, 127, 145, .08), transparent 30%),
+        linear-gradient(145deg, #f4fff9 0%, #e2fbf2 100%);
+}
+
+.preferences-heading {
+    max-width: 720px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.preferences-eyebrow {
+    display: inline-block;
+    margin-bottom: 17px;
+    color: #079e9a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.preferences-heading h2 {
+    margin-bottom: 16px;
+    color: #125d60;
+    font-family: "Playfair Display", serif;
+    font-size: clamp(36px, 4.5vw, 55px);
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.preferences-heading h2 em {
+    color: #0b9d96;
+    font-weight: 400;
+}
+
+.preferences-heading p {
+    max-width: 590px;
+    margin: 0 auto;
+    color: #6c9993;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.preference-form {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: clamp(24px, 4vw, 48px);
+    border: 1px solid rgba(8, 127, 145, .16);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, .72);
+    box-shadow: 0 24px 65px rgba(27, 70, 68, .09);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.form-fieldset {
+    min-width: 0;
+    padding: 0;
+    border: 0;
+}
+
+.form-fieldset legend,
+.form-field label {
+    display: block;
+    margin-bottom: 12px;
+    color: #125d60;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.field-hint {
+    margin: -4px 0 18px;
+    color: #82a69d;
+    font-size: 11px;
+}
+
+.choice-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.choice-card {
+    position: relative;
+    display: flex;
+    min-height: 112px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 15px 8px;
+    border: 1px solid #d5eee5;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .78);
+    color: #4c8178;
+    cursor: pointer;
+    text-align: center;
+    transition: border-color .25s ease, background .25s ease, transform .25s ease, box-shadow .25s ease;
+}
+
+.choice-card:hover {
+    transform: translateY(-3px);
+    border-color: #70cfc0;
+    box-shadow: 0 10px 22px rgba(8, 127, 145, .09);
+}
+
+.choice-card:has(input:checked) {
+    border-color: #19b9ad;
+    background: linear-gradient(145deg, #e8fff7, #d9f8ef);
+    box-shadow: inset 0 0 0 1px rgba(25, 185, 173, .18);
+    color: #087f7c;
+}
+
+.choice-card input {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 14px;
+    height: 14px;
+    accent-color: #0a9f98;
+    cursor: pointer;
+}
+
+.choice-icon {
+    color: #0b9d96;
+    font-size: 27px;
+    line-height: 1;
+}
+
+.choice-text {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.form-select-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 20px;
+    margin-top: 38px;
+}
+
+.form-field select {
+    width: 100%;
+    min-height: 48px;
+    padding: 0 15px;
+    border: 1px solid #cfe9df;
+    border-radius: 7px;
+    outline: none;
+    background: #fbfffd;
+    color: #326e68;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.form-field select:focus {
+    border-color: #19b9ad;
+    box-shadow: 0 0 0 3px rgba(25, 185, 173, .12);
+}
+
+.form-field select option {
+    color: #174b58;
+    background: #fff;
+}
+
+.form-submit-area {
+    margin-top: 38px;
+    text-align: center;
+}
+
+.preference-submit {
+    display: inline-flex;
+    min-width: 220px;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 14px 22px;
+    border: 1px solid rgba(183, 255, 239, .7);
+    border-radius: 5px;
+    background: linear-gradient(135deg, #19b9ad, #078c9b);
+    box-shadow: 0 12px 28px rgba(0, 100, 100, .17);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    cursor: pointer;
+    transition: transform .3s ease, box-shadow .3s ease, background .3s ease;
+}
+
+.preference-submit:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #29cbb7, #079baa);
+    box-shadow: 0 16px 32px rgba(0, 100, 100, .22);
+}
+
+.preference-submit:focus-visible {
+    outline: 3px solid rgba(25, 185, 173, .35);
+    outline-offset: 4px;
+}
+
+.form-status {
+    display: none;
+    max-width: 560px;
+    margin: 18px auto 0;
+    color: #087f7c;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.form-status.is-visible {
+    display: block;
+}
+
+@media (max-width: 760px) {
+    .preferences-section {
+        padding: 78px 22px;
+    }
+
+    .preferences-heading {
+        margin-bottom: 34px;
+    }
+
+    .choice-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .choice-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .form-select-grid {
+        grid-template-columns: 1fr;
+        gap: 19px;
+        margin-top: 30px;
+    }
+
+    .preference-form {
+        padding: 25px 19px;
+    }
+}
+
+@media (max-width: 420px) {
+    .preferences-section {
+        padding: 65px 16px;
+    }
+
+    .preferences-eyebrow {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+
+    .preferences-heading p {
+        font-size: 12px;
+    }
+
+    .form-fieldset legend,
+    .form-field label {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .choice-card {
+        min-height: 100px;
+    }
+}

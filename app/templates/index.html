@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +12,101 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <style>
+        .recommendations-section {
+            display: none;
+            padding: 80px 8%;
+            background: #f7f5f0;
+        }
+
+        .recommendations-section.is-visible {
+            display: block;
+        }
+
+        .recommendations-heading {
+            max-width: 760px;
+            margin: 0 auto 34px;
+            text-align: center;
+        }
+
+        .recommendations-heading > span {
+            display: block;
+            margin-bottom: 12px;
+            letter-spacing: .16em;
+            font-size: .72rem;
+            font-weight: 700;
+        }
+
+        .recommendations-heading h2 {
+            margin: 0 0 12px;
+        }
+
+        .recommendations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .recommendation-card {
+            padding: 24px;
+            background: #fff;
+            border: 1px solid rgba(0,0,0,.08);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(0,0,0,.045);
+        }
+
+        .recommendation-rank {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            margin-bottom: 18px;
+            border-radius: 50%;
+            background: #e9e3d8;
+            font-size: .8rem;
+            font-weight: 700;
+        }
+
+        .recommendation-card h3 {
+            margin: 0 0 7px;
+            font-size: 1.2rem;
+        }
+
+        .recommendation-country {
+            margin: 0 0 14px;
+            opacity: .72;
+        }
+
+        .recommendation-score {
+            margin: 0;
+            font-size: .85rem;
+            opacity: .75;
+        }
+
+        .recommendation-error {
+            color: #9d2929;
+        }
+
+        .recommendation-loading {
+            text-align: center;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            .recommendations-section {
+                padding: 56px 6%;
+            }
+
+            .recommendations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -48,7 +142,7 @@
 
     </header>
 
-    <!-- Vertical progress indicator -->
+    <!-- Vertical progress -->
     <div class="vertical-progress">
 
         <span class="progress-line"></span>
@@ -69,7 +163,7 @@
 
     </div>
 
-    <!-- Main hero -->
+    <!-- Hero -->
     <section class="hero-content" id="discover">
 
         <div class="eyebrow">
@@ -112,10 +206,7 @@
         <div class="destination-cards">
 
             <article class="destination-card">
-                <img
-                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85"
-                    alt="Patagonia mountain landscape"
-                >
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85" alt="Patagonia mountain landscape">
                 <div class="card-shade"></div>
                 <span class="card-bookmark">♡</span>
                 <div class="card-info">
@@ -126,10 +217,7 @@
             </article>
 
             <article class="destination-card">
-                <img
-                    src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=700&q=85"
-                    alt="Iceland waterfall"
-                >
+                <img src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=700&q=85" alt="Iceland waterfall">
                 <div class="card-shade"></div>
                 <span class="card-bookmark">♡</span>
                 <div class="card-info">
@@ -140,10 +228,7 @@
             </article>
 
             <article class="destination-card">
-                <img
-                    src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=85"
-                    alt="Kyoto Japan"
-                >
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=85" alt="Kyoto Japan">
                 <div class="card-shade"></div>
                 <span class="card-bookmark">♡</span>
                 <div class="card-info">
@@ -154,10 +239,7 @@
             </article>
 
             <article class="destination-card">
-                <img
-                    src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=700&q=85"
-                    alt="Sahara desert"
-                >
+                <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=700&q=85" alt="Sahara desert">
                 <div class="card-shade"></div>
                 <span class="card-bookmark">♡</span>
                 <div class="card-info">
@@ -170,20 +252,12 @@
         </div>
 
         <div class="carousel-controls">
-
-            <button class="carousel-arrow" type="button" aria-label="Previous destinations">
-                ←
-            </button>
-
-            <button class="carousel-arrow" type="button" aria-label="Next destinations">
-                →
-            </button>
-
+            <button class="carousel-arrow" type="button" aria-label="Previous destinations">←</button>
+            <button class="carousel-arrow" type="button" aria-label="Next destinations">→</button>
         </div>
 
     </section>
 
-    <!-- Hero footer -->
     <div class="hero-footer">
         <span>01 / DISCOVER</span>
         <span>MADE FOR THE CURIOUS</span>
@@ -192,7 +266,7 @@
 
 </main>
 
-<!-- Travel experience options -->
+<!-- Experiences -->
 <section class="experience-section" id="experiences">
 
     <div class="experience-heading">
@@ -211,9 +285,7 @@
                 Tell us what you love and discover destinations
                 selected around your travel preferences.
             </p>
-            <a href="#preferences">
-                Discover your match <span>↗</span>
-            </a>
+            <a href="#preferences">Discover your match <span>↗</span></a>
         </article>
 
         <article class="experience-option surprise-option">
@@ -224,17 +296,15 @@
                 Leave the planning behind. Let a random destination
                 inspire your next adventure.
             </p>
-            <a href="#surprise">
-                Take me somewhere <span>↗</span>
-            </a>
+            <a href="#preferences">Take me somewhere <span>↗</span></a>
         </article>
 
     </div>
 
 </section>
 
-<!-- Closing section -->
-<section class="closing-section" id="preferences">
+<!-- Closing -->
+<section class="closing-section" id="closing">
 
     <span>THE WORLD IS WAITING</span>
 
@@ -243,15 +313,369 @@
         <em>your next story begins.</em>
     </h2>
 
-    <p>
-        Discover a destination that feels like it was made for you.
-    </p>
+    <p>Discover a destination that feels like it was made for you.</p>
 
-    <a href="#discover">Explore Smart Travel ↗</a>
+    <a href="#preferences">Explore Smart Travel ↗</a>
 
 </section>
 
-<!-- Meet the Creator -->
+<!-- Travel preferences form -->
+<section class="preferences-section" id="preferences">
+
+    <div class="preferences-heading">
+
+        <span class="preferences-eyebrow" id="formEyebrow">
+            LET'S FIND YOUR NEXT ADVENTURE
+        </span>
+
+        <h2 id="formTitle">
+            Your journey, <em>your choices.</em>
+        </h2>
+
+        <p id="formDescription">
+            Choose the experiences and travel preferences that matter to you.
+            We'll use them to find destinations that match your style.
+        </p>
+
+    </div>
+
+    <form id="preferenceForm" class="preference-form">
+
+        <!-- Age preferences -->
+        <fieldset class="form-fieldset">
+
+            <legend id="ageLegend">
+                01 / Which age groups are travelling?
+            </legend>
+
+            <p class="field-hint" id="ageHint">
+                Choose one or more age groups.
+            </p>
+
+            <div class="choice-grid">
+
+                <label class="choice-card">
+                    <input type="checkbox" name="age_range" value="0">
+                    <span class="choice-text" data-en="0–19 years" data-tr="0–19 yaş">0–19 years</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="age_range" value="1">
+                    <span class="choice-text" data-en="20–39 years" data-tr="20–39 yaş">20–39 years</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="age_range" value="2">
+                    <span class="choice-text" data-en="40–59 years" data-tr="40–59 yaş">40–59 years</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="age_range" value="3">
+                    <span class="choice-text" data-en="60+ years" data-tr="60+ yaş">60+ years</span>
+                </label>
+
+            </div>
+
+        </fieldset>
+
+        <!-- Experience preferences -->
+        <fieldset class="form-fieldset">
+
+            <legend id="experienceLegend">
+                02 / What would you like to experience?
+            </legend>
+
+            <p class="field-hint" id="experienceHint">
+                Choose one or more.
+            </p>
+
+            <div class="choice-grid">
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="0">
+                    <span class="choice-icon">☼</span>
+                    <span class="choice-text" data-en="Beach" data-tr="Plaj">Beach</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="1">
+                    <span class="choice-icon">⌁</span>
+                    <span class="choice-text" data-en="Adventure" data-tr="Macera">Adventure</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="2">
+                    <span class="choice-icon">❋</span>
+                    <span class="choice-text" data-en="Nature" data-tr="Doğa">Nature</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="3">
+                    <span class="choice-icon">⌂</span>
+                    <span class="choice-text" data-en="Culture" data-tr="Kültür">Culture</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="4">
+                    <span class="choice-icon">♫</span>
+                    <span class="choice-text" data-en="Nightlife" data-tr="Gece hayatı">Nightlife</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="5">
+                    <span class="choice-icon">▤</span>
+                    <span class="choice-text" data-en="History" data-tr="Tarih">History</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="6">
+                    <span class="choice-icon">◇</span>
+                    <span class="choice-text" data-en="Shopping" data-tr="Alışveriş">Shopping</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="experience_preferences" value="7">
+                    <span class="choice-icon">✧</span>
+                    <span class="choice-text" data-en="Cuisine" data-tr="Yerel mutfak">Cuisine</span>
+                </label>
+
+            </div>
+
+        </fieldset>
+
+        <!-- Scenery preferences -->
+        <fieldset class="form-fieldset">
+
+            <legend id="sceneryLegend">
+                03 / What kind of scenery do you prefer?
+            </legend>
+
+            <p class="field-hint" id="sceneryHint">
+                Choose one or more.
+            </p>
+
+            <div class="choice-grid">
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="0">
+                    <span class="choice-icon">▦</span>
+                    <span class="choice-text" data-en="Urban" data-tr="Şehir">Urban</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="1">
+                    <span class="choice-icon">⌂</span>
+                    <span class="choice-text" data-en="Rural" data-tr="Kırsal">Rural</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="2">
+                    <span class="choice-icon">≈</span>
+                    <span class="choice-text" data-en="Sea" data-tr="Deniz">Sea</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="3">
+                    <span class="choice-icon">△</span>
+                    <span class="choice-text" data-en="Mountain" data-tr="Dağ">Mountain</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="4">
+                    <span class="choice-icon">◌</span>
+                    <span class="choice-text" data-en="Lake" data-tr="Göl">Lake</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="5">
+                    <span class="choice-icon">☀</span>
+                    <span class="choice-text" data-en="Desert" data-tr="Çöl">Desert</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="6">
+                    <span class="choice-icon">⌁</span>
+                    <span class="choice-text" data-en="Plains" data-tr="Ovalar">Plains</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="scenery_preferences" value="7">
+                    <span class="choice-icon">♧</span>
+                    <span class="choice-text" data-en="Jungle" data-tr="Orman">Jungle</span>
+                </label>
+
+            </div>
+
+        </fieldset>
+
+        <!-- Other preferences -->
+        <div class="form-select-grid">
+
+            <div class="form-field">
+                <label for="budget_level" id="budgetLabel">
+                    04 / Your budget per person, per night
+                </label>
+
+                <select id="budget_level" name="budget_level" required>
+                    <option value="" id="budgetPlaceholder">Choose your budget</option>
+                    <option value="0" data-en="$0–$49" data-tr="$0–$49">$0–$49</option>
+                    <option value="1" data-en="$50–$99" data-tr="$50–$99">$50–$99</option>
+                    <option value="2" data-en="$100–$249" data-tr="$100–$249">$100–$249</option>
+                    <option value="3" data-en="$300+" data-tr="$300+">$300+</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="season" id="seasonLabel">
+                    05 / Which season are you planning to travel?
+                </label>
+
+                <select id="season" name="season" required>
+                    <option value="" id="seasonPlaceholder">Choose a season</option>
+                    <option value="0" data-en="Winter" data-tr="Kış">Winter</option>
+                    <option value="1" data-en="Spring" data-tr="İlkbahar">Spring</option>
+                    <option value="2" data-en="Summer" data-tr="Yaz">Summer</option>
+                    <option value="3" data-en="Fall" data-tr="Sonbahar">Fall</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="activity_level" id="activityLabel">
+                    06 / Your activity level
+                </label>
+
+                <select id="activity_level" name="activity_level" required>
+                    <option value="" id="activityPlaceholder">Choose your activity level</option>
+                    <option value="0" data-en="Chill & relaxed" data-tr="Sakin ve dinlendirici">Chill & relaxed</option>
+                    <option value="1" data-en="Balanced" data-tr="Dengeli">Balanced</option>
+                    <option value="2" data-en="Active" data-tr="Aktif">Active</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="safety_preference" id="safetyLabel">
+                    07 / How safety-conscious are you?
+                </label>
+
+                <select id="safety_preference" name="safety_preference" required>
+                    <option value="" id="safetyPlaceholder">Choose your preference</option>
+                    <option value="0" data-en="Very safety-conscious" data-tr="Güvenliğe çok önem veririm">Very safety-conscious</option>
+                    <option value="1" data-en="Balanced" data-tr="Dengeli">Balanced</option>
+                    <option value="2" data-en="Ready for anything" data-tr="Maceraya hazırım">Ready for anything</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="popularity_preference" id="popularityLabel">
+                    08 / What kind of destinations do you prefer?
+                </label>
+
+                <select id="popularity_preference" name="popularity_preference" required>
+                    <option value="" id="popularityPlaceholder">Choose destination style</option>
+                    <option value="0" data-en="Off the beaten path" data-tr="Keşfedilmemiş yerler">Off the beaten path</option>
+                    <option value="1" data-en="Classic destinations" data-tr="Klasik destinasyonlar">Classic destinations</option>
+                    <option value="2" data-en="Popular & trendy" data-tr="Popüler ve trend yerler">Popular & trendy</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="region_mode" id="regionLabel">
+                    09 / Where would you like to go?
+                </label>
+
+                <select id="region_mode" name="form_r">
+                    <option value="0" data-en="Anywhere" data-tr="Fark etmez">Anywhere</option>
+                    <option value="1" data-en="Specific regions" data-tr="Belirli bölgeler">Specific regions</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- Region preferences -->
+        <fieldset class="form-fieldset">
+
+            <legend id="regionsLegend">
+                10 / Choose specific regions (optional)
+            </legend>
+
+            <p class="field-hint" id="regionsHint">
+                Only select regions if you chose "Specific regions" above.
+            </p>
+
+            <div class="choice-grid">
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="e">
+                    <span class="choice-text" data-en="Europe" data-tr="Avrupa">Europe</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="n">
+                    <span class="choice-text" data-en="North America" data-tr="Kuzey Amerika">North America</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="c">
+                    <span class="choice-text" data-en="Caribbean" data-tr="Karayipler">Caribbean</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="a">
+                    <span class="choice-text" data-en="Asia" data-tr="Asya">Asia</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="s">
+                    <span class="choice-text" data-en="South America" data-tr="Güney Amerika">South America</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="m">
+                    <span class="choice-text" data-en="Middle East" data-tr="Orta Doğu">Middle East</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="f">
+                    <span class="choice-text" data-en="Africa" data-tr="Afrika">Africa</span>
+                </label>
+
+                <label class="choice-card">
+                    <input type="checkbox" name="form_rr" value="o">
+                    <span class="choice-text" data-en="Oceania" data-tr="Okyanusya">Oceania</span>
+                </label>
+
+            </div>
+
+        </fieldset>
+
+        <div class="form-submit-area">
+
+            <button type="submit" class="preference-submit" id="preferenceSubmit">
+                Find my destination <span>↗</span>
+            </button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+
+        </div>
+
+    </form>
+
+</section>
+
+<!-- Machine-learning recommendations -->
+<section class="recommendations-section" id="recommendationsSection" aria-live="polite">
+
+    <div class="recommendations-heading">
+        <span id="recommendationsEyebrow">YOUR PERSONALIZED MATCHES</span>
+        <h2 id="recommendationsTitle">Destinations picked for you.</h2>
+        <p id="recommendationsDescription">Based on your travel preferences, here are your top matches.</p>
+    </div>
+
+    <div class="recommendations-grid" id="recommendationsGrid"></div>
+
+</section>
+
+<!-- Creator -->
 <section class="creator-section" id="about">
 
     <div class="creator-image-wrapper">
@@ -266,9 +690,7 @@
 
         <span class="creator-eyebrow">BEHIND THE PROJECT</span>
 
-        <h2>
-            Meet the <em>Creator.</em>
-        </h2>
+        <h2>Meet the <em>Creator.</em></h2>
 
         <h3>Ceren Karababa</h3>
 
@@ -315,6 +737,7 @@
 
 <!-- Language translations -->
 <script>
+
 const translations = {
 
     en: {
@@ -408,17 +831,27 @@ const translations = {
         creatorLink: "GitHub projesini incele",
         footerText: "Daha fazlasını keşfet. Farklı seyahat et."
     }
+
 };
+
 
 function setText(selector, value) {
     const element = document.querySelector(selector);
-    if (element) element.textContent = value;
+
+    if (element) {
+        element.textContent = value;
+    }
 }
+
 
 function setHTML(selector, value) {
     const element = document.querySelector(selector);
-    if (element) element.innerHTML = value;
+
+    if (element) {
+        element.innerHTML = value;
+    }
 }
+
 
 function changeLanguage(language) {
 
@@ -476,29 +909,372 @@ function changeLanguage(language) {
     setText(".creator-role", t.creatorRole);
 
     const creatorParagraphs = document.querySelectorAll(".creator-content p");
-    if (creatorParagraphs[0]) creatorParagraphs[0].textContent = t.creatorP1;
-    if (creatorParagraphs[1]) creatorParagraphs[1].textContent = t.creatorP2;
+
+    if (creatorParagraphs[0]) {
+        creatorParagraphs[0].textContent = t.creatorP1;
+    }
+
+    if (creatorParagraphs[1]) {
+        creatorParagraphs[1].textContent = t.creatorP2;
+    }
 
     setHTML(".creator-link", t.creatorLink + " <span>↗</span>");
     setText("footer p", t.footerText);
 
+
+    const formText = {
+
+        en: {
+            eyebrow: "LET'S FIND YOUR NEXT ADVENTURE",
+            title: 'Your journey, <em>your choices.</em>',
+            description: "Choose the experiences and travel preferences that matter to you. We'll use them to find destinations that match your style.",
+
+            ageLegend: "01 / Which age groups are travelling?",
+            ageHint: "Choose one or more age groups.",
+
+            experienceLegend: "02 / What would you like to experience?",
+            experienceHint: "Choose one or more.",
+
+            sceneryLegend: "03 / What kind of scenery do you prefer?",
+            sceneryHint: "Choose one or more.",
+
+            budgetLabel: "04 / Your budget per person, per night",
+            budgetPlaceholder: "Choose your budget",
+
+            seasonLabel: "05 / Which season are you planning to travel?",
+            seasonPlaceholder: "Choose a season",
+
+            activityLabel: "06 / Your activity level",
+            activityPlaceholder: "Choose your activity level",
+
+            safetyLabel: "07 / How safety-conscious are you?",
+            safetyPlaceholder: "Choose your preference",
+
+            popularityLabel: "08 / What kind of destinations do you prefer?",
+            popularityPlaceholder: "Choose destination style",
+
+            regionLabel: "09 / Where would you like to go?",
+
+            regionsLegend: "10 / Choose specific regions (optional)",
+            regionsHint: 'Only select regions if you chose "Specific regions" above.',
+
+            submit: "Find my destination"
+        },
+
+        tr: {
+            eyebrow: "HAYALİNDEKİ YOLCULUĞU BİRLİKTE BULALIM",
+            title: 'Yolculuğun, <em>senin seçimlerin.</em>',
+            description: "Senin için önemli olan deneyimleri ve seyahat tercihlerini seç. Sana uygun destinasyonları bulalım.",
+
+            ageLegend: "01 / Hangi yaş grupları seyahat edecek?",
+            ageHint: "Bir veya daha fazla yaş grubu seçebilirsin.",
+
+            experienceLegend: "02 / Neler deneyimlemek istersin?",
+            experienceHint: "Bir veya daha fazla seçenek seçebilirsin.",
+
+            sceneryLegend: "03 / Nasıl bir manzara tercih edersin?",
+            sceneryHint: "Bir veya daha fazla seçenek seçebilirsin.",
+
+            budgetLabel: "04 / Kişi başı gecelik bütçen",
+            budgetPlaceholder: "Bütçeni seç",
+
+            seasonLabel: "05 / Hangi mevsimde seyahat edeceksin?",
+            seasonPlaceholder: "Mevsim seç",
+
+            activityLabel: "06 / Aktivite seviyen",
+            activityPlaceholder: "Aktivite seviyeni seç",
+
+            safetyLabel: "07 / Güvenlik konusunda tercihin",
+            safetyPlaceholder: "Tercihini seç",
+
+            popularityLabel: "08 / Nasıl destinasyonları tercih edersin?",
+            popularityPlaceholder: "Destinasyon tarzını seç",
+
+            regionLabel: "09 / Nereye gitmek istersin?",
+
+            regionsLegend: "10 / Belirli bölgeleri seç (isteğe bağlı)",
+            regionsHint: 'Yalnızca yukarıda "Belirli bölgeler" seçtiysen işaretle.',
+
+            submit: "Bana destinasyon bul"
+        }
+
+    }[language];
+
+
+    const formLabels = [
+        ["ageLegend", formText.ageLegend],
+        ["ageHint", formText.ageHint],
+        ["experienceLegend", formText.experienceLegend],
+        ["experienceHint", formText.experienceHint],
+        ["sceneryLegend", formText.sceneryLegend],
+        ["sceneryHint", formText.sceneryHint],
+        ["budgetLabel", formText.budgetLabel],
+        ["budgetPlaceholder", formText.budgetPlaceholder],
+        ["seasonLabel", formText.seasonLabel],
+        ["seasonPlaceholder", formText.seasonPlaceholder],
+        ["activityLabel", formText.activityLabel],
+        ["activityPlaceholder", formText.activityPlaceholder],
+        ["safetyLabel", formText.safetyLabel],
+        ["safetyPlaceholder", formText.safetyPlaceholder],
+        ["popularityLabel", formText.popularityLabel],
+        ["popularityPlaceholder", formText.popularityPlaceholder],
+        ["regionLabel", formText.regionLabel],
+        ["regionsLegend", formText.regionsLegend],
+        ["regionsHint", formText.regionsHint]
+    ];
+
+    document.getElementById("formEyebrow").textContent = formText.eyebrow;
+    document.getElementById("formTitle").innerHTML = formText.title;
+    document.getElementById("formDescription").textContent = formText.description;
+
+    formLabels.forEach(function(item) {
+        document.getElementById(item[0]).textContent = item[1];
+    });
+
+    document.getElementById("preferenceSubmit").innerHTML =
+        formText.submit + " <span>↗</span>";
+
+
+    document.querySelectorAll("#preferenceForm option[data-en]").forEach(function(option) {
+        option.textContent = option.getAttribute("data-" + language);
+    });
+
+    document.querySelectorAll("#preferenceForm .choice-text[data-en]").forEach(function(choice) {
+        choice.textContent = choice.getAttribute("data-" + language);
+    });
+
     document.documentElement.lang = language;
+
     localStorage.setItem("smartTravelLanguage", language);
+
 }
 
+
+// Language selector
 const languageSwitcher = document.getElementById("languageSwitcher");
 
 const savedLanguage = localStorage.getItem("smartTravelLanguage") || "en";
 
 languageSwitcher.value = savedLanguage;
+
 changeLanguage(savedLanguage);
 
-languageSwitcher.addEventListener("change", function () {
+languageSwitcher.addEventListener("change", function() {
     changeLanguage(this.value);
 });
+
+
+// Send form preferences to the Flask recommendation API.
+document.getElementById("preferenceForm").addEventListener("submit", async function(event) {
+
+    event.preventDefault();
+
+    const form = this;
+    const status = document.getElementById("formStatus");
+    const submitButton = document.getElementById("preferenceSubmit");
+    const resultsSection = document.getElementById("recommendationsSection");
+    const resultsGrid = document.getElementById("recommendationsGrid");
+    const language = languageSwitcher.value;
+
+    const getCheckedValues = (name) => Array.from(
+        form.querySelectorAll(`input[name="${name}"]:checked`)
+    ).map((input) => input.value);
+
+    const age = getCheckedValues("age_range");
+    const experiences = getCheckedValues("experience_preferences");
+    const scenery = getCheckedValues("scenery_preferences");
+
+    const regionMode = form.querySelector('[name="form_r"]').value;
+    const regions = getCheckedValues("form_rr");
+
+    if (age.length === 0 || experiences.length === 0 || scenery.length === 0) {
+
+        status.textContent = language === "tr"
+            ? "Lütfen en az bir yaş grubu, deneyim ve manzara tercihi seç."
+            : "Please choose at least one age group, experience and scenery preference.";
+
+        status.classList.add("is-visible");
+
+        return;
+    }
+
+    if (regionMode === "1" && regions.length === 0) {
+
+        status.textContent = language === "tr"
+            ? "Lütfen en az bir bölge seç veya 'Fark etmez' seçeneğini işaretle."
+            : 'Please choose at least one region or select "Anywhere".';
+
+        status.classList.add("is-visible");
+
+        return;
+    }
+
+    const budget = form.querySelector('[name="budget_level"]').value;
+    const season = form.querySelector('[name="season"]').value;
+    const activity = form.querySelector('[name="activity_level"]').value;
+    const safety = form.querySelector('[name="safety_preference"]').value;
+    const popularity = form.querySelector('[name="popularity_preference"]').value;
+
+    if (!budget || !season || !activity || !safety || !popularity) {
+
+        status.textContent = language === "tr"
+            ? "Lütfen bütçe, mevsim ve diğer açılır menülerdeki tüm tercihleri seç."
+            : "Please complete all the dropdown preferences.";
+
+        status.classList.add("is-visible");
+
+        return;
+    }
+
+    // The API accepts these values as lists, just like the checkbox fields.
+    const preferences = {
+        age_range: age,
+        budget_level: [budget],
+        season: [season],
+        experience_preferences: experiences,
+        scenery_preferences: scenery,
+        activity_level: [activity],
+        safety_preference: [safety],
+        popularity_preference: [popularity],
+        form_r: [regionMode],
+        form_rr: regions,
+        region_codes: regions
+    };
+
+    status.textContent = language === "tr"
+        ? "Sana en uygun destinasyonları buluyoruz..."
+        : "Finding the destinations that match you...";
+
+    status.classList.add("is-visible");
+
+    submitButton.disabled = true;
+    resultsGrid.innerHTML = "";
+    resultsSection.classList.remove("is-visible");
+
+    try {
+
+        const response = await fetch("/api/recommendations", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(preferences)
+        });
+
+        const data = await response.json();
+
+        if (!response.ok || data.success === false) {
+            throw new Error(data.message || "Recommendation request failed.");
+        }
+
+        // Support the response list names used by the API.
+        const recommendations =
+            data.recommendations ||
+            data.destinations ||
+            data.results ||
+            [];
+
+        if (!Array.isArray(recommendations) || recommendations.length === 0) {
+
+            throw new Error(language === "tr"
+                ? "Bu tercihler için öneri bulunamadı."
+                : "No recommendations were returned for these preferences.");
+        }
+
+        const isTurkish = language === "tr";
+
+        document.getElementById("recommendationsEyebrow").textContent = isTurkish
+            ? "SANA ÖZEL DESTİNASYONLAR"
+            : "YOUR PERSONALIZED MATCHES";
+
+        document.getElementById("recommendationsTitle").textContent = isTurkish
+            ? "Senin için seçilen yerler."
+            : "Destinations picked for you.";
+
+        document.getElementById("recommendationsDescription").textContent = isTurkish
+            ? "Seyahat tercihlerine göre en iyi 10 eşleşmen."
+            : "Your top 10 matches based on your travel preferences.";
+
+        recommendations.forEach((destination, index) => {
+
+            const card = document.createElement("article");
+            card.className = "recommendation-card";
+
+            const rank = document.createElement("span");
+            rank.className = "recommendation-rank";
+            rank.textContent = `0${index + 1}`;
+
+            const name = document.createElement("h3");
+            name.textContent =
+                destination.destination_name ||
+                destination.name ||
+                "Destination";
+
+            const country = document.createElement("p");
+            country.className = "recommendation-country";
+            country.textContent = destination.country || "";
+
+            const score = document.createElement("p");
+            score.className = "recommendation-score";
+
+            const probability = destination.predicted_probability;
+
+            if (probability !== undefined && probability !== null && probability !== "") {
+
+                const numericProbability = Number(probability);
+
+                const percentage = numericProbability <= 1
+                    ? numericProbability * 100
+                    : numericProbability;
+
+                score.textContent =
+                    `${isTurkish ? "Eşleşme" : "Match"}: ${percentage.toFixed(1)}%`;
+
+            } else {
+
+                score.textContent = isTurkish
+                    ? "Sana önerildi"
+                    : "Recommended for you";
+
+            }
+
+            card.append(rank, name, country, score);
+
+            resultsGrid.appendChild(card);
+
+        });
+
+        resultsSection.classList.add("is-visible");
+
+        status.textContent = isTurkish
+            ? "Önerilerin hazır!"
+            : "Your recommendations are ready!";
+
+        resultsSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+    } catch (error) {
+
+        console.error("Recommendation error:", error);
+
+        status.textContent = language === "tr"
+            ? `Öneriler alınırken bir hata oluştu: ${error.message}`
+            : `There was a problem getting recommendations: ${error.message}`;
+
+        status.classList.add("is-visible");
+
+    } finally {
+
+        submitButton.disabled = false;
+
+    }
+
+});
+
 </script>
 
-<!-- Automatic background image slider -->
 <script src="{{ url_for('static', filename='js/background-slider.js') }}"></script>
 
 </body>
