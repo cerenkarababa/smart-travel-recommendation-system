@@ -1,24 +1,505 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Smart Travel</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Travel — Wonders of the World</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+
 <body>
-  <main class="hero">
-    <nav><span class="brand">✈ Smart Travel</span><span>Discover your next journey</span></nav>
-    <section class="intro">
-      <p class="eyebrow">PERSONALIZED TRAVEL DISCOVERY</p>
-      <h1>Your next journey<br><em>starts here.</em></h1>
-      <p>Tell us what you love. We'll help you discover destinations that fit your travel style.</p>
-      <a class="cta" href="#preferences">Find my destination</a>
+
+<main class="travel-showcase">
+
+    <div class="background-image"></div>
+    <div class="background-shade"></div>
+
+    <!-- Navigation -->
+    <header class="topbar">
+
+        <a href="#" class="brand">
+            <span class="brand-symbol">✧</span>
+            <span>SMART<span class="brand-light">TRAVEL</span></span>
+        </a>
+
+        <nav class="navigation">
+            <a href="#discover">Discover</a>
+            <a href="#journeys">Journeys</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <select id="languageSwitcher" aria-label="Select language" class="language-switcher">
+            <option value="en">EN</option>
+            <option value="tr">TR</option>
+        </select>
+
+        <a href="#journeys" class="nav-cta">
+            Start exploring <span>↗</span>
+        </a>
+
+    </header>
+
+    <!-- Vertical progress indicator -->
+    <div class="vertical-progress">
+
+        <span class="progress-line"></span>
+
+        <a href="#discover" class="progress-point active">
+            <span>01</span>
+        </a>
+
+        <a href="#journeys" class="progress-point">
+            <span>02</span>
+        </a>
+
+        <a href="#experiences" class="progress-point">
+            <span>03</span>
+        </a>
+
+        <span class="progress-label">DISCOVER YOUR WORLD</span>
+
+    </div>
+
+    <!-- Main hero -->
+    <section class="hero-content" id="discover">
+
+        <div class="eyebrow">
+            <span class="eyebrow-line"></span>
+            THE WORLD IS YOURS TO EXPLORE
+        </div>
+
+        <h1>
+            WONDERS
+            <em>of the</em>
+            WORLD.
+        </h1>
+
+        <p class="hero-description">
+            Extraordinary destinations. Unforgettable experiences.
+            Discover places that inspire you and journeys
+            that stay with you forever.
+        </p>
+
+        <a href="#journeys" class="hero-button">
+            Plan your journey
+            <span>↗</span>
+        </a>
+
+        <div class="hero-note">
+            <span class="note-star">✦</span>
+            <span>Find your own way to explore the world.</span>
+        </div>
+
     </section>
-    <section id="preferences" class="panel">
-      <h2>Plan your trip</h2>
-      <p>Preference form will be implemented after the dataset and recommendation features are finalized.</p>
+
+    <!-- Destination cards -->
+    <section class="destination-showcase" id="journeys">
+
+        <div class="carousel-heading">
+            <span>CURATED DESTINATIONS</span>
+            <span class="carousel-count">01 — 04</span>
+        </div>
+
+        <div class="destination-cards">
+
+            <article class="destination-card">
+                <img
+                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=85"
+                    alt="Patagonia mountain landscape"
+                >
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">SOUTH AMERICA</span>
+                    <h2>Patagonia</h2>
+                    <p>Mountains of wonder</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img
+                    src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=700&q=85"
+                    alt="Iceland waterfall"
+                >
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">EUROPE</span>
+                    <h2>Iceland</h2>
+                    <p>Land of ice and fire</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img
+                    src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=85"
+                    alt="Kyoto Japan"
+                >
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">ASIA</span>
+                    <h2>Kyoto</h2>
+                    <p>Tradition meets beauty</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img
+                    src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=700&q=85"
+                    alt="Sahara desert"
+                >
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">AFRICA</span>
+                    <h2>Sahara</h2>
+                    <p>Beyond the ordinary</p>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="carousel-controls">
+
+            <button class="carousel-arrow" type="button" aria-label="Previous destinations">
+                ←
+            </button>
+
+            <button class="carousel-arrow" type="button" aria-label="Next destinations">
+                →
+            </button>
+
+        </div>
+
     </section>
-  </main>
+
+    <!-- Hero footer -->
+    <div class="hero-footer">
+        <span>01 / DISCOVER</span>
+        <span>MADE FOR THE CURIOUS</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+    </div>
+
+</main>
+
+<!-- Travel experience options -->
+<section class="experience-section" id="experiences">
+
+    <div class="experience-heading">
+        <span>YOUR JOURNEY STARTS WITH YOU</span>
+        <h2>Travel your own way.</h2>
+        <p>Choose how you want to discover your next destination.</p>
+    </div>
+
+    <div class="experience-options">
+
+        <article class="experience-option">
+            <span class="option-number">01</span>
+            <div class="option-symbol">⌖</div>
+            <h3>Find My Destination</h3>
+            <p>
+                Tell us what you love and discover destinations
+                selected around your travel preferences.
+            </p>
+            <a href="#preferences">
+                Discover your match <span>↗</span>
+            </a>
+        </article>
+
+        <article class="experience-option surprise-option">
+            <span class="option-number">02</span>
+            <div class="option-symbol">✧</div>
+            <h3>Surprise Me!</h3>
+            <p>
+                Leave the planning behind. Let a random destination
+                inspire your next adventure.
+            </p>
+            <a href="#surprise">
+                Take me somewhere <span>↗</span>
+            </a>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- Closing section -->
+<section class="closing-section" id="preferences">
+
+    <span>THE WORLD IS WAITING</span>
+
+    <h2>
+        Somewhere out there,<br>
+        <em>your next story begins.</em>
+    </h2>
+
+    <p>
+        Discover a destination that feels like it was made for you.
+    </p>
+
+    <a href="#discover">Explore Smart Travel ↗</a>
+
+</section>
+
+<!-- Meet the Creator -->
+<section class="creator-section" id="about">
+
+    <div class="creator-image-wrapper">
+        <img
+            src="{{ url_for('static', filename='images/ceren.jpg') }}"
+            alt="Ceren Karababa, creator of Smart Travel"
+            class="creator-image"
+        >
+    </div>
+
+    <div class="creator-content">
+
+        <span class="creator-eyebrow">BEHIND THE PROJECT</span>
+
+        <h2>
+            Meet the <em>Creator.</em>
+        </h2>
+
+        <h3>Ceren Karababa</h3>
+
+        <span class="creator-role">Computer Engineering Student</span>
+
+        <p>
+            Hi, I'm Ceren! I'm a Computer Engineering student
+            interested in technology, software development and
+            discovering new places.
+        </p>
+
+        <p>
+            Smart Travel is a project I developed to bring together
+            database technologies, machine learning and my passion
+            for exploring the world.
+        </p>
+
+        <a
+            href="https://github.com/cerenkarababa/smart-travel-recommendation-system"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="creator-link"
+        >
+            Explore the project on GitHub <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+    <a href="#" class="brand">
+        <span class="brand-symbol">✧</span>
+        <span>SMART<span class="brand-light">TRAVEL</span></span>
+    </a>
+
+    <p>Discover more. Travel differently.</p>
+
+    <span>© 2026 Smart Travel</span>
+
+</footer>
+
+<!-- Language translations -->
+<script>
+const translations = {
+
+    en: {
+        navDiscover: "Discover",
+        navJourneys: "Journeys",
+        navExperiences: "Experiences",
+        navAbout: "About",
+        navCta: "Start exploring",
+        progress: "DISCOVER YOUR WORLD",
+        eyebrow: "THE WORLD IS YOURS TO EXPLORE",
+        heroTitle: 'WONDERS <em>of the</em> WORLD.',
+        heroDescription: "Extraordinary destinations. Unforgettable experiences. Discover places that inspire you and journeys that stay with you forever.",
+        heroButton: "Plan your journey",
+        heroNote: "Find your own way to explore the world.",
+        curated: "CURATED DESTINATIONS",
+        region1: "SOUTH AMERICA",
+        region2: "EUROPE",
+        region3: "ASIA",
+        region4: "AFRICA",
+        card1: "Mountains of wonder",
+        card2: "Land of ice and fire",
+        card3: "Tradition meets beauty",
+        card4: "Beyond the ordinary",
+        footerDiscover: "01 / DISCOVER",
+        footerCurious: "MADE FOR THE CURIOUS",
+        footerScroll: "SCROLL TO EXPLORE ↓",
+        experienceEyebrow: "YOUR JOURNEY STARTS WITH YOU",
+        experienceTitle: "Travel your own way.",
+        experienceDescription: "Choose how you want to discover your next destination.",
+        findTitle: "Find My Destination",
+        findDescription: "Tell us what you love and discover destinations selected around your travel preferences.",
+        findLink: "Discover your match",
+        surpriseTitle: "Surprise Me!",
+        surpriseDescription: "Leave the planning behind. Let a random destination inspire your next adventure.",
+        surpriseLink: "Take me somewhere",
+        closingEyebrow: "THE WORLD IS WAITING",
+        closingTitle: 'Somewhere out there,<br><em>your next story begins.</em>',
+        closingDescription: "Discover a destination that feels like it was made for you.",
+        closingLink: "Explore Smart Travel",
+        creatorEyebrow: "BEHIND THE PROJECT",
+        creatorTitle: 'Meet the <em>Creator.</em>',
+        creatorRole: "Computer Engineering Student",
+        creatorP1: "Hi, I'm Ceren! I'm a Computer Engineering student interested in technology, software development and discovering new places.",
+        creatorP2: "Smart Travel is a project I developed to bring together database technologies, machine learning and my passion for exploring the world.",
+        creatorLink: "Explore the project on GitHub",
+        footerText: "Discover more. Travel differently."
+    },
+
+    tr: {
+        navDiscover: "Keşfet",
+        navJourneys: "Destinasyonlar",
+        navExperiences: "Deneyimler",
+        navAbout: "Hakkımda",
+        navCta: "Keşfetmeye başla",
+        progress: "DÜNYANI KEŞFET",
+        eyebrow: "KEŞFEDECEĞİN BİR DÜNYA SENİ BEKLİYOR",
+        heroTitle: 'DÜNYANIN <em>MUHTEŞEM</em> HARİKALARI.',
+        heroDescription: "Olağanüstü destinasyonlar, unutulmaz deneyimler. Sana ilham veren yerleri keşfet ve hayatın boyunca hatırlayacağın yolculuklara çık.",
+        heroButton: "Yolculuğunu planla",
+        heroNote: "Dünyayı keşfetmenin kendi yolunu bul.",
+        curated: "SENİN İÇİN SEÇİLEN DESTİNASYONLAR",
+        region1: "GÜNEY AMERİKA",
+        region2: "AVRUPA",
+        region3: "ASYA",
+        region4: "AFRİKA",
+        card1: "Büyüleyici dağlar",
+        card2: "Buz ve ateşin ülkesi",
+        card3: "Gelenek ve güzellik",
+        card4: "Sıradanlığın ötesinde",
+        footerDiscover: "01 / KEŞFET",
+        footerCurious: "MERAKLILAR İÇİN TASARLANDI",
+        footerScroll: "KEŞFETMEK İÇİN KAYDIR ↓",
+        experienceEyebrow: "YOLCULUĞUN SENİNLE BAŞLAR",
+        experienceTitle: "Kendi yolculuğunu yaşa.",
+        experienceDescription: "Bir sonraki destinasyonunu nasıl keşfetmek istediğini seç.",
+        findTitle: "Bana Destinasyon Bul",
+        findDescription: "Sevdiğin şeyleri anlat ve seyahat tercihlerine göre seçilen destinasyonları keşfet.",
+        findLink: "Sana uygun yeri keşfet",
+        surpriseTitle: "Beni Şaşırt!",
+        surpriseDescription: "Planlamayı bir kenara bırak. Rastgele bir destinasyon bir sonraki macerana ilham versin.",
+        surpriseLink: "Beni bir yere götür",
+        closingEyebrow: "DÜNYA SENİ BEKLİYOR",
+        closingTitle: 'Bir yerlerde,<br><em>yeni hikâyen başlıyor.</em>',
+        closingDescription: "Tam sana göre hissettiren bir destinasyon keşfet.",
+        closingLink: "Smart Travel'ı Keşfet",
+        creatorEyebrow: "PROJENİN ARKASINDA",
+        creatorTitle: 'Yaratıcıyla <em>Tanış.</em>',
+        creatorRole: "Bilgisayar Mühendisliği Öğrencisi",
+        creatorP1: "Merhaba, ben Ceren! Teknolojiye, yazılım geliştirmeye ve yeni yerler keşfetmeye ilgi duyan bir Bilgisayar Mühendisliği öğrencisiyim.",
+        creatorP2: "Smart Travel; veritabanı teknolojilerini, makine öğrenmesini ve dünyayı keşfetme tutkumu bir araya getirmek için geliştirdiğim bir proje.",
+        creatorLink: "GitHub projesini incele",
+        footerText: "Daha fazlasını keşfet. Farklı seyahat et."
+    }
+};
+
+function setText(selector, value) {
+    const element = document.querySelector(selector);
+    if (element) element.textContent = value;
+}
+
+function setHTML(selector, value) {
+    const element = document.querySelector(selector);
+    if (element) element.innerHTML = value;
+}
+
+function changeLanguage(language) {
+
+    const t = translations[language];
+
+    setText(".navigation a:nth-child(1)", t.navDiscover);
+    setText(".navigation a:nth-child(2)", t.navJourneys);
+    setText(".navigation a:nth-child(3)", t.navExperiences);
+    setText(".navigation a:nth-child(4)", t.navAbout);
+
+    setHTML(".nav-cta", t.navCta + " <span>↗</span>");
+    setText(".progress-label", t.progress);
+
+    setHTML(".eyebrow", '<span class="eyebrow-line"></span>' + t.eyebrow);
+    setHTML(".hero-content h1", t.heroTitle);
+    setText(".hero-description", t.heroDescription);
+    setHTML(".hero-button", t.heroButton + " <span>↗</span>");
+    setText(".hero-note span:last-child", t.heroNote);
+
+    setText(".carousel-heading span:first-child", t.curated);
+
+    setText(".destination-card:nth-child(1) .card-region", t.region1);
+    setText(".destination-card:nth-child(2) .card-region", t.region2);
+    setText(".destination-card:nth-child(3) .card-region", t.region3);
+    setText(".destination-card:nth-child(4) .card-region", t.region4);
+
+    setText(".destination-card:nth-child(1) .card-info p", t.card1);
+    setText(".destination-card:nth-child(2) .card-info p", t.card2);
+    setText(".destination-card:nth-child(3) .card-info p", t.card3);
+    setText(".destination-card:nth-child(4) .card-info p", t.card4);
+
+    setText(".hero-footer span:nth-child(1)", t.footerDiscover);
+    setText(".hero-footer span:nth-child(2)", t.footerCurious);
+    setText(".hero-footer span:nth-child(3)", t.footerScroll);
+
+    setText(".experience-heading span", t.experienceEyebrow);
+    setText(".experience-heading h2", t.experienceTitle);
+    setText(".experience-heading p", t.experienceDescription);
+
+    setText(".experience-option:nth-child(1) h3", t.findTitle);
+    setText(".experience-option:nth-child(1) p", t.findDescription);
+    setHTML(".experience-option:nth-child(1) a", t.findLink + " <span>↗</span>");
+
+    setText(".experience-option:nth-child(2) h3", t.surpriseTitle);
+    setText(".experience-option:nth-child(2) p", t.surpriseDescription);
+    setHTML(".experience-option:nth-child(2) a", t.surpriseLink + " <span>↗</span>");
+
+    setText(".closing-section span", t.closingEyebrow);
+    setHTML(".closing-section h2", t.closingTitle);
+    setText(".closing-section p", t.closingDescription);
+    setText(".closing-section a", t.closingLink + " ↗");
+
+    setText(".creator-eyebrow", t.creatorEyebrow);
+    setHTML(".creator-content h2", t.creatorTitle);
+    setText(".creator-role", t.creatorRole);
+
+    const creatorParagraphs = document.querySelectorAll(".creator-content p");
+    if (creatorParagraphs[0]) creatorParagraphs[0].textContent = t.creatorP1;
+    if (creatorParagraphs[1]) creatorParagraphs[1].textContent = t.creatorP2;
+
+    setHTML(".creator-link", t.creatorLink + " <span>↗</span>");
+    setText("footer p", t.footerText);
+
+    document.documentElement.lang = language;
+    localStorage.setItem("smartTravelLanguage", language);
+}
+
+const languageSwitcher = document.getElementById("languageSwitcher");
+
+const savedLanguage = localStorage.getItem("smartTravelLanguage") || "en";
+
+languageSwitcher.value = savedLanguage;
+changeLanguage(savedLanguage);
+
+languageSwitcher.addEventListener("change", function () {
+    changeLanguage(this.value);
+});
+</script>
+
+<!-- Automatic background image slider -->
+<script src="{{ url_for('static', filename='js/background-slider.js') }}"></script>
+
 </body>
 </html>
