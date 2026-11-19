@@ -11,3 +11,8 @@ data/processed/*
 models/*
 !models/.gitkeep
 instance/
+# GeoNames raw source files
+data/geonames/*
+!data/geonames/coordinate_matches.csv
+!data/geonames/coordinate_unmatched.csv
+!data/geonames/coordinate_ambiguous.csv

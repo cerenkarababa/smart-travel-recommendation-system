@@ -115,9 +115,6 @@ def select_balanced_recommendations(
     if candidates.empty:
         return candidates.copy()
 
-    # If no specific regions were selected,
-    # return the globally highest-scoring destinations.
-
     if not selected_regions:
         return (
             candidates.sort_values(
@@ -136,9 +133,6 @@ def select_balanced_recommendations(
     remainder = limit % region_count
 
     selected_groups = []
-
-    # First, take an approximately equal number
-    # of destinations from every selected region.
 
     for index, region in enumerate(selected_regions):
 
@@ -163,9 +157,6 @@ def select_balanced_recommendations(
         ignore_index=True
     )
 
-    # If a region did not have enough destinations,
-    # fill the remaining places from other selected regions.
-
     if len(balanced) < limit:
 
         remaining_candidates = candidates[
@@ -187,8 +178,6 @@ def select_balanced_recommendations(
             [balanced, extra],
             ignore_index=True
         )
-
-    # Keep the final list ordered by model probability.
 
     return (
         balanced.sort_values(
@@ -248,8 +237,6 @@ def recommend_from_preferences():
                 "message": "Invalid request data."
             }), 400
 
-        # Read user preferences.
-
         age_range = get_form_list(data, "age_range")
         budget_level = get_form_list(data, "budget_level")
         season = get_form_list(data, "season")
@@ -268,8 +255,6 @@ def recommend_from_preferences():
 
         region_mode = get_form_list(data, "form_r")
         region_codes = get_form_list(data, "form_rr")
-
-        # Validate required preferences.
 
         required_preferences = {
             "age_range": age_range,
@@ -296,15 +281,11 @@ def recommend_from_preferences():
                 "missing_fields": missing_fields
             }), 400
 
-        # Validate region selection.
-
         if region_mode[0] == "1" and not region_codes:
             return jsonify({
                 "success": False,
                 "message": "Please select at least one region."
             }), 400
-
-        # Build user preference structure.
 
         user_preferences = {
             "age_range": age_range,
@@ -321,11 +302,7 @@ def recommend_from_preferences():
             }
         }
 
-        # Load model and encoder.
-
         model, binarizer = load_recommendation_model()
-
-        # Filter candidates according to selected regions.
 
         selected_regions = (
             list(dict.fromkeys(region_codes))
@@ -345,27 +322,19 @@ def recommend_from_preferences():
                 "message": "No destinations were found for the selected regions."
             }), 200
 
-        # Add user preferences to every candidate.
-
         for field, value in user_preferences.items():
             candidates[field] = [
                 value
             ] * len(candidates)
-
-        # Generate feature tokens.
 
         feature_tokens = candidates.apply(
             build_feature_tokens,
             axis=1
         ).tolist()
 
-        # Transform features using the saved encoder.
-
         feature_matrix = binarizer.transform(
             feature_tokens
         )
-
-        # Predict positive feedback probability.
 
         classes = list(model.classes_)
 
@@ -382,8 +351,6 @@ def recommend_from_preferences():
 
         candidates["predicted_probability"] = probabilities
 
-        # Select balanced recommendations.
-
         recommendations = select_balanced_recommendations(
             candidates,
             selected_regions=selected_regions,
@@ -394,8 +361,6 @@ def recommend_from_preferences():
             1,
             len(recommendations) + 1
         )
-
-        # Prepare JSON response.
 
         result = []
 
@@ -427,4 +392,161 @@ def recommend_from_preferences():
         return jsonify({
             "success": False,
             "message": "An error occurred while generating recommendations."
+        }), 500
+
+
+@api.post("/surprise")
+def surprise_destination():
+    """Return a random destination that has not been shown before."""
+
+    try:
+        data = request.get_json(silent=True) or {}
+
+        excluded_ids = data.get("excluded_ids", [])
+
+        if not isinstance(excluded_ids, list):
+            return jsonify({
+                "success": False,
+                "message": "Invalid excluded destinations."
+            }), 400
+
+        if any(
+            not isinstance(item, int) or isinstance(item, bool)
+            for item in excluded_ids
+        ):
+            return jsonify({
+                "success": False,
+                "message": "Invalid destination IDs."
+            }), 400
+
+        query = """
+            SELECT
+                destination_id,
+                destination_name,
+                country,
+                region,
+                climate,
+                budget_level,
+                best_season,
+                description
+            FROM destinations
+            WHERE destination_name IS NOT NULL
+              AND NOT (destination_id = ANY(%s::bigint[]))
+            ORDER BY RANDOM()
+            LIMIT 1;
+        """
+
+        with get_connection() as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(query, (excluded_ids,))
+                destination = cursor.fetchone()
+
+        if destination is None:
+            return jsonify({
+                "success": False,
+                "message": "No more destinations available."
+            }), 404
+
+        return jsonify({
+            "success": True,
+            "destination": {
+                "destination_id": destination[0],
+                "destination_name": destination[1],
+                "country": destination[2],
+                "region": destination[3],
+                "climate": destination[4],
+                "budget_level": destination[5],
+                "best_season": destination[6],
+                "description": destination[7]
+            }
+        }), 200
+
+    except Exception:
+
+        current_app.logger.exception(
+            "Failed to generate a surprise destination."
+        )
+
+        return jsonify({
+            "success": False,
+            "message": "An error occurred while selecting a destination."
+        }), 500
+
+
+
+
+@api.get("/destinations/map")
+def get_map_destinations():
+    """Return destinations with coordinates and primary images."""
+
+    try:
+        query = """
+            SELECT
+                d.destination_id,
+                d.destination_name,
+                d.country,
+                d.region,
+                d.latitude,
+                d.longitude,
+                d.climate,
+                d.budget_level,
+                d.best_season,
+                d.description,
+                i.image_url,
+                i.source_page,
+                i.author,
+                i.license,
+                i.license_url
+            FROM destinations d
+            LEFT JOIN destination_images i
+                ON d.destination_id = i.destination_id
+                AND i.is_primary = TRUE
+            WHERE d.latitude IS NOT NULL
+              AND d.longitude IS NOT NULL
+              AND d.latitude BETWEEN -90 AND 90
+              AND d.longitude BETWEEN -180 AND 180
+            ORDER BY d.destination_name;
+        """
+
+        with get_connection() as connection:
+            with connection.cursor() as cursor:
+                cursor.execute(query)
+                destinations = cursor.fetchall()
+
+        result = []
+
+        for destination in destinations:
+            result.append({
+                "destination_id": int(destination[0]),
+                "destination_name": destination[1],
+                "country": destination[2],
+                "region": destination[3],
+                "latitude": float(destination[4]),
+                "longitude": float(destination[5]),
+                "climate": destination[6],
+                "budget_level": destination[7],
+                "best_season": destination[8],
+                "description": destination[9],
+                "image_url": destination[10],
+                "source_page": destination[11],
+                "image_author": destination[12],
+                "image_license": destination[13],
+                "image_license_url": destination[14]
+            })
+
+        return jsonify({
+            "success": True,
+            "count": len(result),
+            "destinations": result
+        }), 200
+
+    except Exception:
+
+        current_app.logger.exception(
+            "Failed to retrieve map destinations."
+        )
+
+        return jsonify({
+            "success": False,
+            "message": "An error occurred while loading map destinations."
         }), 500

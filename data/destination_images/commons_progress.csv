@@ -1,0 +1,1487 @@
+source_destination_key,destination,country,status
+0,Butrint,Albania,saved
+1,Tirana,Albania,saved
+2,Algiers,Algeria,saved
+3,Oran,Algeria,saved
+4,Andorra la Vella,Andorra,saved
+5,Jolly Harbour,Antigua and Barbuda,saved
+6,St John's,Antigua and Barbuda,saved
+7,Buenos Aires,Argentina,saved
+8,Córdoba,Argentina,saved
+9,Mar del Plata,Argentina,saved
+10,Mendoza,Argentina,saved
+11,Puerto Iguazu,Argentina,saved
+12,Puerto Madryn,Argentina,saved
+13,Salta,Argentina,saved
+14,San Carlos de Bariloche,Argentina,saved
+15,San Martin de los Andes,Argentina,saved
+16,San Miguel de Tucuman,Argentina,saved
+17,Ushuaia,Argentina,saved
+18,Villa Gesell,Argentina,saved
+19,Garni,Armenia,saved
+20,Sevan,Armenia,saved
+21,Yerevan,Armenia,saved
+22,Adelaide,Australia,saved
+23,Alice Springs,Australia,saved
+24,Brisbane,Australia,saved
+25,Broome,Australia,saved
+26,Byron Bay,Australia,saved
+27,Cairns,Australia,saved
+28,Canberra,Australia,saved
+29,Darwin,Australia,saved
+30,Geelong,Australia,saved
+31,Hobart,Australia,saved
+32,Launceston,Australia,saved
+33,Melbourne,Australia,saved
+34,Newcastle,Australia,saved
+35,Perth,Australia,saved
+36,Sydney,Australia,saved
+37,Bad Gastein,Austria,saved
+38,Bregenz,Austria,saved
+39,Graz,Austria,saved
+40,Hallstatt,Austria,saved
+41,Innsbruck,Austria,saved
+42,Ischgl,Austria,saved
+43,Kaprun,Austria,saved
+44,Klagenfurt,Austria,saved
+45,Obertauern,Austria,saved
+46,Salzburg,Austria,saved
+47,Schladming,Austria,saved
+48,Vienna,Austria,saved
+49,Weißenkirchen in der Wachau,Austria,saved
+50,Zell am See,Austria,saved
+51,Zillertal,Austria,saved
+52,Baku,Azerbaijan,saved
+53,Freeport,Bahamas,saved
+54,Harbour Island,Bahamas,saved
+55,Nassau,Bahamas,saved
+56,Manama,Bahrain,saved
+57,Bridgetown,Barbados,saved
+58,Brest,Belarus,saved
+59,Gomel,Belarus,saved
+60,Grodno,Belarus,saved
+61,Minsk,Belarus,saved
+62,Vitebsk,Belarus,saved
+63,Antwerpen,Belgium,saved
+64,Ardennes,Belgium,saved
+65,Bruges,Belgium,saved
+66,Brussels,Belgium,saved
+67,Dinant,Belgium,saved
+68,Ghent,Belgium,saved
+69,Leuven,Belgium,saved
+70,Liège,Belgium,saved
+71,Mechelen,Belgium,saved
+72,Mons,Belgium,saved
+73,Ostend,Belgium,saved
+74,Belize City,Belize,saved
+75,Caye Caulker,Belize,saved
+76,Hopkins,Belize,saved
+77,Placencia,Belize,saved
+78,San Ignacio,Belize,saved
+79,San Pedro,Belize,saved
+80,Cochabamba,Bolivia,saved
+81,Copacabana,Bolivia,saved
+82,La Paz,Bolivia,saved
+83,Potosí,Bolivia,saved
+84,Santa Cruz,Bolivia,saved
+85,Sucre,Bolivia,saved
+86,Uyuni,Bolivia,saved
+87,Banja Luka,Bosnia and Herzegovina,saved
+88,Jahorina,Bosnia and Herzegovina,saved
+89,Mostar,Bosnia and Herzegovina,saved
+90,Neum,Bosnia and Herzegovina,saved
+91,Sarajevo,Bosnia and Herzegovina,saved
+92,Trebinje,Bosnia and Herzegovina,saved
+93,Višegrad,Bosnia and Herzegovina,saved
+94,Gaborone,Botswana,saved
+95,Armacao dos Buzios,Brazil,saved
+96,Barra Grande,Brazil,saved
+97,Belem,Brazil,saved
+98,Belo Horizonte,Brazil,saved
+99,Bombas,Brazil,saved
+100,Brasilia,Brazil,saved
+101,Campos Do Jordao,Brazil,saved
+102,Florianópolis,Brazil,saved
+103,Fortaleza,Brazil,saved
+104,Foz do Iguaçu,Brazil,saved
+105,Gramado,Brazil,saved
+106,Ilhabela,Brazil,saved
+107,Manaus,Brazil,saved
+108,Ouro Preto,Brazil,saved
+109,Paraty,Brazil,saved
+110,Recife,Brazil,saved
+111,Rio De Janeiro,Brazil,saved
+112,Salvador,Brazil,saved
+113,Santos,Brazil,saved
+114,Sao Paulo,Brazil,saved
+115,Trancoso,Brazil,saved
+116,Bandar Seri Begawan,Brunei,saved
+117,Bansko,Bulgaria,saved
+118,Plovdiv,Bulgaria,saved
+119,Sofia,Bulgaria,saved
+120,Varna,Bulgaria,saved
+121,Banff,Canada,saved
+122,Calgary,Canada,saved
+123,Edmonton,Canada,saved
+124,Halifax,Canada,saved
+125,Mont-Tremblant,Canada,saved
+126,Montreal,Canada,saved
+127,Ottawa,Canada,saved
+128,Quebec City,Canada,saved
+129,Regina,Canada,saved
+130,St. John's,Canada,saved
+131,Toronto,Canada,saved
+132,Vancouver,Canada,saved
+133,Victoria,Canada,saved
+134,Whistler,Canada,saved
+135,Whitehorse,Canada,saved
+136,Winnipeg,Canada,saved
+137,Praia,Cape Verde,saved
+138,Arica,Chile,saved
+139,Coyhaique,Chile,saved
+140,La Serena,Chile,saved
+141,Pucon,Chile,saved
+142,Puerto Natales,Chile,saved
+143,Puerto Varas,Chile,saved
+144,Punta Arenas,Chile,saved
+145,San Pedro de Atacama,Chile,saved
+146,Santiago,Chile,saved
+147,Temuco,Chile,saved
+148,Valparaiso,Chile,saved
+149,"Lhasa, Tibet",China,saved
+150,Beijing,China,saved
+151,Chengdu,China,saved
+152,Guangzhou,China,saved
+153,Guilin,China,saved
+154,Hangzhou,China,saved
+155,Hong Kong,China,saved
+156,Huangshan,China,saved
+157,Leshan,China,saved
+158,Lijiang,China,saved
+159,Macau,China,saved
+160,Qingdao,China,saved
+161,Qinhuangdao,China,saved
+162,Shanghai,China,saved
+163,Suzhou,China,saved
+164,Xi'an,China,no_match
+165,Xiamen,China,saved
+166,Yangshuo,China,saved
+167,Zhangjiajie,China,saved
+168,Bogota,Colombia,saved
+169,Cartagena,Colombia,saved
+170,Guadalupe,Colombia,saved
+171,Guatape,Colombia,saved
+172,Popayan,Colombia,no_match
+173,Raquira,Colombia,saved
+174,San Andres,Colombia,saved
+175,Santa Marta,Colombia,saved
+176,Jaco,Costa Rica,saved
+177,Manuel Antonio,Costa Rica,saved
+178,Puerto Viejo de Talamanca,Costa Rica,saved
+179,San Jose,Costa Rica,saved
+180,Tamarindo,Costa Rica,saved
+181,Bol,Croatia,saved
+182,Dubrovnik,Croatia,saved
+183,Hvar,Croatia,saved
+184,Korčula,Croatia,saved
+185,Omiš,Croatia,saved
+186,Pula,Croatia,saved
+187,Rovinj,Croatia,saved
+188,Šibenik,Croatia,saved
+189,Split,Croatia,saved
+190,Supetar,Croatia,saved
+191,Trogir,Croatia,saved
+192,Vis,Croatia,saved
+193,Zadar,Croatia,saved
+194,Zagreb,Croatia,saved
+195,Cienfuegos,Cuba,saved
+196,Havana,Cuba,saved
+197,Holguin,Cuba,saved
+198,Santa Clara,Cuba,saved
+199,Santiago de Cuba,Cuba,saved
+200,Trinidad,Cuba,saved
+201,Varadero,Cuba,saved
+202,Vinales,Cuba,saved
+203,Famagusta,Cyprus,saved
+204,Larnaca,Cyprus,saved
+205,Limassol,Cyprus,saved
+206,Nicosia,Cyprus,no_match
+207,Paphos,Cyprus,saved
+208,Brno,Czech Republic,saved
+209,Český Krumlov,Czech Republic,saved
+210,Karlovy Vary,Czech Republic,saved
+211,Kutná Hora,Czech Republic,saved
+212,Prague,Czech Republic,saved
+213,Aalborg,Denmark,saved
+214,Århus,Denmark,saved
+215,Billund,Denmark,saved
+216,Copenhagen,Denmark,saved
+217,Elsinore,Denmark,saved
+218,Helsingør,Denmark,saved
+219,Ribe,Denmark,saved
+220,Roskilde,Denmark,saved
+221,Skagen,Denmark,saved
+222,Portsmouth,Dominica,no_match
+223,Roseau,Dominica,no_match
+224,Bavaro,Dominican Republic,saved
+225,La Romana,Dominican Republic,saved
+226,Las Terrenas,Dominican Republic,saved
+227,Puerto Plata,Dominican Republic,saved
+228,Punta Cana,Dominican Republic,saved
+229,Santo Domingo,Dominican Republic,no_match
+230,Banos,Ecuador,saved
+231,Cuenca,Ecuador,saved
+232,Guayaquil,Ecuador,saved
+233,Mindo,Ecuador,saved
+234,Montañita,Ecuador,saved
+235,Puerto Ayora,Ecuador,saved
+236,Quito,Ecuador,saved
+237,Abu Simbel,Egypt,saved
+238,Alexandria,Egypt,saved
+239,Aswan,Egypt,saved
+240,Cairo,Egypt,saved
+241,Dahab,Egypt,saved
+242,Dahshur,Egypt,saved
+243,Edfu,Egypt,saved
+244,Hurghada,Egypt,saved
+245,Kom Ombo,Egypt,saved
+246,Luxor,Egypt,saved
+247,Marsa Alam,Egypt,saved
+248,Port Said,Egypt,saved
+249,Saint Catherine,Egypt,saved
+250,Sharm El-Sheikh,Egypt,saved
+251,Siwa Oasis,Egypt,saved
+252,Suez,Egypt,saved
+253,Taba,Egypt,saved
+254,Chalchuapa,El Salvador,saved
+255,San Salvador,El Salvador,saved
+256,Haapsalu,Estonia,saved
+257,Tallinn,Estonia,saved
+258,Tartu,Estonia,saved
+259,Addis Ababa,Ethiopia,saved
+260,Nadi,Fiji,saved
+261,Savusavu,Fiji,saved
+262,Suva,Fiji,saved
+263,"Kemi, Lapland",Finland,saved
+264,"Levi, Lapland",Finland,saved
+265,"Rovaniemi, Lapland",Finland,saved
+266,"Saariselkä, Lapland",Finland,saved
+267,Helsinki,Finland,saved
+268,Porvoo,Finland,saved
+269,Savonlinna,Finland,saved
+270,Turku,Finland,saved
+271,"Ajaccio, Corsica",France,saved
+272,"Bastia, Corsica",France,saved
+273,"Bonifacio, Corsica",France,saved
+274,"Calvi, Corsica",France,saved
+275,"Porto-Vecchio, Corsica",France,saved
+276,"Maharepa, French Polynesia",France,saved
+277,"Papeete, French Polynesia",France,no_match
+278,"Vaitape, French Polynesia",France,saved
+279,Aix-en-Provence,France,saved
+280,Angers,France,saved
+281,Antibes,France,saved
+282,Arles,France,saved
+283,Avignon,France,saved
+284,Beausoleil,France,saved
+285,Bordeaux,France,saved
+286,Calais,France,saved
+287,Cannes,France,saved
+288,Chamonix-Mont-Blanc,France,saved
+289,Colmar,France,saved
+290,Dijon,France,saved
+291,Honfleur,France,saved
+292,Le Mont-Saint-Michel,France,saved
+293,Lille,France,saved
+294,Lyon,France,saved
+295,Marseille,France,saved
+296,Montpellier,France,saved
+297,Nantes,France,saved
+298,Nice,France,saved
+299,Orléans,France,saved
+300,Paris,France,saved
+301,Perigueux,France,saved
+302,Rouen,France,saved
+303,Saignon,France,saved
+304,Saint-Tropez,France,saved
+305,Versailles,France,saved
+306,Batumi,Georgia,saved
+307,Sighnaghi,Georgia,saved
+308,Tbilisi,Georgia,saved
+309,Aachen,Germany,saved
+310,Augsburg,Germany,saved
+311,Bamberg,Germany,saved
+312,Berchtesgaden,Germany,saved
+313,Berlin,Germany,saved
+314,Bonn,Germany,saved
+315,Bremen,Germany,saved
+316,Cologne,Germany,saved
+317,Dortmund,Germany,saved
+318,Dresden,Germany,saved
+319,Düsseldorf,Germany,saved
+320,Frankfurt am Main,Germany,saved
+321,Freiburg,Germany,saved
+322,Füssen,Germany,saved
+323,Garmisch-Partenkirchen,Germany,saved
+324,Hamburg,Germany,saved
+325,Hannover,Germany,saved
+326,Heidelberg,Germany,saved
+327,Kiel,Germany,saved
+328,Leipzig,Germany,saved
+329,Lübeck,Germany,saved
+330,Mainz,Germany,saved
+331,Mannheim,Germany,saved
+332,Munich,Germany,saved
+333,Münster,Germany,saved
+334,Nuremberg,Germany,saved
+335,Passau,Germany,saved
+336,Potsdam,Germany,saved
+337,Regensburg,Germany,saved
+338,Rostock,Germany,saved
+339,Rüdesheim am Rhein,Germany,saved
+340,Stuttgart,Germany,saved
+341,Trier,Germany,saved
+342,Würzburg,Germany,saved
+343,"Chania, Crete",Greece,saved
+344,"Heraklion, Crete",Greece,saved
+345,"Sitia, Crete",Greece,saved
+346,Aegina,Greece,saved
+347,Athens,Greece,saved
+348,Cephalonia,Greece,saved
+349,Corfu,Greece,saved
+350,Corinth,Greece,saved
+351,Delphi,Greece,saved
+352,Kastoria,Greece,saved
+353,Kavala,Greece,saved
+354,Kos,Greece,saved
+355,Lefkada,Greece,saved
+356,Milos,Greece,saved
+357,Mykonos,Greece,saved
+358,Nafplion,Greece,saved
+359,Naxos,Greece,saved
+360,Olympia,Greece,saved
+361,Paros,Greece,saved
+362,Rhodes,Greece,saved
+363,Skiathos,Greece,saved
+364,Thasos,Greece,saved
+365,Thessaloniki,Greece,saved
+366,Zagori,Greece,saved
+367,Zakynthos,Greece,saved
+368,Nuuk,Greenland (Denmark),saved
+369,Qaqortoq,Greenland (Denmark),saved
+370,St. George's,Grenada,saved
+371,Guatemala City,Guatemala,saved
+372,Tikal,Guatemala,saved
+373,Georgetown,Guyana,saved
+374,Comayagua,Honduras,saved
+375,Tegucigalpa,Honduras,saved
+376,West Bay,Honduras,saved
+377,Budapest,Hungary,saved
+378,Eger,Hungary,saved
+379,Győr,Hungary,no_match
+380,Pécs,Hungary,saved
+381,Sopron,Hungary,saved
+382,Szentendre,Hungary,saved
+383,Akureyri,Iceland,saved
+384,Höfn,Iceland,saved
+385,Jökulsárlón,Iceland,saved
+386,Keflavik,Iceland,saved
+387,Reykjavik,Iceland,saved
+388,Selfoss,Iceland,saved
+389,Vík í Mýrdal,Iceland,saved
+390,Agra,India,saved
+391,Ajanta,India,saved
+392,Amritsar,India,saved
+393,Bengaluru,India,saved
+394,Chennai,India,saved
+395,Hyderabad,India,saved
+396,Jaipur,India,saved
+397,Kolkata,India,saved
+398,Mumbai,India,saved
+399,Mysore,India,saved
+400,New Delhi,India,saved
+401,Panaji,India,saved
+402,Varanasi,India,saved
+403,Gili Trawangan,Indonesia,saved
+404,Jakarta,Indonesia,saved
+405,Kuta,Indonesia,saved
+406,Ubud,Indonesia,saved
+407,Yogyakarta,Indonesia,saved
+408,Cashel,Ireland,saved
+409,Cork,Ireland,saved
+410,Dingle,Ireland,saved
+411,Dublin,Ireland,saved
+412,Gaillimh,Ireland,saved
+413,Kilkenny,Ireland,saved
+414,Killarney,Ireland,saved
+415,Liscannor,Ireland,saved
+416,Shannon,Ireland,saved
+417,Caesarea,Israel,saved
+418,Eilat,Israel,saved
+419,Ein Gedi,Israel,saved
+420,Haifa,Israel,saved
+421,Nazareth,Israel,saved
+422,Neve Zohar,Israel,saved
+423,Tel Aviv,Israel,saved
+424,Tiberias,Israel,saved
+425,"Alghero, Sardinia",Italy,saved
+426,"Cagliari, Sardinia",Italy,saved
+427,"Olbia, Sardinia",Italy,saved
+428,"Agrigento, Sicily",Italy,saved
+429,"Catania, Sicily",Italy,saved
+430,"Palermo, Sicily",Italy,saved
+431,"Syracuse, Sicily",Italy,saved
+432,"Taormina, Sicily",Italy,saved
+433,Amalfi,Italy,saved
+434,Arezzo,Italy,saved
+435,Brindisi,Italy,saved
+436,Capri,Italy,saved
+437,Florence,Italy,saved
+438,Genoa,Italy,saved
+439,La Spezia,Italy,saved
+440,Lipari,Italy,saved
+441,Lucca,Italy,saved
+442,Milan,Italy,saved
+443,Montepulciano,Italy,saved
+444,Naples,Italy,saved
+445,Perugia,Italy,saved
+446,Pescara,Italy,saved
+447,Pisa,Italy,saved
+448,Pompei,Italy,saved
+449,Portoferraio,Italy,saved
+450,Puglia,Italy,saved
+451,Riomaggiore,Italy,saved
+452,Rome,Italy,saved
+453,Salerno,Italy,saved
+454,Sperlonga,Italy,saved
+455,Trieste,Italy,saved
+456,Turin,Italy,saved
+457,Udine,Italy,saved
+458,Venice,Italy,saved
+459,Vernazza,Italy,saved
+460,Verona,Italy,saved
+461,Falmouth,Jamaica,saved
+462,Kingston,Jamaica,saved
+463,Lucea,Jamaica,saved
+464,Montego Bay,Jamaica,saved
+465,Negril,Jamaica,saved
+466,Ocho Rios,Jamaica,saved
+467,Port Antonio,Jamaica,saved
+468,Runaway Bay,Jamaica,saved
+469,Hakuba,Japan,saved
+470,Hiroshima,Japan,saved
+471,Kyoto,Japan,saved
+472,Nagoya,Japan,saved
+473,Nikko,Japan,saved
+474,Osaka,Japan,saved
+475,Sapporo,Japan,saved
+476,Takayama,Japan,saved
+477,Tokyo,Japan,saved
+478,Yokohama,Japan,saved
+479,Amman,Jordan,saved
+480,Aqaba,Jordan,saved
+481,Petra,Jordan,saved
+482,Almaty,Kazakhstan,saved
+483,Mombasa,Kenya,saved
+484,Nairobi,Kenya,saved
+485,Kuwait City,Kuwait,saved
+486,Bishkek,Kyrgyzstan,saved
+487,Luang Prabang,Laos,saved
+488,Vangviang,Laos,no_match
+489,Vientiane,Laos,saved
+490,Jaunmārupe,Latvia,saved
+491,Jurmala,Latvia,saved
+492,Riga,Latvia,saved
+493,Skulte,Latvia,saved
+494,Vecrīga,Latvia,saved
+495,Baalbek,Lebanon,saved
+496,Beirut,Lebanon,saved
+497,Byblos,Lebanon,saved
+498,Tyre,Lebanon,saved
+499,Vaduz,Liechtenstein,saved
+500,Kaunas,Lithuania,saved
+501,Kernave,Lithuania,saved
+502,Klaipeda,Lithuania,saved
+503,Neringa,Lithuania,saved
+504,Palanga,Lithuania,saved
+505,Vilnius,Lithuania,saved
+506,Luxembourg,Luxembourg,saved
+507,Antananarivo,Madagascar,saved
+508,George Town,Malaysia,saved
+509,Kuala Lumpur,Malaysia,saved
+510,Langkawi,Malaysia,saved
+511,Malacca,Malaysia,saved
+512,Penang,Malaysia,saved
+513,Male,Maldives,saved
+514,Rabat,Malta,saved
+515,Valletta,Malta,saved
+516,Majuro,Marshall Islands,saved
+517,Port Louis,Mauritius,saved
+518,Acapulco,Mexico,saved
+519,Akumal,Mexico,saved
+520,Cabo San Lucas,Mexico,saved
+521,Cancun,Mexico,saved
+522,Chichén-Itzá,Mexico,saved
+523,Guadalajara,Mexico,saved
+524,Izamal,Mexico,saved
+525,Mérida,Mexico,saved
+526,Mexico City,Mexico,saved
+527,Monterrey,Mexico,saved
+528,Oaxaca,Mexico,saved
+529,Playa del Carmen,Mexico,saved
+530,Puebla,Mexico,saved
+531,Puerto Morelos,Mexico,saved
+532,Puerto Vallarta,Mexico,saved
+533,San Jose del Cabo,Mexico,no_match
+534,San Juan Teotihuacan,Mexico,saved
+535,San Miguel de Allende,Mexico,saved
+536,San Miguel de Cozumel,Mexico,saved
+537,Tijuana,Mexico,saved
+538,Tulum,Mexico,saved
+539,Palikir,Micronesia,saved
+540,Chisinau,Moldova,saved
+541,Monaco,Monaco,saved
+542,Budva,Montenegro,saved
+543,Herceg-Novi,Montenegro,saved
+544,Kotor,Montenegro,saved
+545,Podgorica,Montenegro,saved
+546,Tivat,Montenegro,saved
+547,Agadir,Morocco,saved
+548,Aït Ben Haddou,Morocco,saved
+549,Casablanca,Morocco,saved
+550,Chefchaouene,Morocco,saved
+551,Essaouira,Morocco,saved
+552,Fès,Morocco,saved
+553,Marrakesh,Morocco,saved
+554,Meknès,Morocco,saved
+555,Ouarzazat,Morocco,saved
+556,Rabat,Morocco,saved
+557,Tangier,Morocco,saved
+558,Maputo,Mozambique,saved
+559,Mandalay,Myanmar,saved
+560,Ngapali,Myanmar,saved
+561,Yangon,Myanmar,saved
+562,Swakopmund,Namibia,saved
+563,Windhoek,Namibia,saved
+564,Yaren,Nauru,saved
+565,Kathmandu,Nepal,saved
+566,Pokhara,Nepal,saved
+567,Alkmaar,Netherlands,saved
+568,Amsterdam,Netherlands,saved
+569,Delft,Netherlands,saved
+570,Eindhoven,Netherlands,saved
+571,Giethoorn,Netherlands,saved
+572,Gouda,Netherlands,saved
+573,Groningen,Netherlands,saved
+574,Haarlem,Netherlands,saved
+575,Leiden,Netherlands,saved
+576,Maastricht,Netherlands,saved
+577,Rotterdam,Netherlands,saved
+578,The Hague,Netherlands,saved
+579,Utrecht,Netherlands,saved
+580,Auckland,New Zealand,saved
+581,Christchurch,New Zealand,saved
+582,Hamilton,New Zealand,saved
+583,Napier,New Zealand,saved
+584,Nelson,New Zealand,saved
+585,Paihia,New Zealand,saved
+586,Queenstown,New Zealand,saved
+587,Rotorua,New Zealand,saved
+588,Wellington,New Zealand,saved
+589,Whangarei,New Zealand,saved
+590,Granada,Nicaragua,saved
+591,Leon,Nicaragua,saved
+592,Managua,Nicaragua,saved
+593,Masaya,Nicaragua,saved
+594,San Juan del Sur,Nicaragua,saved
+595,Ålesund,Norway,saved
+596,Bergen,Norway,saved
+597,Bodø,Norway,saved
+598,Geiranger,Norway,saved
+599,Kristiansand,Norway,saved
+600,Narvik,Norway,saved
+601,Oslo,Norway,saved
+602,Stavanger,Norway,saved
+603,Tromsø,Norway,saved
+604,Trondheim,Norway,saved
+605,Muscat,Oman,saved
+606,Şalālah,Oman,saved
+607,Koror,Palau,saved
+608,Bethlehem,Palestine,saved
+609,Bocas del Toro,Panama,saved
+610,Boquete,Panama,saved
+611,El Valle de Anton,Panama,saved
+612,Isla Bastimentos,Panama,saved
+613,Panama City,Panama,saved
+614,Santa Catalina,Panama,saved
+615,Alotau,Papua New Guinea,saved
+616,Madang,Papua New Guinea,saved
+617,Mount Hagen,Papua New Guinea,saved
+618,Port Moresby,Papua New Guinea,saved
+619,Rabaul,Papua New Guinea,saved
+620,Asuncion,Paraguay,saved
+621,Encarnacion,Paraguay,no_match
+622,Aguas Calientes,Peru,saved
+623,Arequipa,Peru,saved
+624,Cusco,Peru,saved
+625,Huancayo,Peru,saved
+626,Huaraz,Peru,saved
+627,Ica,Peru,saved
+628,Lima,Peru,saved
+629,Mancora,Peru,saved
+630,Ollantaytambo,Peru,saved
+631,Paracas,Peru,saved
+632,Puno,Peru,saved
+633,Tarapoto,Peru,saved
+634,Trujillo,Peru,saved
+635,Bantayan,Philippines,saved
+636,Cebu City,Philippines,saved
+637,Coron,Philippines,saved
+638,Manila,Philippines,saved
+639,Gdansk,Poland,saved
+640,Gdynia,Poland,saved
+641,Katowice,Poland,saved
+642,Krakow,Poland,saved
+643,Łódź,Poland,no_match
+644,Oświęcim,Poland,saved
+645,Poznań,Poland,saved
+646,Sopot,Poland,saved
+647,Szczecin,Poland,saved
+648,Warsaw,Poland,saved
+649,Wola,Poland,saved
+650,Wrocław,Poland,saved
+651,Zakopane,Poland,saved
+652,Zamość,Poland,saved
+653,"Funchal, Madeira",Portugal,saved
+654,"Santana, Madeira",Portugal,saved
+655,Albufeira,Portugal,saved
+656,Belém,Portugal,saved
+657,Bragança,Portugal,saved
+658,Cascais,Portugal,saved
+659,Coimbra,Portugal,saved
+660,Evora,Portugal,saved
+661,Faro,Portugal,saved
+662,Lagos,Portugal,saved
+663,Lisbon,Portugal,saved
+664,Porto,Portugal,saved
+665,Sintra,Portugal,saved
+666,Doha,Qatar,saved
+667,Braşov,Romania,saved
+668,Bucharest,Romania,no_match
+669,Cluj-Napoca,Romania,saved
+670,Constanţa,Romania,saved
+671,Oradea,Romania,saved
+672,Sibiu,Romania,saved
+673,Sighișoara,Romania,saved
+674,Sinaia,Romania,saved
+675,Timișoara,Romania,saved
+676,Irkutsk,Russia,saved
+677,Kaliningrad,Russia,saved
+678,Kazan,Russia,saved
+679,Moscow,Russia,saved
+680,Nizhny Novgorod,Russia,saved
+681,Saint Petersburg,Russia,saved
+682,Sochi,Russia,saved
+683,Veliky Novgorod,Russia,saved
+684,Vladivostok,Russia,saved
+685,Yekaterinburg,Russia,saved
+686,Apia,Samoa,saved
+687,Si'umu,Samoa,no_match
+688,San Marino,San Marino,saved
+689,São Tomé,Sao Tome and Principe,saved
+690,Dammam,Saudi Arabia,saved
+691,Jeddah,Saudi Arabia,saved
+692,Mecca,Saudi Arabia,saved
+693,Medina,Saudi Arabia,saved
+694,Riyadh,Saudi Arabia,saved
+695,Dakar,Senegal,saved
+696,Belgrade,Serbia,saved
+697,Kopaonik,Serbia,saved
+698,Niš,Serbia,no_match
+699,Novi Sad,Serbia,saved
+700,Stari Grad,Serbia,no_match
+701,Subotica,Serbia,saved
+702,Zlatibor,Serbia,saved
+703,Victoria,Seychelles,saved
+704,Singapore,Singapore,saved
+705,Bratislava,Slovakia,saved
+706,Košice,Slovakia,saved
+707,Poprad,Slovakia,saved
+708,Bled,Slovenia,saved
+709,Bovec,Slovenia,saved
+710,Koper,Slovenia,saved
+711,Ljubljana,Slovenia,saved
+712,Maribor,Slovenia,saved
+713,Novo Mesto,Slovenia,saved
+714,Piran,Slovenia,saved
+715,Postojna,Slovenia,saved
+716,Honiara,Solomon Islands,no_match
+717,Cape Town,South Africa,saved
+718,Durban,South Africa,saved
+719,Johannesburg,South Africa,saved
+720,Port Elizabeth,South Africa,saved
+721,Pretoria,South Africa,saved
+722,Andong,South Korea,saved
+723,Busan,South Korea,saved
+724,Chuncheon,South Korea,saved
+725,Jeonju,South Korea,saved
+726,Seoul,South Korea,no_match
+727,"Palma, Balearic Islands",Spain,saved
+728,"Las Palmas de Gran Canaria, Canary Islands",Spain,saved
+729,"Santa Cruz de Tenerife, Tenerife",Spain,saved
+730,Alicante,Spain,saved
+731,Almeria,Spain,saved
+732,Barcelona,Spain,saved
+733,Begur,Spain,saved
+734,Benidorm,Spain,saved
+735,Bilbao,Spain,saved
+736,Burgos,Spain,saved
+737,Cadaques,Spain,saved
+738,Cadiz,Spain,saved
+739,Cartagena,Spain,saved
+740,Córdoba,Spain,saved
+741,Figueres,Spain,saved
+742,Girona,Spain,saved
+743,Granada,Spain,saved
+744,Ibiza,Spain,saved
+745,Madrid,Spain,saved
+746,Malaga,Spain,saved
+747,Pamplona,Spain,saved
+748,Ronda,Spain,saved
+749,Salamanca,Spain,saved
+750,Sant Joan Despí,Spain,saved
+751,Santiago de Compostela,Spain,saved
+752,Segovia,Spain,saved
+753,Sevilla,Spain,saved
+754,Sitges,Spain,saved
+755,Toledo,Spain,saved
+756,Valencia,Spain,saved
+757,Valladolid,Spain,saved
+758,Vigo,Spain,saved
+759,Zaragoza,Spain,saved
+760,Colombo,Sri Lanka,saved
+761,Galle,Sri Lanka,saved
+762,Kandy,Sri Lanka,saved
+763,Basseterre,St. Kitts and Nevis,saved
+764,Charlestown,St. Kitts and Nevis,saved
+765,Castries,St. Lucia,saved
+766,Kingstown,St. Vincent and the Grenadines,saved
+767,Paramaribo,Suriname,saved
+768,Göteborg,Sweden,saved
+769,Gothenburg,Sweden,saved
+770,Kiruna,Sweden,saved
+771,Luleå,Sweden,saved
+772,Malmö,Sweden,saved
+773,Stockholm,Sweden,saved
+774,Uppsala,Sweden,saved
+775,Visby,Sweden,saved
+776,Basel,Switzerland,saved
+777,Bern,Switzerland,saved
+778,Brienz,Switzerland,saved
+779,Geneva,Switzerland,saved
+780,Gruyères,Switzerland,saved
+781,Interlaken,Switzerland,saved
+782,Lausanne,Switzerland,saved
+783,Lauterbrunnen,Switzerland,saved
+784,Lugano,Switzerland,saved
+785,Luzern,Switzerland,saved
+786,Meyrin,Switzerland,saved
+787,Montreux,Switzerland,saved
+788,St. Moritz,Switzerland,saved
+789,Stein am Rhein,Switzerland,saved
+790,Zermatt,Switzerland,saved
+791,Zürich,Switzerland,saved
+792,"Kaohsiung, Taiwan",Taiwan,saved
+793,"Taichung, Taiwan",Taiwan,saved
+794,"Taipei, Taiwan",Taiwan,saved
+795,Dushanbe,Tajikistan,saved
+796,Dar es Salaam,Tanzania,saved
+797,Zanzibar,Tanzania,no_match
+798,Ayutthaya,Thailand,saved
+799,Bankok,Thailand,saved
+800,Chiang Mai,Thailand,saved
+801,Pai,Thailand,saved
+802,Phang Nga,Thailand,saved
+803,Phi Phi Don,Thailand,saved
+804,Phuket,Thailand,saved
+805,Railay Beach,Thailand,saved
+806,Sukhothai,Thailand,saved
+807,Trang,Thailand,saved
+808,Port of Spain,Trinidad and Tobago,no_match
+809,Scarborough,Trinidad and Tobago,saved
+810,Djerba,Tunisia,saved
+811,Monastir,Tunisia,saved
+812,Sidi Bou Saïd,Tunisia,saved
+813,Tunis,Tunisia,saved
+814,Alaçatı,Turkey,saved
+815,Alanya,Turkey,saved
+816,Ankara,Turkey,saved
+817,Antalya,Turkey,saved
+818,Bodrum,Turkey,saved
+819,Ephesus,Turkey,saved
+820,Göreme,Turkey,saved
+821,Istanbul,Turkey,saved
+822,Izmir,Turkey,saved
+823,Konya,Turkey,saved
+824,Mardin,Turkey,saved
+825,Marmaris,Turkey,saved
+826,Selçuk,Turkey,saved
+827,Side,Turkey,saved
+828,Kampala,Uganda,saved
+829,Bukovel,Ukraine,saved
+830,Chernihiv,Ukraine,saved
+831,Kiev,Ukraine,saved
+832,Lviv,Ukraine,saved
+833,Odessa,Ukraine,saved
+834,Zhytomyr,Ukraine,saved
+835,Abu Dhabi,United Arab Emirates,saved
+836,Al Ain,United Arab Emirates,saved
+837,Dubai,United Arab Emirates,saved
+838,"Bath, England",United Kingdom,saved
+839,"Birmingham, England",United Kingdom,saved
+840,"Brighton, England",United Kingdom,saved
+841,"Bristol, England",United Kingdom,saved
+842,"Cambridge, England",United Kingdom,saved
+843,"Crawley, England",United Kingdom,saved
+844,"Leeds, England",United Kingdom,saved
+845,"Liverpool, England",United Kingdom,saved
+846,"London, England",United Kingdom,saved
+847,"Manchester, England",United Kingdom,saved
+848,"Oxford, England",United Kingdom,saved
+849,"Southampton, England",United Kingdom,saved
+850,"York, England",United Kingdom,saved
+851,"Gibraltar, Gibraltar",United Kingdom,saved
+852,"Belfast, Northern Ireland",United Kingdom,saved
+853,"Derry, Northern Ireland",United Kingdom,saved
+854,"Aberdeen, Scotland",United Kingdom,saved
+855,"Edinburgh, Scotland",United Kingdom,saved
+856,"Fort William, Scotland",United Kingdom,saved
+857,"Glasgow, Scotland",United Kingdom,saved
+858,"Inverness, Scotland",United Kingdom,saved
+859,"Islay, Scotland",United Kingdom,saved
+860,"St. Andrews, Scotland",United Kingdom,saved
+861,"Cardiff, Wales",United Kingdom,saved
+862,"Swansea, Wales",United Kingdom,saved
+863,"Tenby, Wales",United Kingdom,saved
+864,"Auburn, Alabama",United States,saved
+865,"Birmingham, Alabama",United States,saved
+866,"Dothan, Alabama",United States,saved
+867,"Foley, Alabama",United States,saved
+868,"Gulf Shores, Alabama",United States,saved
+869,"Homewood, Alabama",United States,saved
+870,"Hoover, Alabama",United States,saved
+871,"Huntsville, Alabama",United States,saved
+872,"Mobile, Alabama",United States,saved
+873,"Montgomery, Alabama",United States,saved
+874,"Orange Beach, Alabama",United States,saved
+875,"Pelham, Alabama",United States,saved
+876,"Scottsboro, Alabama",United States,saved
+877,"Tuscaloosa, Alabama",United States,saved
+878,"Anchorage, Alaska",United States,saved
+879,"Fairbanks, Alaska",United States,saved
+880,"Healy, Alaska",United States,saved
+881,"Homer, Alaska",United States,saved
+882,"Hoonah, Alaska",United States,saved
+883,"Juneau, Alaska",United States,saved
+884,"Kenai, Alaska",United States,saved
+885,"Ketchikan, Alaska",United States,saved
+886,"McCarthy, Alaska",United States,saved
+887,"Palmer, Alaska",United States,saved
+888,"Seward, Alaska",United States,saved
+889,"Sitka, Alaska",United States,saved
+890,"Skagway, Alaska",United States,saved
+891,"Soldotna, Alaska",United States,saved
+892,"Talkeetna, Alaska",United States,saved
+893,"Wasilla, Alaska",United States,saved
+894,"Whittier, Alaska",United States,saved
+895,"Apache Junction, Arizona",United States,saved
+896,"Bisbee, Arizona",United States,saved
+897,"Chandler, Arizona",United States,saved
+898,"Flagstaff, Arizona",United States,saved
+899,"Grand Canyon, Arizona",United States,saved
+900,"Jerome, Arizona",United States,saved
+901,"Kingman, Arizona",United States,saved
+902,"Mesa, Arizona",United States,saved
+903,"Page, Arizona",United States,saved
+904,"Phoenix, Arizona",United States,saved
+905,"Prescott, Arizona",United States,saved
+906,"Scottsdale, Arizona",United States,saved
+907,"Sedona, Arizona",United States,saved
+908,"Supai, Arizona",United States,saved
+909,"Tempe, Arizona",United States,saved
+910,"Tombstone, Arizona",United States,saved
+911,"Tucson, Arizona",United States,saved
+912,"Tusayan, Arizona",United States,saved
+913,"Bentonville, Arkansas",United States,saved
+914,"Conway, Arkansas",United States,saved
+915,"Eureka Springs, Arkansas",United States,saved
+916,"Fayetteville, Arkansas",United States,saved
+917,"Fort Smith, Arkansas",United States,saved
+918,"Hot Springs, Arkansas",United States,saved
+919,"Rogers, Arkansas",United States,saved
+920,"Springdale, Arkansas",United States,saved
+921,"West Memphis, Arkansas",United States,saved
+922,"Anaheim, California",United States,saved
+923,"Berkeley, California",United States,saved
+924,"Beverly Hills, California",United States,saved
+925,"Big Bear Lake, California",United States,saved
+926,"Big Sur, California",United States,saved
+927,"Burney, California",United States,saved
+928,"Calistoga, California",United States,saved
+929,"Cambria, California",United States,saved
+930,"Carlsbad, California",United States,saved
+931,"Carmel, California",United States,saved
+932,"Fresno, California",United States,saved
+933,"Irvine, California",United States,saved
+934,"La Jolla, California",United States,saved
+935,"Laguna Beach, California",United States,saved
+936,"Long Beach, California",United States,saved
+937,"Los Angeles, California",United States,saved
+938,"Malibu, California",United States,saved
+939,"Mill Valley, California",United States,saved
+940,"Monterey, California",United States,saved
+941,"Napa, California",United States,saved
+942,"Newport Beach, California",United States,saved
+943,"Oakland, California",United States,saved
+944,"Oceanside, California",United States,saved
+945,"Palm Springs, California",United States,saved
+946,"Palo Alto, California",United States,saved
+947,"Paso Robles, California",United States,saved
+948,"Pismo Beach, California",United States,saved
+949,"Rutherford, California",United States,saved
+950,"Sacramento, California",United States,saved
+951,"San Diego, California",United States,saved
+952,"San Francisco, California",United States,saved
+953,"San Jose, California",United States,saved
+954,"Santa Barbara, California",United States,saved
+955,"Santa Cruz, California",United States,saved
+956,"Santa Monica, California",United States,saved
+957,"Sausalito, California",United States,saved
+958,"Sonoma, California",United States,saved
+959,"Temecula, California",United States,saved
+960,"Truckee, California",United States,saved
+961,"Venice, California",United States,saved
+962,"Ventura, California",United States,saved
+963,"West Hollywood, California",United States,saved
+964,"Yosemite Village, California",United States,saved
+965,"Aspen, Colorado",United States,saved
+966,"Aurora, Colorado",United States,saved
+967,"Boulder, Colorado",United States,saved
+968,"Breckenridge, Colorado",United States,saved
+969,"Colorado Springs, Colorado",United States,saved
+970,"Crested Butte, Colorado",United States,saved
+971,"Denver, Colorado",United States,saved
+972,"Durango, Colorado",United States,saved
+973,"Estes Park, Colorado",United States,saved
+974,"Fort Collins, Colorado",United States,saved
+975,"Glenwood Springs, Colorado",United States,saved
+976,"Grand Junction, Colorado",United States,saved
+977,"Loveland, Colorado",United States,saved
+978,"Pagosa Springs, Colorado",United States,saved
+979,"Pueblo, Colorado",United States,saved
+980,"Steamboat Springs, Colorado",United States,saved
+981,"Telluride, Colorado",United States,saved
+982,"Vail, Colorado",United States,saved
+983,"Groton, Connecticut",United States,saved
+984,"Hartford, Connecticut",United States,saved
+985,"Mystic, Connecticut",United States,saved
+986,"New Haven, Connecticut",United States,saved
+987,"Norwalk, Connecticut",United States,saved
+988,"Stamford, Connecticut",United States,saved
+989,"Uncasville, Connecticut",United States,saved
+990,"Bethany Beach, Delaware",United States,saved
+991,"Fenwick Island, Delaware",United States,saved
+992,"Lewes, Delaware",United States,saved
+993,"Rehoboth Beach, Delaware",United States,saved
+994,"Wilmington, Delaware",United States,saved
+995,"Washington, District of Columbia",United States,saved
+996,"Amelia Island, Florida",United States,saved
+997,"Boca Raton, Florida",United States,saved
+998,"Cape Canaveral, Florida",United States,saved
+999,"Clearwater, Florida",United States,saved
+1000,"Daytona Beach, Florida",United States,saved
+1001,"Destin, Florida",United States,saved
+1002,"Fort Lauderdale, Florida",United States,saved
+1003,"Hollywood, Florida",United States,saved
+1004,"Jacksonville, Florida",United States,saved
+1005,"Key Largo, Florida",United States,saved
+1006,"Key West, Florida",United States,saved
+1007,"Kissimmee, Florida",United States,saved
+1008,"Lake Buena Vista, Florida",United States,saved
+1009,"Marco Island, Florida",United States,saved
+1010,"Miami, Florida",United States,saved
+1011,"Naples, Florida",United States,saved
+1012,"Orlando, Florida",United States,saved
+1013,"Panama City Beach, Florida",United States,saved
+1014,"Pensacola, Florida",United States,saved
+1015,"Sarasota, Florida",United States,saved
+1016,"St. Augustine, Florida",United States,saved
+1017,"St. Petersburg, Florida",United States,saved
+1018,"Tallahassee, Florida",United States,saved
+1019,"Tampa, Florida",United States,saved
+1020,"West Palm Beach, Florida",United States,saved
+1021,"Athens, Georgia",United States,saved
+1022,"Atlanta, Georgia",United States,saved
+1023,"Augusta, Georgia",United States,saved
+1024,"Columbus, Georgia",United States,saved
+1025,"Cumberland Island, Georgia",United States,saved
+1026,"Dahlonega, Georgia",United States,saved
+1027,"Helen, Georgia",United States,saved
+1028,"Jekyll Island, Georgia",United States,saved
+1029,"Macon, Georgia",United States,saved
+1030,"Marietta, Georgia",United States,saved
+1031,"Savannah, Georgia",United States,saved
+1032,"Stone Mountain, Georgia",United States,saved
+1033,"Tybee Island, Georgia",United States,saved
+1034,"Valdosta, Georgia",United States,saved
+1035,"Hana, Hawaii",United States,saved
+1036,"Hilo, Hawaii",United States,saved
+1037,"Honolulu, Hawaii",United States,saved
+1038,"Kahului, Hawaii",United States,saved
+1039,"Kapaa, Hawaii",United States,saved
+1040,"Kapolei, Hawaii",United States,saved
+1041,"Lahaina, Hawaii",United States,saved
+1042,"Lihue, Hawaii",United States,saved
+1043,"Poipu, Hawaii",United States,saved
+1044,"Puako, Hawaii",United States,saved
+1045,"Waikoloa, Hawaii",United States,saved
+1046,"Wailea, Hawaii",United States,saved
+1047,"Boise, Idaho",United States,saved
+1048,"Coeur d'Alene, Idaho",United States,saved
+1049,"Driggs, Idaho",United States,saved
+1050,"Idaho Falls, Idaho",United States,saved
+1051,"Island Park, Idaho",United States,saved
+1052,"Ketchum, Idaho",United States,saved
+1053,"Lava Hot Springs, Idaho",United States,saved
+1054,"McCall, Idaho",United States,saved
+1055,"Meridian, Idaho",United States,saved
+1056,"Pocatello, Idaho",United States,saved
+1057,"Sandpoint, Idaho",United States,saved
+1058,"Sun Valley, Idaho",United States,saved
+1059,"Twin Falls, Idaho",United States,saved
+1060,"Arthur, Illinois",United States,saved
+1061,"Bloomington, Illinois",United States,saved
+1062,"Champaign, Illinois",United States,saved
+1063,"Chicago, Illinois",United States,saved
+1064,"Galena, Illinois",United States,saved
+1065,"Rockford, Illinois",United States,saved
+1066,"Rosemont, Illinois",United States,saved
+1067,"Springfield, Illinois",United States,saved
+1068,"Bloomington, Indiana",United States,saved
+1069,"Fort Wayne, Indiana",United States,saved
+1070,"Indianapolis, Indiana",United States,saved
+1071,"Michigan City, Indiana",United States,saved
+1072,"Nashville, Indiana",United States,saved
+1073,"South Bend, Indiana",United States,saved
+1074,"Terre Haute, Indiana",United States,saved
+1075,"Ames, Iowa",United States,saved
+1076,"Cedar Rapids, Iowa",United States,saved
+1077,"Council Bluffs, Iowa",United States,saved
+1078,"Davenport, Iowa",United States,saved
+1079,"Des Moines, Iowa",United States,saved
+1080,"Dubuque, Iowa",United States,saved
+1081,"Iowa City, Iowa",United States,saved
+1082,"Sioux City, Iowa",United States,saved
+1083,"Dodge City, Kansas",United States,saved
+1084,"Fort Scott, Kansas",United States,saved
+1085,"Hays, Kansas",United States,saved
+1086,"Kansas City, Kansas",United States,saved
+1087,"Lawrence, Kansas",United States,saved
+1088,"Lindsborg, Kansas",United States,saved
+1089,"Oakley, Kansas",United States,saved
+1090,"Olathe, Kansas",United States,saved
+1091,"Overland Park, Kansas",United States,saved
+1092,"Salina, Kansas",United States,saved
+1093,"Topeka, Kansas",United States,saved
+1094,"Wamego, Kansas",United States,saved
+1095,"Bowling Green, Kentucky",United States,saved
+1096,"Brownsville, Kentucky",United States,saved
+1097,"Covington, Kentucky",United States,saved
+1098,"Florence, Kentucky",United States,saved
+1099,"Frankfort, Kentucky",United States,saved
+1100,"Georgetown, Kentucky",United States,saved
+1101,"Hebron, Kentucky",United States,saved
+1102,"Lexington, Kentucky",United States,saved
+1103,"Louisville, Kentucky",United States,saved
+1104,"Middlesboro, Kentucky",United States,saved
+1105,"Newport, Kentucky",United States,saved
+1106,"Owensboro, Kentucky",United States,saved
+1107,"Paducah, Kentucky",United States,saved
+1108,"Avery Island, Louisiana",United States,saved
+1109,"Baton Rouge, Louisiana",United States,saved
+1110,"Bossier City, Louisiana",United States,saved
+1111,"Grand Isle, Louisiana",United States,saved
+1112,"Lafayette, Louisiana",United States,saved
+1113,"Lake Charles, Louisiana",United States,saved
+1114,"Natchitoches, Louisiana",United States,saved
+1115,"New Orleans, Louisiana",United States,saved
+1116,"Shreveport, Louisiana",United States,saved
+1117,"Augusta, Maine",United States,saved
+1118,"Bangor, Maine",United States,saved
+1119,"Bar Harbor, Maine",United States,saved
+1120,"Boothbay Harbor, Maine",United States,saved
+1121,"Camden, Maine",United States,saved
+1122,"Kennebunkport, Maine",United States,saved
+1123,"Ogunquit, Maine",United States,saved
+1124,"Old Orchard Beach, Maine",United States,saved
+1125,"Portland, Maine",United States,saved
+1126,"Rockland, Maine",United States,saved
+1127,"Wells, Maine",United States,saved
+1128,"Annapolis, Maryland",United States,saved
+1129,"Baltimore, Maryland",United States,saved
+1130,"Bethesda, Maryland",United States,saved
+1131,"Frederick, Maryland",United States,saved
+1132,"Hagerstown, Maryland",United States,saved
+1133,"McHenry, Maryland",United States,saved
+1134,"Ocean City, Maryland",United States,saved
+1135,"Silver Spring, Maryland",United States,saved
+1136,"Boston, Massachusetts",United States,saved
+1137,"Brookline, Massachusetts",United States,saved
+1138,"Cambridge, Massachusetts",United States,saved
+1139,"Concord, Massachusetts",United States,saved
+1140,"Edgartown, Massachusetts",United States,saved
+1141,"Falmouth, Massachusetts",United States,saved
+1142,"Hyannis, Massachusetts",United States,saved
+1143,"Lenox, Massachusetts",United States,saved
+1144,"Lexington, Massachusetts",United States,saved
+1145,"Nantucket, Massachusetts",United States,saved
+1146,"Plymouth, Massachusetts",United States,saved
+1147,"Provincetown, Massachusetts",United States,saved
+1148,"Salem, Massachusetts",United States,saved
+1149,"Somerville, Massachusetts",United States,saved
+1150,"Sudbury, Massachusetts",United States,saved
+1151,"Worcester, Massachusetts",United States,saved
+1152,"Ann Arbor, Michigan",United States,saved
+1153,"Charlevoix, Michigan",United States,saved
+1154,"Detroit, Michigan",United States,saved
+1155,"Grand Rapids, Michigan",United States,saved
+1156,"Holland, Michigan",United States,saved
+1157,"Kalamazoo, Michigan",United States,saved
+1158,"Lansing, Michigan",United States,saved
+1159,"Mackinac Island, Michigan",United States,saved
+1160,"Marquette, Michigan",United States,saved
+1161,"Muskegon, Michigan",United States,saved
+1162,"Petoskey, Michigan",United States,saved
+1163,"Saugatuck, Michigan",United States,saved
+1164,"Traverse City, Michigan",United States,saved
+1165,"Ypsilanti, Michigan",United States,saved
+1166,"Bloomington, Minnesota",United States,saved
+1167,"Duluth, Minnesota",United States,saved
+1168,"Grand Marais, Minnesota",United States,saved
+1169,"Lutsen, Minnesota",United States,saved
+1170,"Minneapolis, Minnesota",United States,saved
+1171,"Rochester, Minnesota",United States,saved
+1172,"Saint Paul, Minnesota",United States,saved
+1173,"Stillwater, Minnesota",United States,saved
+1174,"Two Harbors, Minnesota",United States,saved
+1175,"Biloxi, Mississippi",United States,saved
+1176,"Clarksdale, Mississippi",United States,saved
+1177,"Gulfport, Mississippi",United States,saved
+1178,"Hattiesburg, Mississippi",United States,saved
+1179,"Jackson, Mississippi",United States,saved
+1180,"Meridian, Mississippi",United States,saved
+1181,"Natchez, Mississippi",United States,saved
+1182,"Oxford, Mississippi",United States,saved
+1183,"Tunica, Mississippi",United States,saved
+1184,"Tupelo, Mississippi",United States,saved
+1185,"Vicksburg, Mississippi",United States,saved
+1186,"Branson, Missouri",United States,saved
+1187,"Chesterfield, Missouri",United States,saved
+1188,"Columbia, Missouri",United States,saved
+1189,"Hannibal, Missouri",United States,saved
+1190,"Jefferson City, Missouri",United States,saved
+1191,"Kansas City, Missouri",United States,saved
+1192,"Lake Ozark, Missouri",United States,saved
+1193,"Osage Beach, Missouri",United States,saved
+1194,"Saint Charles, Missouri",United States,saved
+1195,"Saint Louis, Missouri",United States,saved
+1196,"Springfield, Missouri",United States,saved
+1197,"Big Sky, Montana",United States,saved
+1198,"Billings, Montana",United States,saved
+1199,"Bozeman, Montana",United States,saved
+1200,"Butte, Montana",United States,saved
+1201,"Gardiner, Montana",United States,saved
+1202,"Great Falls, Montana",United States,saved
+1203,"Helena, Montana",United States,saved
+1204,"Kalispell, Montana",United States,saved
+1205,"Missoula, Montana",United States,saved
+1206,"Red Lodge, Montana",United States,saved
+1207,"West Glacier, Montana",United States,saved
+1208,"West Yellowstone, Montana",United States,saved
+1209,"Grand Island, Nebraska",United States,saved
+1210,"Kearney, Nebraska",United States,saved
+1211,"Lincoln, Nebraska",United States,saved
+1212,"North Platte, Nebraska",United States,no_match
+1213,"Omaha, Nebraska",United States,saved
+1214,"Valentine, Nebraska",United States,saved
+1215,"Carson City, Nevada",United States,saved
+1216,"Henderson, Nevada",United States,saved
+1217,"Incline Village, Nevada",United States,saved
+1218,"Las Vegas, Nevada",United States,saved
+1219,"Laughlin, Nevada",United States,saved
+1220,"Mesquite, Nevada",United States,saved
+1221,"Paradise, Nevada",United States,saved
+1222,"Reno, Nevada",United States,saved
+1223,"Stateline, Nevada",United States,saved
+1224,"Concord, New Hampshire",United States,saved
+1225,"Gorham, New Hampshire",United States,saved
+1226,"Hampton, New Hampshire",United States,saved
+1227,"Hanover, New Hampshire",United States,saved
+1228,"Jackson, New Hampshire",United States,saved
+1229,"Keene, New Hampshire",United States,saved
+1230,"Lebanon, New Hampshire",United States,saved
+1231,"Lincoln, New Hampshire",United States,saved
+1232,"Manchester, New Hampshire",United States,saved
+1233,"North Conway, New Hampshire",United States,saved
+1234,"Portsmouth, New Hampshire",United States,saved
+1235,"Atlantic City, New Jersey",United States,saved
+1236,"Cape May, New Jersey",United States,saved
+1237,"Frenchtown, New Jersey",United States,saved
+1238,"Hoboken, New Jersey",United States,saved
+1239,"Jersey City, New Jersey",United States,saved
+1240,"Long Branch, New Jersey",United States,saved
+1241,"Newark, New Jersey",United States,saved
+1242,"Ocean City, New Jersey",United States,saved
+1243,"Princeton, New Jersey",United States,saved
+1244,"Seaside Heights, New Jersey",United States,saved
+1245,"Spring Lake, New Jersey",United States,saved
+1246,"Wildwood, New Jersey",United States,saved
+1247,"Albuquerque, New Mexico",United States,saved
+1248,"Carlsbad, New Mexico",United States,saved
+1249,"Gallup, New Mexico",United States,saved
+1250,"Las Cruces, New Mexico",United States,saved
+1251,"Los Alamos, New Mexico",United States,saved
+1252,"Pecos, New Mexico",United States,saved
+1253,"Red River, New Mexico",United States,saved
+1254,"Roswell, New Mexico",United States,saved
+1255,"Ruidoso, New Mexico",United States,saved
+1256,"Santa Fe, New Mexico",United States,saved
+1257,"Taos, New Mexico",United States,saved
+1258,"Albany, New York",United States,saved
+1259,"Binghamton, New York",United States,saved
+1260,"Buffalo, New York",United States,saved
+1261,"Cooperstown, New York",United States,saved
+1262,"Ithaca, New York",United States,saved
+1263,"Lake George, New York",United States,saved
+1264,"Lake Placid, New York",United States,saved
+1265,"Montauk, New York",United States,saved
+1266,"New York City, New York",United States,saved
+1267,"Poughkeepsie, New York",United States,saved
+1268,"Rochester, New York",United States,saved
+1269,"Saratoga Springs, New York",United States,saved
+1270,"Syracuse, New York",United States,saved
+1271,"Ticonderoga, New York",United States,saved
+1272,"Asheville, North Carolina",United States,saved
+1273,"Blowing Rock, North Carolina",United States,saved
+1274,"Boone, North Carolina",United States,saved
+1275,"Chapel Hill, North Carolina",United States,saved
+1276,"Charlotte, North Carolina",United States,saved
+1277,"Cherokee, North Carolina",United States,saved
+1278,"Davidson, North Carolina",United States,saved
+1279,"Durham, North Carolina",United States,saved
+1280,"Greensboro, North Carolina",United States,saved
+1281,"Kill Devil Hills, North Carolina",United States,saved
+1282,"Nags Head, North Carolina",United States,saved
+1283,"New Bern, North Carolina",United States,saved
+1284,"Raleigh, North Carolina",United States,saved
+1285,"Southport, North Carolina",United States,saved
+1286,"Wilmington, North Carolina",United States,saved
+1287,"Winston-Salem, North Carolina",United States,saved
+1288,"Bismarck, North Dakota",United States,saved
+1289,"Dickinson, North Dakota",United States,saved
+1290,"Fargo, North Dakota",United States,saved
+1291,"Grand Forks, North Dakota",United States,saved
+1292,"Jamestown, North Dakota",United States,saved
+1293,"Medora, North Dakota",United States,saved
+1294,"Minot, North Dakota",United States,saved
+1295,"San Jose, Northern Mariana Islands",United States,saved
+1296,"Akron, Ohio",United States,saved
+1297,"Berlin, Ohio",United States,saved
+1298,"Cincinnati, Ohio",United States,saved
+1299,"Cleveland, Ohio",United States,saved
+1300,"Columbus, Ohio",United States,saved
+1301,"Dayton, Ohio",United States,saved
+1302,"Sandusky, Ohio",United States,saved
+1303,"Toledo, Ohio",United States,saved
+1304,"Lawton, Oklahoma",United States,saved
+1305,"Norman, Oklahoma",United States,saved
+1306,"Oklahoma City, Oklahoma",United States,saved
+1307,"Tulsa, Oklahoma",United States,saved
+1308,"Ashland, Oregon",United States,saved
+1309,"Astoria, Oregon",United States,saved
+1310,"Bend, Oregon",United States,saved
+1311,"Cannon Beach, Oregon",United States,saved
+1312,"Eugene, Oregon",United States,saved
+1313,"Florence, Oregon",United States,saved
+1314,"Joseph, Oregon",United States,saved
+1315,"Lincoln City, Oregon",United States,saved
+1316,"Mount Hood, Oregon",United States,saved
+1317,"Newport, Oregon",United States,saved
+1318,"Portland, Oregon",United States,saved
+1319,"Salem, Oregon",United States,saved
+1320,"Seaside, Oregon",United States,saved
+1321,"Sisters, Oregon",United States,saved
+1322,"The Dalles, Oregon",United States,saved
+1323,"Tillamook, Oregon",United States,saved
+1324,"Bethlehem, Pennsylvania",United States,saved
+1325,"Erie, Pennsylvania",United States,saved
+1326,"Gettysburg, Pennsylvania",United States,saved
+1327,"Harrisburg, Pennsylvania",United States,saved
+1328,"Hershey, Pennsylvania",United States,saved
+1329,"Lancaster, Pennsylvania",United States,saved
+1330,"Philadelphia, Pennsylvania",United States,saved
+1331,"Valley Forge, Pennsylvania",United States,saved
+1332,"Dorado, Puerto Rico",United States,saved
+1333,"Fajardo, Puerto Rico",United States,saved
+1334,"Guanica, Puerto Rico",United States,saved
+1335,"Isla Verde, Puerto Rico",United States,saved
+1336,"Palmas Del Mar, Puerto Rico",United States,no_match
+1337,"Ponce, Puerto Rico",United States,saved
+1338,"Rincon, Puerto Rico",United States,saved
+1339,"Rio Grande, Puerto Rico",United States,saved
+1340,"San Juan, Puerto Rico",United States,saved
+1341,"Bristol, Rhode Island",United States,saved
+1342,"Middletown, Rhode Island",United States,saved
+1343,"Misquamicut, Rhode Island",United States,saved
+1344,"Narragansett, Rhode Island",United States,saved
+1345,"Newport, Rhode Island",United States,saved
+1346,"Providence, Rhode Island",United States,saved
+1347,"Bluffton, South Carolina",United States,saved
+1348,"Charleston, South Carolina",United States,saved
+1349,"Columbia, South Carolina",United States,saved
+1350,"Folly Beach, South Carolina",United States,saved
+1351,"Georgetown, South Carolina",United States,saved
+1352,"Greenville, South Carolina",United States,saved
+1353,"Hilton Head, South Carolina",United States,saved
+1354,"Isle of Palms, South Carolina",United States,saved
+1355,"Myrtle Beach, South Carolina",United States,saved
+1356,"Spartanburg, South Carolina",United States,saved
+1357,"Sullivan's Island, South Carolina",United States,saved
+1358,"Custer, South Dakota",United States,saved
+1359,"Deadwood, South Dakota",United States,saved
+1360,"Hot Springs, South Dakota",United States,saved
+1361,"Keystone, South Dakota",United States,saved
+1362,"Mitchell, South Dakota",United States,saved
+1363,"Pierre, South Dakota",United States,saved
+1364,"Rapid City, South Dakota",United States,saved
+1365,"Sioux Falls, South Dakota",United States,saved
+1366,"Spearfish, South Dakota",United States,saved
+1367,"Wall, South Dakota",United States,saved
+1368,"Bristol, Tennessee",United States,saved
+1369,"Chattanooga, Tennessee",United States,saved
+1370,"Clarksville, Tennessee",United States,saved
+1371,"Franklin, Tennessee",United States,saved
+1372,"Gatlinburg, Tennessee",United States,saved
+1373,"Johnson City, Tennessee",United States,saved
+1374,"Knoxville, Tennessee",United States,saved
+1375,"Lynchburg, Tennessee",United States,saved
+1376,"Memphis, Tennessee",United States,saved
+1377,"Murfreesboro, Tennessee",United States,saved
+1378,"Nashville, Tennessee",United States,saved
+1379,"Pigeon Forge, Tennessee",United States,saved
+1380,"Sevierville, Tennessee",United States,saved
+1381,"Amarillo, Texas",United States,saved
+1382,"Arlington, Texas",United States,saved
+1383,"Austin, Texas",United States,saved
+1384,"College Station, Texas",United States,saved
+1385,"Corpus Christi, Texas",United States,saved
+1386,"Dallas, Texas",United States,saved
+1387,"El Paso, Texas",United States,saved
+1388,"Fort Worth, Texas",United States,saved
+1389,"Fredericksburg, Texas",United States,saved
+1390,"Galveston, Texas",United States,saved
+1391,"Houston, Texas",United States,saved
+1392,"Laredo, Texas",United States,saved
+1393,"Lubbock, Texas",United States,saved
+1394,"Luckenbach, Texas",United States,saved
+1395,"New Braunfels, Texas",United States,saved
+1396,"San Antonio, Texas",United States,saved
+1397,"South Padre Island, Texas",United States,saved
+1398,"Waco, Texas",United States,saved
+1399,"Cruz Bay, U.S. Virgin Islands",United States,saved
+1400,"Frederiksted, U.S. Virgin Islands",United States,saved
+1401,"Kanab, Utah",United States,saved
+1402,"Moab, Utah",United States,saved
+1403,"Ogden, Utah",United States,saved
+1404,"Park City, Utah",United States,saved
+1405,"Provo, Utah",United States,saved
+1406,"Saint George, Utah",United States,saved
+1407,"Salt Lake City, Utah",United States,saved
+1408,"Sandy City, Utah",United States,saved
+1409,"Springdale, Utah",United States,saved
+1410,"Torrey, Utah",United States,saved
+1411,"Brattleboro, Vermont",United States,saved
+1412,"Burlington, Vermont",United States,saved
+1413,"Killington, Vermont",United States,saved
+1414,"Manchester, Vermont",United States,saved
+1415,"Montpelier, Vermont",United States,saved
+1416,"Stowe, Vermont",United States,saved
+1417,"Woodstock, Vermont",United States,saved
+1418,"Alexandria, Virginia",United States,saved
+1419,"Arlington, Virginia",United States,saved
+1420,"Charlottesville, Virginia",United States,saved
+1421,"Chincoteague Island, Virginia",United States,saved
+1422,"Fredericksburg, Virginia",United States,saved
+1423,"Harrisonburg, Virginia",United States,saved
+1424,"Jamestown, Virginia",United States,saved
+1425,"Middleburg, Virginia",United States,saved
+1426,"Norfolk, Virginia",United States,saved
+1427,"Richmond, Virginia",United States,saved
+1428,"Roanoke, Virginia",United States,saved
+1429,"Virginia Beach, Virginia",United States,saved
+1430,"Williamsburg, Virginia",United States,saved
+1431,"Bellevue, Washington",United States,saved
+1432,"Bellingham, Washington",United States,saved
+1433,"Kennewick, Washington",United States,saved
+1434,"Leavenworth, Washington",United States,saved
+1435,"Olympia, Washington",United States,saved
+1436,"Port Angeles, Washington",United States,saved
+1437,"Seattle, Washington",United States,saved
+1438,"Snoqualmie, Washington",United States,saved
+1439,"Spokane, Washington",United States,saved
+1440,"Tacoma, Washington",United States,saved
+1441,"Walla Walla, Washington",United States,saved
+1442,"Beckley, West Virginia",United States,saved
+1443,"Charleston, West Virginia",United States,saved
+1444,"Elkins, West Virginia",United States,saved
+1445,"Fayetteville, West Virginia",United States,saved
+1446,"Harpers Ferry, West Virginia",United States,saved
+1447,"Lewisburg, West Virginia",United States,saved
+1448,"Morgantown, West Virginia",United States,saved
+1449,"Bayfield, Wisconsin",United States,saved
+1450,"Egg Harbor, Wisconsin",United States,saved
+1451,"Fish Creek, Wisconsin",United States,saved
+1452,"Green Bay, Wisconsin",United States,saved
+1453,"La Crosse, Wisconsin",United States,saved
+1454,"Madison, Wisconsin",United States,saved
+1455,"Milwaukee, Wisconsin",United States,saved
+1456,"Sturgeon Bay, Wisconsin",United States,saved
+1457,"Superior, Wisconsin",United States,saved
+1458,"Wisconsin Dells, Wisconsin",United States,saved
+1459,"Casper, Wyoming",United States,saved
+1460,"Cheyenne, Wyoming",United States,saved
+1461,"Cody, Wyoming",United States,saved
+1462,"Jackson, Wyoming",United States,saved
+1463,"Laramie, Wyoming",United States,saved
+1464,"Moran, Wyoming",United States,saved
+1465,"Sheridan, Wyoming",United States,saved
+1466,"Teton Village, Wyoming",United States,saved
+1467,Carmelo,Uruguay,saved
+1468,Colonia del Sacramento,Uruguay,saved
+1469,Montevideo,Uruguay,saved
+1470,Piriapolis,Uruguay,saved
+1471,Punta Ballena,Uruguay,saved
+1472,Punta del Este,Uruguay,saved
+1473,Bukhara,Uzbekistan,saved
+1474,Samarkand,Uzbekistan,saved
+1475,Tashkent,Uzbekistan,saved
+1476,Port Vila,Vanuatu,saved
+1477,Hanoi,Vietnam,saved
+1478,Ho Chi Minh City,Vietnam,saved
+1479,Hoi An,Vietnam,saved
+1480,Hue,Vietnam,saved
+1481,Nha Trang,Vietnam,saved
+1482,Phu Quoc,Vietnam,saved
+1483,Lusaka,Zambia,saved
+1484,Harare,Zimbabwe,saved
+1485,Victoria Falls,Zimbabwe,saved

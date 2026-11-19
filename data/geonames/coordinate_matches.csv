@@ -1,0 +1,1061 @@
+destination_id,destination_name,country,latitude,longitude,matched_name,match_reason
+1492,Jolly Harbour,Antigua and Barbuda,17.06622,-61.88646,Jolly Harbour,Single coordinate match
+1493,St John's,Antigua and Barbuda,17.12096,-61.84329,Saint John’s,Single coordinate match
+1494,Buenos Aires,Argentina,-34.61315,-58.37723,Buenos Aires,Single coordinate match
+1495,Córdoba,Argentina,-31.40648,-64.18853,Córdoba,Single coordinate match
+1496,Mar del Plata,Argentina,-38.00042,-57.5562,Mar del Plata,Single coordinate match
+1497,Mendoza,Argentina,-32.88946,-68.84582,Mendoza,Single coordinate match
+1498,Puerto Iguazu,Argentina,-25.59912,-54.57355,Puerto Iguazú,Single coordinate match
+1499,Puerto Madryn,Argentina,-42.76848,-65.03827,Puerto Madryn,Single coordinate match
+1500,Salta,Argentina,-24.80645,-65.41999,Salta,Single coordinate match
+1501,San Carlos de Bariloche,Argentina,-41.14557,-71.30822,San Carlos de Bariloche,Single coordinate match
+1502,San Martin de los Andes,Argentina,-40.15789,-71.35337,San Martín de los Andes,Single coordinate match
+1503,San Miguel de Tucuman,Argentina,-26.81601,-65.21051,San Miguel de Tucumán,Single coordinate match
+1504,Ushuaia,Argentina,-54.81084,-68.31591,Ushuaia,Single coordinate match
+1505,Villa Gesell,Argentina,-37.26394,-56.97304,Villa Gesell,Single coordinate match
+1506,Garni,Armenia,40.11931,44.73442,Garni,Single coordinate match
+1507,Sevan,Armenia,40.548,44.95314,Sevan,Single coordinate match
+1508,Yerevan,Armenia,40.17765,44.5126,Yerevan,Single coordinate match
+1509,Adelaide,Australia,-34.92866,138.59863,Adelaide,Single coordinate match
+1510,Alice Springs,Australia,-23.69748,133.88362,Alice Springs,Single coordinate match
+1511,Brisbane,Australia,-27.46794,153.02809,Brisbane,Single coordinate match
+1512,Broome,Australia,-17.95538,122.23922,Broome,Single coordinate match
+1513,Byron Bay,Australia,-28.64989,153.61246,Byron Bay,Single coordinate match
+1514,Cairns,Australia,-16.92366,145.76613,Cairns,Single coordinate match
+1515,Canberra,Australia,-35.28346,149.12807,Canberra,Single coordinate match
+1516,Darwin,Australia,-12.46113,130.84185,Darwin,Single coordinate match
+1517,Geelong,Australia,-38.14711,144.36069,Geelong,Single coordinate match
+1518,Hobart,Australia,-42.87936,147.32941,Hobart,Single coordinate match
+1519,Launceston,Australia,-41.43876,147.13467,Launceston,Single coordinate match
+1520,Melbourne,Australia,-37.814,144.96332,Melbourne,Single coordinate match
+1521,Newcastle,Australia,-32.92953,151.7801,Newcastle,Single coordinate match
+1522,Perth,Australia,-31.95224,115.8614,Perth,High-confidence candidate
+1523,Sydney,Australia,-33.86785,151.20732,Sydney,Single coordinate match
+1524,Bad Gastein,Austria,47.11547,13.13467,Bad Gastein,Single coordinate match
+1525,Bregenz,Austria,47.50311,9.7471,Bregenz,Single coordinate match
+1526,Graz,Austria,47.06733,15.44197,Graz,Single coordinate match
+1527,Hallstatt,Austria,47.56231,13.64912,Hallstatt,Single coordinate match
+1528,Innsbruck,Austria,47.26266,11.39454,Innsbruck,Single coordinate match
+1529,Ischgl,Austria,47.01257,10.29179,Ischgl,Single coordinate match
+1530,Kaprun,Austria,47.27239,12.75985,Kaprun,Single coordinate match
+1531,Klagenfurt,Austria,46.62472,14.30528,Klagenfurt am Wörthersee,Single coordinate match
+1533,Salzburg,Austria,47.79941,13.04399,Salzburg,Single coordinate match
+1534,Schladming,Austria,47.39289,13.68699,Schladming,Single coordinate match
+1535,Vienna,Austria,48.20849,16.37208,Vienna,Single coordinate match
+1536,Weißenkirchen in der Wachau,Austria,48.3979,15.46931,Weißenkirchen in der Wachau,Single coordinate match
+1537,Zell am See,Austria,47.32306,12.79839,Zell am See,Single coordinate match
+1538,Zillertal,Austria,47.16667,11.86667,Mayrhofen,Single coordinate match
+1539,Baku,Azerbaijan,40.37767,49.89201,Baku,Single coordinate match
+1540,Freeport,Bahamas,26.53333,-78.7,Freeport,Single coordinate match
+1541,Harbour Island,Bahamas,25.50216,-76.63633,Dunmore Town,Single coordinate match
+1542,Nassau,Bahamas,25.05823,-77.34306,Nassau,Single coordinate match
+1543,Manama,Bahrain,26.22787,50.58565,Manama,Single coordinate match
+1544,Bridgetown,Barbados,13.10732,-59.62021,Bridgetown,Single coordinate match
+1545,Brest,Belarus,52.10894,23.71749,Brest,Single coordinate match
+1546,Gomel,Belarus,52.4345,30.9754,Homyel',Single coordinate match
+1547,Grodno,Belarus,53.6758,23.82887,Hrodna,Single coordinate match
+1548,Minsk,Belarus,53.90019,27.56653,Minsk,Single coordinate match
+1549,Vitebsk,Belarus,55.1904,30.2049,Vitebsk,Single coordinate match
+1550,Antwerpen,Belgium,51.22047,4.40026,Antwerp,Single coordinate match
+1552,Bruges,Belgium,51.20892,3.22424,Brugge,Single coordinate match
+1553,Brussels,Belgium,50.85045,4.34878,Brussels,Single coordinate match
+1554,Dinant,Belgium,50.25807,4.91166,Dinant,Single coordinate match
+1555,Ghent,Belgium,51.05,3.71667,Gent,Single coordinate match
+1556,Leuven,Belgium,50.87959,4.70093,Leuven,Single coordinate match
+1557,Liège,Belgium,50.63373,5.56749,Liège,Single coordinate match
+1559,Mons,Belgium,50.45413,3.95229,Mons,Single coordinate match
+1560,Ostend,Belgium,51.21551,2.927,Ostend,Single coordinate match
+1561,Belize City,Belize,17.49952,-88.19756,Belize City,Single coordinate match
+1562,Caye Caulker,Belize,17.73659,-88.02761,Caye Caulker,Single coordinate match
+1563,Hopkins,Belize,16.86308,-88.28437,Hopkins,Single coordinate match
+1564,Placencia,Belize,16.51419,-88.36647,Placencia,Single coordinate match
+1565,San Ignacio,Belize,17.1588,-89.0696,San Ignacio,Single coordinate match
+1567,Cochabamba,Bolivia,-17.38195,-66.15995,Cochabamba,Single coordinate match
+1568,Copacabana,Bolivia,-16.1699,-69.07919,Copacabana,Single coordinate match
+1569,La Paz,Bolivia,-16.5,-68.15,La Paz,Single coordinate match
+1570,Potosí,Bolivia,-19.58361,-65.75306,Potosí,Single coordinate match
+1571,Santa Cruz,Bolivia,-17.78629,-63.18117,Santa Cruz de la Sierra,Single coordinate match
+1572,Sucre,Bolivia,-19.03332,-65.26274,Sucre,Single coordinate match
+1573,Uyuni,Bolivia,-20.45967,-66.82503,Uyuni,Single coordinate match
+1574,Banja Luka,Bosnia and Herzegovina,44.77879,17.20629,Banja Luka,Single coordinate match
+1576,Mostar,Bosnia and Herzegovina,43.34333,17.80806,Mostar,Single coordinate match
+1577,Neum,Bosnia and Herzegovina,42.92333,17.61556,Neum,Single coordinate match
+1578,Sarajevo,Bosnia and Herzegovina,43.84864,18.35644,Sarajevo,Single coordinate match
+1579,Trebinje,Bosnia and Herzegovina,42.71197,18.34362,Trebinje,Single coordinate match
+1580,Višegrad,Bosnia and Herzegovina,43.7826,19.29256,Višegrad,Single coordinate match
+1581,Gaborone,Botswana,-24.65451,25.90859,Gaborone,Single coordinate match
+1582,Armacao dos Buzios,Brazil,-22.74694,-41.88167,Armação dos Búzios,Single coordinate match
+1583,Barra Grande,Brazil,-23.51611,-50.03972,Guapirama,Single coordinate match
+1584,Belem,Brazil,-1.45583,-48.50444,Belém,High-confidence candidate
+1585,Belo Horizonte,Brazil,-19.92083,-43.93778,Belo Horizonte,High-confidence candidate
+1587,Brasilia,Brazil,-15.77972,-47.92972,Brasília,High-confidence candidate
+1588,Campos Do Jordao,Brazil,-22.73944,-45.59139,Campos do Jordão,Single coordinate match
+1589,Florianópolis,Brazil,-27.59667,-48.54917,Florianópolis,Single coordinate match
+1590,Fortaleza,Brazil,-3.71722,-38.54306,Fortaleza,High-confidence candidate
+1591,Foz do Iguaçu,Brazil,-25.54778,-54.58806,Foz do Iguaçu,Single coordinate match
+1592,Gramado,Brazil,-29.37861,-50.87389,Gramado,Single coordinate match
+1593,Ilhabela,Brazil,-23.77806,-45.35806,Ilhabela,Single coordinate match
+1594,Manaus,Brazil,-3.10194,-60.025,Manaus,Single coordinate match
+1595,Ouro Preto,Brazil,-20.39484,-43.50517,Ouro Preto,Single coordinate match
+1597,Recife,Brazil,-8.05389,-34.88111,Recife,Single coordinate match
+1598,Rio De Janeiro,Brazil,-22.90642,-43.18223,Rio de Janeiro,Single coordinate match
+1599,Salvador,Brazil,-12.97563,-38.49096,Salvador,Single coordinate match
+1600,Santos,Brazil,-23.96083,-46.33361,Santos,Single coordinate match
+1601,Sao Paulo,Brazil,-23.5475,-46.63611,São Paulo,High-confidence candidate
+1603,Bandar Seri Begawan,Brunei,4.89035,114.94006,Bandar Seri Begawan,Single coordinate match
+1604,Bansko,Bulgaria,41.8361,23.48745,Bansko,Single coordinate match
+1605,Plovdiv,Bulgaria,42.15387,24.75001,Plovdiv,Single coordinate match
+1606,Sofia,Bulgaria,42.69751,23.32415,Sofia,Single coordinate match
+1607,Varna,Bulgaria,43.21912,27.91024,Varna,Single coordinate match
+1608,Banff,Canada,51.17622,-115.56982,Banff,Single coordinate match
+1609,Calgary,Canada,51.05011,-114.08529,Calgary,Single coordinate match
+1610,Edmonton,Canada,53.55014,-113.46871,Edmonton,Single coordinate match
+1611,Halifax,Canada,44.64269,-63.57688,Halifax,Single coordinate match
+1612,Mont-Tremblant,Canada,46.21274,-74.58438,Mont-Tremblant,Single coordinate match
+1613,Montreal,Canada,45.50884,-73.58781,Montréal,Single coordinate match
+1614,Ottawa,Canada,45.41117,-75.69812,Ottawa,Single coordinate match
+1615,Quebec City,Canada,46.81228,-71.21454,Québec,Single coordinate match
+1616,Regina,Canada,50.45008,-104.6178,Regina,Single coordinate match
+1617,St. John's,Canada,47.56494,-52.70931,St. John's,Single coordinate match
+1618,Toronto,Canada,43.65333,-79.38389,Toronto,Single coordinate match
+1619,Vancouver,Canada,49.24966,-123.11934,Vancouver,Single coordinate match
+1620,Victoria,Canada,48.4359,-123.35155,Victoria,High-confidence candidate
+1621,Whistler,Canada,50.11817,-122.95396,Whistler,Single coordinate match
+1622,Whitehorse,Canada,60.71611,-135.05375,Whitehorse,Single coordinate match
+1623,Winnipeg,Canada,49.8844,-97.14704,Winnipeg,Single coordinate match
+1624,Praia,Cape Verde,14.93152,-23.51254,Praia,Single coordinate match
+1625,Arica,Chile,-18.47552,-70.30058,Arica,Single coordinate match
+1626,Coyhaique,Chile,-45.57524,-72.06619,Coyhaique,Single coordinate match
+1627,La Serena,Chile,-29.90591,-71.25014,La Serena,Single coordinate match
+1628,Pucon,Chile,-39.28223,-71.95427,Pucón,Single coordinate match
+1629,Puerto Natales,Chile,-51.72987,-72.50603,Puerto Natales,Single coordinate match
+1630,Puerto Varas,Chile,-41.31946,-72.98538,Puerto Varas,Single coordinate match
+1631,Punta Arenas,Chile,-53.16282,-70.90922,Punta Arenas,Single coordinate match
+1632,San Pedro de Atacama,Chile,-22.9111,-68.20113,San Pedro de Atacama,Single coordinate match
+1633,Santiago,Chile,-33.45694,-70.64827,Santiago,Single coordinate match
+1634,Temuco,Chile,-38.73628,-72.59738,Temuco,Single coordinate match
+1635,Valparaiso,Chile,-33.036,-71.62963,Valparaíso,Single coordinate match
+1636,"Lhasa, Tibet",China,29.65,91.1,Lhasa,Single coordinate match
+1637,Beijing,China,39.9075,116.39723,Beijing,Single coordinate match
+1638,Chengdu,China,30.66667,104.06667,Chengdu,Single coordinate match
+1639,Guangzhou,China,23.11667,113.25,Guangzhou,Single coordinate match
+1640,Guilin,China,25.28022,110.29639,Guilin,High-confidence candidate
+1641,Hangzhou,China,30.29365,120.16142,Hangzhou,Single coordinate match
+1645,Lijiang,China,26.86879,100.22072,Lijiang,High-confidence candidate
+1647,Qingdao,China,36.06488,120.38042,Qingdao,Single coordinate match
+1648,Qinhuangdao,China,39.94104,119.58936,Qinhuangdao,Single coordinate match
+1649,Shanghai,China,31.22222,121.45806,Shanghai,Single coordinate match
+1651,Xi'an,China,34.25833,108.92861,Xi’an,High-confidence candidate
+1652,Xiamen,China,24.47979,118.08187,Xiamen,Single coordinate match
+1653,Yangshuo,China,24.78081,110.48967,Yangshuo,Single coordinate match
+1654,Zhangjiajie,China,29.12944,110.47833,Zhangjiajie,Single coordinate match
+1655,Bogota,Colombia,4.60971,-74.08175,Bogotá,Single coordinate match
+1656,Cartagena,Colombia,10.39817,-75.49328,Cartagena,Single coordinate match
+1658,Guatape,Colombia,6.23429,-75.16335,Guatapé,Single coordinate match
+1659,Popayan,Colombia,2.43823,-76.61316,Popayán,Single coordinate match
+1660,Raquira,Colombia,5.53793,-73.63201,Ráquira,Single coordinate match
+1662,Santa Marta,Colombia,11.23855,-74.19427,Santa Marta,Single coordinate match
+1663,Jaco,Costa Rica,9.61497,-84.62975,Jacó,Single coordinate match
+1666,San Jose,Costa Rica,9.93388,-84.08489,San José,High-confidence candidate
+1667,Tamarindo,Costa Rica,10.29913,-85.84107,Tamarindo,Single coordinate match
+1668,Bol,Croatia,43.26194,16.655,Bol,Single coordinate match
+1669,Dubrovnik,Croatia,42.64125,18.10909,Dubrovnik,Single coordinate match
+1670,Hvar,Croatia,43.1725,16.44278,Hvar,Single coordinate match
+1671,Korčula,Croatia,42.96038,17.13525,Korčula,Single coordinate match
+1672,Omiš,Croatia,43.44472,16.68861,Omiš,Single coordinate match
+1673,Pula,Croatia,44.86833,13.84806,Pula,Single coordinate match
+1674,Rovinj,Croatia,45.08268,13.63457,Rovinj,Single coordinate match
+1675,Šibenik,Croatia,43.73429,15.8942,Šibenik,Single coordinate match
+1676,Split,Croatia,43.50891,16.43915,Split,Single coordinate match
+1677,Supetar,Croatia,43.38417,16.55083,Supetar,High-confidence candidate
+1678,Trogir,Croatia,43.5125,16.25167,Trogir,Single coordinate match
+1679,Vis,Croatia,43.06194,16.18306,Vis,Single coordinate match
+1680,Zadar,Croatia,44.11578,15.22514,Zadar,Single coordinate match
+1681,Zagreb,Croatia,45.81444,15.97798,Zagreb,Single coordinate match
+1682,Cienfuegos,Cuba,22.14681,-80.4481,Cienfuegos,Single coordinate match
+1683,Havana,Cuba,23.13302,-82.38304,Havana,Single coordinate match
+1684,Holguin,Cuba,20.88722,-76.26306,Holguín,Single coordinate match
+1685,Santa Clara,Cuba,22.40711,-79.96581,Santa Clara,Single coordinate match
+1686,Santiago de Cuba,Cuba,20.02287,-75.82171,Santiago de Cuba,Single coordinate match
+1687,Trinidad,Cuba,21.79956,-79.98349,Trinidad,Single coordinate match
+1688,Varadero,Cuba,23.15678,-81.24441,Varadero,Single coordinate match
+1689,Vinales,Cuba,22.61892,-83.70694,Viñales,Single coordinate match
+1690,Famagusta,Cyprus,35.12489,33.94135,Famagusta,Single coordinate match
+1691,Larnaca,Cyprus,34.9221,33.62794,Larnaca,Single coordinate match
+1692,Limassol,Cyprus,34.68406,33.03794,Limassol,Single coordinate match
+1693,Nicosia,Cyprus,35.17284,33.35397,Nicosia,Single coordinate match
+1694,Paphos,Cyprus,34.77679,32.42451,Paphos,Single coordinate match
+1695,Brno,Czech Republic,49.19522,16.60796,Brno,Single coordinate match
+1696,Český Krumlov,Czech Republic,48.81091,14.31521,Český Krumlov,Single coordinate match
+1697,Karlovy Vary,Czech Republic,50.23271,12.87117,Karlovy Vary,Single coordinate match
+1698,Kutná Hora,Czech Republic,49.94839,15.26816,Kutná Hora,Single coordinate match
+1699,Prague,Czech Republic,50.08804,14.42076,Prague,Single coordinate match
+1700,Aalborg,Denmark,57.048,9.9187,Aalborg,Single coordinate match
+1701,Århus,Denmark,56.15674,10.21076,Århus,Single coordinate match
+1702,Billund,Denmark,55.73349,9.10785,Billund,Single coordinate match
+1703,Copenhagen,Denmark,55.67594,12.56553,Copenhagen,Single coordinate match
+1704,Elsinore,Denmark,56.03606,12.6136,Helsingør,Single coordinate match
+1705,Helsingør,Denmark,56.03606,12.6136,Helsingør,Single coordinate match
+1706,Ribe,Denmark,55.33051,8.76966,Ribe,Single coordinate match
+1707,Roskilde,Denmark,55.64152,12.08035,Roskilde,Single coordinate match
+1708,Skagen,Denmark,57.72093,10.58394,Skagen,Single coordinate match
+1709,Portsmouth,Dominica,15.58288,-61.45592,Portsmouth,Single coordinate match
+1710,Roseau,Dominica,15.30174,-61.38808,Roseau,Single coordinate match
+1712,La Romana,Dominican Republic,18.42332,-68.96635,La Romana,Single coordinate match
+1713,Las Terrenas,Dominican Republic,19.31102,-69.5428,Las Terrenas,Single coordinate match
+1714,Puerto Plata,Dominican Republic,19.79344,-70.6884,Puerto Plata,Single coordinate match
+1715,Punta Cana,Dominican Republic,18.58182,-68.40431,Punta Cana,Single coordinate match
+1716,Santo Domingo,Dominican Republic,18.47186,-69.89232,Santo Domingo,Single coordinate match
+1717,Banos,Ecuador,-1.39699,-78.42289,Baños,Single coordinate match
+1718,Cuenca,Ecuador,-2.8953,-78.9963,Cuenca,Single coordinate match
+1719,Guayaquil,Ecuador,-2.19616,-79.88621,Guayaquil,Single coordinate match
+1720,Mindo,Ecuador,-0.05201,-78.77633,Mindo,Single coordinate match
+1722,Puerto Ayora,Ecuador,-0.74018,-90.3138,Puerto Ayora,Single coordinate match
+1723,Quito,Ecuador,-0.22985,-78.52495,Quito,Single coordinate match
+1724,Abu Simbel,Egypt,22.3457,31.61624,Abu Simbel,Single coordinate match
+1725,Alexandria,Egypt,31.20176,29.91582,Alexandria,Single coordinate match
+1726,Aswan,Egypt,24.09082,32.89942,Aswān,Single coordinate match
+1727,Cairo,Egypt,30.06263,31.24967,Cairo,Single coordinate match
+1728,Dahab,Egypt,28.48208,34.49505,Dahab,Single coordinate match
+1730,Edfu,Egypt,24.97916,32.87722,Edfu,Single coordinate match
+1731,Hurghada,Egypt,27.25738,33.81291,Hurghada,Single coordinate match
+1732,Kom Ombo,Egypt,24.47669,32.94626,Kom Ombo,Single coordinate match
+1733,Luxor,Egypt,25.69893,32.6421,Luxor,Single coordinate match
+1734,Marsa Alam,Egypt,25.06305,34.89005,Marsa Alam,Single coordinate match
+1735,Port Said,Egypt,31.26531,32.3019,Port Said,Single coordinate match
+1736,Saint Catherine,Egypt,28.56191,33.94934,Saint Catherine,Single coordinate match
+1737,Sharm El-Sheikh,Egypt,27.91582,34.32995,Sharm el-Sheikh,Single coordinate match
+1738,Siwa Oasis,Egypt,29.2032,25.51965,Sīwah,Single coordinate match
+1739,Suez,Egypt,29.97371,32.52627,Suez,Single coordinate match
+1740,Taba,Egypt,29.49199,34.89572,Taba,Single coordinate match
+1741,Chalchuapa,El Salvador,13.98667,-89.68111,Chalchuapa,Single coordinate match
+1742,San Salvador,El Salvador,13.68935,-89.18718,San Salvador,Single coordinate match
+1743,Haapsalu,Estonia,58.93937,23.54127,Haapsalu,Single coordinate match
+1744,Tallinn,Estonia,59.43696,24.75353,Tallinn,Single coordinate match
+1745,Tartu,Estonia,58.38062,26.72509,Tartu,Single coordinate match
+1746,Addis Ababa,Ethiopia,9.02497,38.74689,Addis Ababa,Single coordinate match
+1747,Nadi,Fiji,-17.80309,177.41617,Nadi,Single coordinate match
+1748,Savusavu,Fiji,-16.77942,179.33564,Savusavu,Single coordinate match
+1749,Suva,Fiji,-18.13683,178.42531,Suva,Single coordinate match
+1751,"Levi, Lapland",Finland,67.80509,24.79614,Levi,Single coordinate match
+1752,"Rovaniemi, Lapland",Finland,66.49897,25.68867,Rovaniemi,Single coordinate match
+1754,Helsinki,Finland,60.16952,24.93545,Helsinki,Single coordinate match
+1755,Porvoo,Finland,60.39233,25.66507,Porvoo,Single coordinate match
+1756,Savonlinna,Finland,61.8699,28.87999,Savonlinna,Single coordinate match
+1757,Turku,Finland,60.45148,22.26869,Turku,Single coordinate match
+1758,"Ajaccio, Corsica",France,41.91886,8.73812,Ajaccio,Single coordinate match
+1759,"Bastia, Corsica",France,42.70219,9.45123,Bastia,Single coordinate match
+1760,"Bonifacio, Corsica",France,41.38723,9.15667,Bonifacio,Single coordinate match
+1761,"Calvi, Corsica",France,42.56604,8.75713,Calvi,Single coordinate match
+1762,"Porto-Vecchio, Corsica",France,41.59101,9.27947,Porto-Vecchio,Single coordinate match
+1766,Aix-en-Provence,France,43.5283,5.44973,Aix-en-Provence,Single coordinate match
+1767,Angers,France,47.47156,-0.55202,Angers,Single coordinate match
+1768,Antibes,France,43.58127,7.12487,Antibes,Single coordinate match
+1770,Avignon,France,43.94834,4.80892,Avignon,Single coordinate match
+1771,Beausoleil,France,43.74311,7.4225,Beausoleil,Single coordinate match
+1772,Bordeaux,France,44.84124,-0.58046,Bordeaux,Single coordinate match
+1773,Calais,France,50.95194,1.85635,Calais,Single coordinate match
+1774,Cannes,France,43.55135,7.01275,Cannes,Single coordinate match
+1775,Chamonix-Mont-Blanc,France,45.92375,6.86933,Chamonix-Mont-Blanc,Single coordinate match
+1776,Colmar,France,48.08078,7.35584,Colmar,Single coordinate match
+1777,Dijon,France,47.31344,5.01391,Dijon,Single coordinate match
+1778,Honfleur,France,49.41985,0.23294,Honfleur,Single coordinate match
+1780,Lille,France,50.63391,3.05512,Lille,Single coordinate match
+1781,Lyon,France,45.74906,4.84789,Lyon,Single coordinate match
+1782,Marseille,France,43.29695,5.38107,Marseille,High-confidence candidate
+1783,Montpellier,France,43.61093,3.87635,Montpellier,High-confidence candidate
+1784,Nantes,France,47.21725,-1.55336,Nantes,Single coordinate match
+1785,Nice,France,43.70313,7.26608,Nice,Single coordinate match
+1786,Orléans,France,47.90248,1.90407,Orléans,Single coordinate match
+1787,Paris,France,48.85341,2.3488,Paris,Single coordinate match
+1788,Perigueux,France,45.18691,0.71439,Périgueux,Single coordinate match
+1789,Rouen,France,49.44313,1.09932,Rouen,Single coordinate match
+1790,Saignon,France,43.86308,5.42838,Saignon,Single coordinate match
+1791,Saint-Tropez,France,43.26764,6.64049,Saint-Tropez,Single coordinate match
+1792,Versailles,France,48.80359,2.13424,Versailles,Single coordinate match
+1793,Batumi,Georgia,41.64077,41.6306,Batumi,Single coordinate match
+1794,Sighnaghi,Georgia,41.61918,45.92227,Sighnaghi,Single coordinate match
+1795,Tbilisi,Georgia,41.69143,44.83412,Tbilisi,Single coordinate match
+1796,Aachen,Germany,50.77664,6.08342,Aachen,Single coordinate match
+1797,Augsburg,Germany,48.37154,10.89851,Augsburg,Single coordinate match
+1798,Bamberg,Germany,49.89873,10.90067,Bamberg,Single coordinate match
+1799,Berchtesgaden,Germany,47.63236,13.00187,Berchtesgaden,Single coordinate match
+1800,Berlin,Germany,52.52437,13.41053,Berlin,Single coordinate match
+1801,Bonn,Germany,50.73438,7.09549,Bonn,Single coordinate match
+1802,Bremen,Germany,53.07582,8.80717,Bremen,Single coordinate match
+1803,Cologne,Germany,50.93333,6.95,Köln,Single coordinate match
+1804,Dortmund,Germany,51.51494,7.466,Dortmund,Single coordinate match
+1805,Dresden,Germany,51.05089,13.73832,Dresden,Single coordinate match
+1806,Düsseldorf,Germany,51.22319,6.77927,Düsseldorf,Single coordinate match
+1807,Frankfurt am Main,Germany,50.11552,8.68417,Frankfurt am Main,Single coordinate match
+1808,Freiburg,Germany,47.9959,7.85222,Freiburg,High-confidence candidate
+1809,Füssen,Germany,47.57143,10.70171,Füssen,Single coordinate match
+1810,Garmisch-Partenkirchen,Germany,47.49209,11.09576,Garmisch-Partenkirchen,Single coordinate match
+1811,Hamburg,Germany,53.55073,9.99302,Hamburg,Single coordinate match
+1812,Hannover,Germany,52.37052,9.73322,Hannover,Single coordinate match
+1813,Heidelberg,Germany,49.40768,8.69079,Heidelberg,Single coordinate match
+1814,Kiel,Germany,54.32133,10.13489,Kiel,High-confidence candidate
+1815,Leipzig,Germany,51.33962,12.37129,Leipzig,Single coordinate match
+1816,Lübeck,Germany,53.86893,10.68729,Lübeck,Single coordinate match
+1817,Mainz,Germany,49.98185,8.28008,Mainz,Single coordinate match
+1818,Mannheim,Germany,49.4891,8.46694,Mannheim,Single coordinate match
+1819,Munich,Germany,48.13743,11.57549,Munich,Single coordinate match
+1820,Münster,Germany,51.96236,7.62571,Münster,High-confidence candidate
+1821,Nuremberg,Germany,49.45421,11.07752,Nuremberg,Single coordinate match
+1822,Passau,Germany,48.5665,13.43122,Passau,Single coordinate match
+1823,Potsdam,Germany,52.39886,13.06566,Potsdam,Single coordinate match
+1824,Regensburg,Germany,49.01513,12.10161,Regensburg,Single coordinate match
+1825,Rostock,Germany,54.0887,12.14049,Rostock,Single coordinate match
+1826,Rüdesheim am Rhein,Germany,49.9789,7.92442,Rüdesheim am Rhein,Single coordinate match
+1827,Stuttgart,Germany,48.78232,9.17702,Stuttgart,Single coordinate match
+1828,Trier,Germany,49.75565,6.63935,Trier,Single coordinate match
+1829,Würzburg,Germany,49.79391,9.95121,Würzburg,Single coordinate match
+1830,"Chania, Crete",Greece,35.51124,24.02921,Chaniá,Single coordinate match
+1831,"Heraklion, Crete",Greece,35.32787,25.14341,Irákleion,Single coordinate match
+1832,"Sitia, Crete",Greece,35.20783,26.10467,Sitia,Single coordinate match
+1833,Aegina,Greece,37.74667,23.4275,Aegina,Single coordinate match
+1834,Athens,Greece,37.98376,23.72784,Athens,Single coordinate match
+1836,Corfu,Greece,39.62441,19.92016,Corfu,Single coordinate match
+1837,Corinth,Greece,37.94007,22.9513,Kórinthos,Single coordinate match
+1838,Delphi,Greece,38.47942,22.49357,Delphi,Single coordinate match
+1839,Kastoria,Greece,40.52165,21.26341,Kastoria,Single coordinate match
+1840,Kavala,Greece,40.93959,24.40687,Kavála,Single coordinate match
+1841,Kos,Greece,36.89295,27.28768,Kos,Single coordinate match
+1842,Lefkada,Greece,38.83036,20.70442,Lefkáda,Single coordinate match
+1844,Mykonos,Greece,37.44529,25.32872,Mykonos,Single coordinate match
+1845,Nafplion,Greece,37.56863,22.80691,Náfplio,Single coordinate match
+1846,Naxos,Greece,37.10556,25.37639,Náxos,Single coordinate match
+1847,Olympia,Greece,37.64788,21.6271,Archaía Olympía,Single coordinate match
+1848,Paros,Greece,37.08333,25.15,Páros,Single coordinate match
+1849,Rhodes,Greece,36.43556,28.22199,Rhodes,Single coordinate match
+1850,Skiathos,Greece,39.16227,23.49089,Skiáthos,Single coordinate match
+1851,Thasos,Greece,40.77806,24.70944,Thásos,Single coordinate match
+1852,Thessaloniki,Greece,40.64072,22.93493,Thessaloníki,Single coordinate match
+1853,Zagori,Greece,39.88089,20.87334,Zagorochória,Single coordinate match
+1854,Zakynthos,Greece,37.78022,20.89555,Zakynthos,Single coordinate match
+1857,St. George's,Grenada,12.05288,-61.75226,Saint George's,Single coordinate match
+1858,Guatemala City,Guatemala,14.64072,-90.51327,Guatemala City,Single coordinate match
+1860,Georgetown,Guyana,6.80448,-58.15527,Georgetown,Single coordinate match
+1861,Comayagua,Honduras,14.45577,-87.63968,Comayagua,Single coordinate match
+1862,Tegucigalpa,Honduras,14.0818,-87.20681,Tegucigalpa,Single coordinate match
+1864,Budapest,Hungary,47.49835,19.04045,Budapest,Single coordinate match
+1865,Eger,Hungary,47.90265,20.37329,Eger,High-confidence candidate
+1866,Győr,Hungary,47.68333,17.63512,Győr,Single coordinate match
+1867,Pécs,Hungary,46.07617,18.22814,Pécs,Single coordinate match
+1868,Sopron,Hungary,47.68501,16.59049,Sopron,Single coordinate match
+1869,Szentendre,Hungary,47.66943,19.07561,Szentendre,Single coordinate match
+1870,Akureyri,Iceland,65.68353,-18.0878,Akureyri,Single coordinate match
+1871,Höfn,Iceland,64.25388,-15.21212,Höfn,Single coordinate match
+1873,Keflavik,Iceland,64.00492,-22.56242,Keflavík,Single coordinate match
+1874,Reykjavik,Iceland,64.13548,-21.89541,Reykjavík,Single coordinate match
+1875,Selfoss,Iceland,63.93311,-20.99712,Selfoss,Single coordinate match
+1876,Vík í Mýrdal,Iceland,63.41944,-19.00972,Vík í Mýrdal,Single coordinate match
+1877,Agra,India,27.18333,78.01667,Agra,Single coordinate match
+1879,Amritsar,India,31.62234,74.87534,Amritsar,Single coordinate match
+1880,Bengaluru,India,12.97194,77.59369,Bengaluru,Single coordinate match
+1881,Chennai,India,13.08784,80.27847,Chennai,Single coordinate match
+1882,Hyderabad,India,17.38405,78.45636,Hyderabad,Single coordinate match
+1883,Jaipur,India,26.91962,75.78781,Jaipur,Single coordinate match
+1884,Kolkata,India,22.56263,88.36304,Kolkata,Single coordinate match
+1885,Mumbai,India,19.07283,72.88261,Mumbai,Single coordinate match
+1886,Mysore,India,12.29791,76.63925,Mysuru,Single coordinate match
+1887,New Delhi,India,28.62137,77.2148,New Delhi,High-confidence candidate
+1888,Panaji,India,15.49574,73.82624,Panjim,Single coordinate match
+1889,Varanasi,India,25.31668,83.01041,Varanasi,Single coordinate match
+1890,Gili Trawangan,Indonesia,-8.34897,116.037,Gili Trawangan,Single coordinate match
+1891,Jakarta,Indonesia,-6.21462,106.84513,Jakarta,Single coordinate match
+1893,Ubud,Indonesia,-8.5098,115.2654,Ubud,Single coordinate match
+1894,Yogyakarta,Indonesia,-7.80139,110.36472,Yogyakarta,Single coordinate match
+1895,Cashel,Ireland,52.51583,-7.88556,Cashel,Single coordinate match
+1896,Cork,Ireland,51.89797,-8.47061,Cork,Single coordinate match
+1897,Dingle,Ireland,52.14083,-10.26889,Dingle,Single coordinate match
+1898,Dublin,Ireland,53.33306,-6.24889,Dublin,Single coordinate match
+1899,Gaillimh,Ireland,53.27245,-9.05095,Galway,Single coordinate match
+1900,Kilkenny,Ireland,52.65417,-7.25222,Kilkenny,Single coordinate match
+1901,Killarney,Ireland,52.0598,-9.50858,Killarney,Single coordinate match
+1903,Shannon,Ireland,52.70389,-8.86417,Shannon,Single coordinate match
+1905,Eilat,Israel,29.55805,34.94821,Eilat,Single coordinate match
+1906,Ein Gedi,Israel,31.45238,35.38443,‘En Gedi,Single coordinate match
+1907,Haifa,Israel,32.81303,34.99928,Haifa,Single coordinate match
+1908,Nazareth,Israel,32.70087,35.29719,Nazareth,Single coordinate match
+1910,Tel Aviv,Israel,32.08088,34.78057,Tel Aviv,Single coordinate match
+1911,Tiberias,Israel,32.79396,35.53152,Tiberias,Single coordinate match
+1912,"Alghero, Sardinia",Italy,40.55969,8.31953,Alghero,Single coordinate match
+1913,"Cagliari, Sardinia",Italy,39.23054,9.11917,Cagliari,Single coordinate match
+1914,"Olbia, Sardinia",Italy,40.92337,9.49802,Olbia,Single coordinate match
+1915,"Agrigento, Sicily",Italy,37.31065,13.57661,Agrigento,Single coordinate match
+1916,"Catania, Sicily",Italy,37.49223,15.07041,Catania,Single coordinate match
+1917,"Palermo, Sicily",Italy,38.1166,13.3636,Palermo,Single coordinate match
+1918,"Syracuse, Sicily",Italy,37.07542,15.28664,Siracusa,Single coordinate match
+1919,"Taormina, Sicily",Italy,37.85358,15.28851,Taormina,Single coordinate match
+1920,Amalfi,Italy,40.6349,14.60238,Amalfi,Single coordinate match
+1921,Arezzo,Italy,43.46276,11.88068,Arezzo,Single coordinate match
+1922,Brindisi,Italy,40.63215,17.93607,Brindisi,Single coordinate match
+1923,Capri,Italy,40.55073,14.24263,Capri,Single coordinate match
+1924,Florence,Italy,43.77925,11.24626,Florence,Single coordinate match
+1925,Genoa,Italy,44.40478,8.94439,Genoa,Single coordinate match
+1926,La Spezia,Italy,44.103,9.82375,La Spezia,Single coordinate match
+1927,Lipari,Italy,38.46743,14.95398,Lipari,Single coordinate match
+1928,Lucca,Italy,43.84369,10.50447,Lucca,Single coordinate match
+1929,Milan,Italy,45.46427,9.18951,Milan,Single coordinate match
+1930,Montepulciano,Italy,43.09998,11.78704,Montepulciano,Single coordinate match
+1931,Naples,Italy,40.85216,14.26811,Naples,Single coordinate match
+1932,Perugia,Italy,43.1122,12.38878,Perugia,Single coordinate match
+1933,Pescara,Italy,42.4584,14.20283,Pescara,Single coordinate match
+1934,Pisa,Italy,43.70853,10.4036,Pisa,Single coordinate match
+1935,Pompei,Italy,40.74574,14.49698,Pompei,Single coordinate match
+1936,Portoferraio,Italy,42.81233,10.31297,Portoferraio,Single coordinate match
+1938,Riomaggiore,Italy,44.09979,9.73869,Riomaggiore,Single coordinate match
+1939,Rome,Italy,41.89193,12.51133,Rome,Single coordinate match
+1940,Salerno,Italy,40.67545,14.79328,Salerno,Single coordinate match
+1941,Sperlonga,Italy,41.25897,13.43302,Sperlonga,Single coordinate match
+1942,Trieste,Italy,45.64953,13.77678,Trieste,Single coordinate match
+1943,Turin,Italy,45.07049,7.68682,Turin,Single coordinate match
+1944,Udine,Italy,46.0693,13.23715,Udine,Single coordinate match
+1945,Venice,Italy,45.43713,12.33265,Venice,Single coordinate match
+1946,Vernazza,Italy,44.13501,9.68346,Vernazza,Single coordinate match
+1947,Verona,Italy,45.43854,10.9938,Verona,Single coordinate match
+1948,Falmouth,Jamaica,18.49358,-77.65587,Falmouth,Single coordinate match
+1949,Kingston,Jamaica,17.99702,-76.79358,Kingston,Single coordinate match
+1950,Lucea,Jamaica,18.45095,-78.17356,Lucea,Single coordinate match
+1951,Montego Bay,Jamaica,18.47116,-77.91883,Montego Bay,Single coordinate match
+1952,Negril,Jamaica,18.26844,-78.3481,Negril,Single coordinate match
+1953,Ocho Rios,Jamaica,18.4076,-77.10312,Ocho Rios,Single coordinate match
+1954,Port Antonio,Jamaica,18.17889,-76.45215,Port Antonio,Single coordinate match
+1955,Runaway Bay,Jamaica,18.45962,-77.3357,Runaway Bay,Single coordinate match
+1956,Hakuba,Japan,36.69818,137.86185,Hakuba,Single coordinate match
+1957,Hiroshima,Japan,34.4,132.45,Hiroshima,High-confidence candidate
+1958,Kyoto,Japan,35.02107,135.75385,Kyoto,Single coordinate match
+1959,Nagoya,Japan,35.18147,136.90641,Nagoya,Single coordinate match
+1960,Nikko,Japan,36.75,139.61667,Nikkō,Single coordinate match
+1961,Osaka,Japan,34.69379,135.50107,Osaka,Single coordinate match
+1962,Sapporo,Japan,43.06667,141.35,Sapporo,Single coordinate match
+1963,Takayama,Japan,36.13333,137.25,Takayama,High-confidence candidate
+1964,Tokyo,Japan,35.6895,139.69171,Tokyo,Single coordinate match
+1965,Yokohama,Japan,35.43333,139.65,Yokohama,High-confidence candidate
+1966,Amman,Jordan,31.95522,35.94503,Amman,Single coordinate match
+1967,Aqaba,Jordan,29.52667,35.00778,Aqaba,Single coordinate match
+1968,Petra,Jordan,30.32096,35.47895,Wādī Mūsá,Single coordinate match
+1969,Almaty,Kazakhstan,43.25249,76.9115,Almaty,Single coordinate match
+1970,Mombasa,Kenya,-4.05466,39.66359,Mombasa,Single coordinate match
+1971,Nairobi,Kenya,-1.28333,36.81667,Nairobi,Single coordinate match
+1972,Kuwait City,Kuwait,29.367,47.97429,Kuwait City,Single coordinate match
+1973,Bishkek,Kyrgyzstan,42.87,74.59,Bishkek,Single coordinate match
+1974,Luang Prabang,Laos,19.8933,102.1525,Luang Prabang,Single coordinate match
+1975,Vangviang,Laos,18.9235,102.44784,Vang Vieng,Single coordinate match
+1976,Vientiane,Laos,17.96667,102.6,Vientiane,Single coordinate match
+1977,Jaunmārupe,Latvia,56.87459,23.93869,Jaunmārupe,Single coordinate match
+1978,Jurmala,Latvia,56.968,23.77038,Jūrmala,Single coordinate match
+1979,Riga,Latvia,56.946,24.10589,Riga,Single coordinate match
+1981,Vecrīga,Latvia,56.94966,24.10418,Vecrīga,Single coordinate match
+1982,Baalbek,Lebanon,34.00583,36.21806,Baalbek,Single coordinate match
+1983,Beirut,Lebanon,33.89332,35.50157,Beirut,Single coordinate match
+1984,Byblos,Lebanon,34.12111,35.64806,Byblos,Single coordinate match
+1985,Tyre,Lebanon,33.27333,35.19389,Tyre,Single coordinate match
+1986,Vaduz,Liechtenstein,47.14151,9.52154,Vaduz,Single coordinate match
+1987,Kaunas,Lithuania,54.90156,23.90909,Kaunas,Single coordinate match
+1989,Klaipeda,Lithuania,55.7068,21.13912,Klaipėda,Single coordinate match
+1991,Palanga,Lithuania,55.9175,21.06861,Palanga,Single coordinate match
+1992,Vilnius,Lithuania,54.68916,25.2798,Vilnius,Single coordinate match
+1993,Luxembourg,Luxembourg,49.60982,6.13268,Luxembourg,Single coordinate match
+1994,Antananarivo,Madagascar,-18.91368,47.53613,Antananarivo,Single coordinate match
+1995,George Town,Malaysia,5.41123,100.33543,George Town,Single coordinate match
+1996,Kuala Lumpur,Malaysia,3.1412,101.68653,Kuala Lumpur,Single coordinate match
+1997,Langkawi,Malaysia,6.32649,99.8432,Kuah,Single coordinate match
+1998,Malacca,Malaysia,2.196,102.2405,Malacca,Single coordinate match
+1999,Penang,Malaysia,5.41123,100.33543,George Town,Single coordinate match
+2000,Male,Maldives,4.17521,73.50916,Male,Single coordinate match
+2002,Valletta,Malta,35.89968,14.5148,Valletta,Single coordinate match
+2003,Majuro,Marshall Islands,7.08971,171.38027,Majuro,Single coordinate match
+2004,Port Louis,Mauritius,-20.16194,57.49889,Port Louis,Single coordinate match
+2005,Acapulco,Mexico,16.84942,-99.90891,Acapulco de Juárez,Single coordinate match
+2006,Akumal,Mexico,20.39693,-87.31444,Akumal,Single coordinate match
+2007,Cabo San Lucas,Mexico,22.89088,-109.91238,Cabo San Lucas,Single coordinate match
+2008,Cancun,Mexico,21.17429,-86.84656,Cancún,Single coordinate match
+2009,Chichén-Itzá,Mexico,20.66667,-88.56667,Chichén-Itzá,Single coordinate match
+2010,Guadalajara,Mexico,20.67738,-103.34749,Guadalajara,High-confidence candidate
+2011,Izamal,Mexico,20.93315,-89.01887,Izamal,Single coordinate match
+2012,Mérida,Mexico,20.967,-89.62318,Mérida,High-confidence candidate
+2013,Mexico City,Mexico,19.42847,-99.12766,Mexico City,Single coordinate match
+2014,Monterrey,Mexico,25.68435,-100.31721,Monterrey,High-confidence candidate
+2015,Oaxaca,Mexico,17.06025,-96.72544,Oaxaca,Single coordinate match
+2016,Playa del Carmen,Mexico,20.6274,-87.07987,Playa del Carmen,Single coordinate match
+2017,Puebla,Mexico,19.04778,-98.20723,Puebla,High-confidence candidate
+2019,Puerto Vallarta,Mexico,20.617,-105.23018,Puerto Vallarta,Single coordinate match
+2020,San Jose del Cabo,Mexico,23.05406,-109.70367,San José del Cabo,Single coordinate match
+2022,San Miguel de Allende,Mexico,20.91528,-100.74389,San Miguel de Allende,Single coordinate match
+2023,San Miguel de Cozumel,Mexico,20.50038,-86.94272,Cozumel,Single coordinate match
+2024,Tijuana,Mexico,32.5027,-117.00371,Tijuana,Single coordinate match
+2025,Tulum,Mexico,20.21173,-87.46325,Tulum,Single coordinate match
+2026,Palikir,Micronesia,6.92477,158.16109,Palikir,Single coordinate match
+2027,Chisinau,Moldova,47.00902,28.85938,Chisinau,Single coordinate match
+2028,Monaco,Monaco,43.73718,7.42145,Monaco,Single coordinate match
+2029,Budva,Montenegro,42.28721,18.83922,Budva,Single coordinate match
+2030,Herceg-Novi,Montenegro,42.45306,18.5375,Herceg Novi,Single coordinate match
+2031,Kotor,Montenegro,42.42067,18.76825,Kotor,Single coordinate match
+2032,Podgorica,Montenegro,42.44124,19.26309,Podgorica,Single coordinate match
+2033,Tivat,Montenegro,42.43623,18.69361,Tivat,Single coordinate match
+2034,Agadir,Morocco,30.42018,-9.59815,Agadir,Single coordinate match
+2036,Casablanca,Morocco,33.58831,-7.61138,Casablanca,Single coordinate match
+2037,Chefchaouene,Morocco,35.16878,-5.2636,Chefchaouen,Single coordinate match
+2038,Essaouira,Morocco,31.5125,-9.77,Essaouira,Single coordinate match
+2039,Fès,Morocco,34.03313,-5.00028,Fes,Single coordinate match
+2040,Marrakesh,Morocco,31.63416,-7.99994,Marrakesh,Single coordinate match
+2041,Meknès,Morocco,33.89352,-5.54727,Meknes,Single coordinate match
+2042,Ouarzazat,Morocco,30.91894,-6.89341,Ouarzazate,Single coordinate match
+2043,Rabat,Morocco,34.01325,-6.83255,Rabat,Single coordinate match
+2044,Tangier,Morocco,35.76727,-5.79975,Tangier,Single coordinate match
+2045,Maputo,Mozambique,-25.96553,32.58322,Maputo,Single coordinate match
+2046,Mandalay,Myanmar,21.97473,96.08359,Mandalay,Single coordinate match
+2047,Ngapali,Myanmar,18.43664,94.32215,Ngapali,Single coordinate match
+2048,Yangon,Myanmar,16.80528,96.15611,Yangon,Single coordinate match
+2049,Swakopmund,Namibia,-22.67842,14.52663,Swakopmund,Single coordinate match
+2050,Windhoek,Namibia,-22.55941,17.08323,Windhoek,Single coordinate match
+2051,Yaren,Nauru,-0.55085,166.9252,Yaren,Single coordinate match
+2052,Kathmandu,Nepal,27.70169,85.3206,Kathmandu,Single coordinate match
+2053,Pokhara,Nepal,28.26689,83.96851,Pokhara,Single coordinate match
+2067,Auckland,New Zealand,-36.84853,174.76349,Auckland,Single coordinate match
+2068,Christchurch,New Zealand,-43.53333,172.63333,Christchurch,Single coordinate match
+2069,Hamilton,New Zealand,-37.78333,175.28333,Hamilton,Single coordinate match
+2070,Napier,New Zealand,-39.4926,176.91233,Napier,Single coordinate match
+2071,Nelson,New Zealand,-41.27078,173.28404,Nelson,Single coordinate match
+2072,Paihia,New Zealand,-35.28067,174.09103,Paihia,Single coordinate match
+2073,Queenstown,New Zealand,-45.03023,168.66271,Queenstown,Single coordinate match
+2074,Rotorua,New Zealand,-38.13874,176.24516,Rotorua,Single coordinate match
+2075,Wellington,New Zealand,-41.28664,174.77557,Wellington,Single coordinate match
+2076,Whangarei,New Zealand,-35.73167,174.32391,Whangarei,Single coordinate match
+2077,Granada,Nicaragua,11.93062,-85.95368,Granada,Single coordinate match
+2078,Leon,Nicaragua,12.43527,-86.87862,León,Single coordinate match
+2079,Managua,Nicaragua,12.13282,-86.2504,Managua,Single coordinate match
+2080,Masaya,Nicaragua,11.97316,-86.09587,Masaya,Single coordinate match
+2081,San Juan del Sur,Nicaragua,11.25292,-85.87049,San Juan del Sur,Single coordinate match
+2082,Ålesund,Norway,62.47225,6.15492,Ålesund,Single coordinate match
+2083,Bergen,Norway,60.39299,5.32415,Bergen,Single coordinate match
+2084,Bodø,Norway,67.28267,14.37513,Bodø,Single coordinate match
+2086,Kristiansand,Norway,58.14671,7.9956,Kristiansand,Single coordinate match
+2087,Narvik,Norway,68.43838,17.4272,Narvik,Single coordinate match
+2088,Oslo,Norway,59.91273,10.74609,Oslo,Single coordinate match
+2089,Stavanger,Norway,58.97005,5.73332,Stavanger,Single coordinate match
+2090,Tromsø,Norway,69.6489,18.95508,Tromsø,Single coordinate match
+2091,Trondheim,Norway,63.43049,10.39506,Trondheim,Single coordinate match
+2092,Muscat,Oman,23.58413,58.40778,Muscat,Single coordinate match
+2093,Şalālah,Oman,17.01505,54.09237,Şalālah,Single coordinate match
+2094,Koror,Palau,7.33978,134.47326,Koror,Single coordinate match
+2095,Bethlehem,Palestine,31.70487,35.20376,Bethlehem,Single coordinate match
+2096,Bocas del Toro,Panama,9.34031,-82.24204,Bocas del Toro,Single coordinate match
+2097,Boquete,Panama,8.78024,-82.44136,Boquete,Single coordinate match
+2099,Isla Bastimentos,Panama,9.3,-82.13333,Isla Bastimentos,Single coordinate match
+2100,Panama City,Panama,8.9936,-79.51973,Panama City,Single coordinate match
+2102,Alotau,Papua New Guinea,-10.31509,150.45742,Alotau,Single coordinate match
+2103,Madang,Papua New Guinea,-5.22152,145.78695,Madang,Single coordinate match
+2104,Mount Hagen,Papua New Guinea,-5.85746,144.23058,Mount Hagen,Single coordinate match
+2105,Port Moresby,Papua New Guinea,-9.47723,147.15089,Port Moresby,Single coordinate match
+2106,Rabaul,Papua New Guinea,-4.20037,152.16297,Rabaul,Single coordinate match
+2107,Asuncion,Paraguay,-25.28646,-57.647,Asunción,Single coordinate match
+2108,Encarnacion,Paraguay,-27.33176,-55.86662,Encarnación,Single coordinate match
+2110,Arequipa,Peru,-16.39899,-71.53747,Arequipa,Single coordinate match
+2111,Cusco,Peru,-13.53188,-71.96701,Cusco,High-confidence candidate
+2112,Huancayo,Peru,-12.06866,-75.21027,Huancayo,Single coordinate match
+2113,Huaraz,Peru,-9.52614,-77.52869,Huaraz,Single coordinate match
+2114,Ica,Peru,-14.07538,-75.73422,Ica,Single coordinate match
+2115,Lima,Peru,-12.04318,-77.02824,Lima,Single coordinate match
+2116,Mancora,Peru,-4.10778,-81.0475,Máncora,Single coordinate match
+2117,Ollantaytambo,Peru,-13.25722,-72.26306,Ollantaytambo,Single coordinate match
+2118,Paracas,Peru,-13.86667,-76.26667,Paracas,Single coordinate match
+2119,Puno,Peru,-15.84003,-70.02198,Puno,High-confidence candidate
+2120,Tarapoto,Peru,-6.50139,-76.36556,Tarapoto,Single coordinate match
+2121,Trujillo,Peru,-8.11599,-79.02998,Trujillo,Single coordinate match
+2123,Cebu City,Philippines,10.31672,123.89071,Cebu City,Single coordinate match
+2124,Coron,Philippines,11.9986,120.2043,Coron,Single coordinate match
+2125,Manila,Philippines,14.6042,120.9822,Manila,Single coordinate match
+2126,Gdansk,Poland,54.35227,18.64912,Gdańsk,Single coordinate match
+2127,Gdynia,Poland,54.51889,18.53188,Gdynia,Single coordinate match
+2128,Katowice,Poland,50.2597,19.02173,Katowice,Single coordinate match
+2129,Krakow,Poland,50.06143,19.93658,Kraków,Single coordinate match
+2130,Łódź,Poland,51.77058,19.47395,Łódź,Single coordinate match
+2131,Oświęcim,Poland,50.03437,19.21037,Oświęcim,Single coordinate match
+2132,Poznań,Poland,52.40692,16.92993,Poznań,Single coordinate match
+2133,Sopot,Poland,54.4418,18.56003,Sopot,Single coordinate match
+2134,Szczecin,Poland,53.42894,14.55302,Szczecin,Single coordinate match
+2135,Warsaw,Poland,52.22977,21.01178,Warsaw,Single coordinate match
+2137,Wrocław,Poland,51.10286,17.03006,Wrocław,Single coordinate match
+2138,Zakopane,Poland,49.29899,19.94885,Zakopane,Single coordinate match
+2139,Zamość,Poland,50.72314,23.25196,Zamość,Single coordinate match
+2140,"Funchal, Madeira",Portugal,32.66568,-16.92547,Funchal,Single coordinate match
+2141,"Santana, Madeira",Portugal,32.8,-16.88333,Santana,Single coordinate match
+2142,Albufeira,Portugal,37.08819,-8.2503,Albufeira,Single coordinate match
+2143,Belém,Portugal,38.69875,-9.19289,Belém,Single coordinate match
+2144,Bragança,Portugal,41.80716,-6.75898,Bragança,Single coordinate match
+2145,Cascais,Portugal,38.69681,-9.42147,Cascais,Single coordinate match
+2146,Coimbra,Portugal,40.20686,-8.41996,Coimbra,Single coordinate match
+2147,Evora,Portugal,38.56587,-7.90405,Évora,High-confidence candidate
+2148,Faro,Portugal,37.01869,-7.92716,Faro,Single coordinate match
+2149,Lagos,Portugal,37.10202,-8.67422,Lagos,Single coordinate match
+2150,Lisbon,Portugal,38.72509,-9.1498,Lisbon,Single coordinate match
+2151,Porto,Portugal,41.1485,-8.61097,Porto,Single coordinate match
+2152,Sintra,Portugal,38.80097,-9.37826,Sintra,Single coordinate match
+2153,Doha,Qatar,25.28545,51.53096,Doha,Single coordinate match
+2154,Braşov,Romania,45.64861,25.60613,Braşov,Single coordinate match
+2155,Bucharest,Romania,44.43225,26.10626,Bucharest,Single coordinate match
+2156,Cluj-Napoca,Romania,46.76667,23.6,Cluj-Napoca,Single coordinate match
+2157,Constanţa,Romania,44.18073,28.63432,Constanţa,High-confidence candidate
+2158,Oradea,Romania,47.0458,21.91833,Oradea,Single coordinate match
+2159,Sibiu,Romania,45.8,24.15,Sibiu,Single coordinate match
+2160,Sighișoara,Romania,46.22141,24.79279,Sighișoara,Single coordinate match
+2161,Sinaia,Romania,45.35,25.55,Sinaia,Single coordinate match
+2162,Timișoara,Romania,45.75372,21.22571,Timişoara,Single coordinate match
+2163,Irkutsk,Russia,52.29566,104.29076,Irkutsk,Single coordinate match
+2164,Kaliningrad,Russia,54.70639,20.51102,Kaliningrad,High-confidence candidate
+2165,Kazan,Russia,55.78874,49.12214,Kazan,Single coordinate match
+2166,Moscow,Russia,55.75204,37.61781,Moscow,Single coordinate match
+2167,Nizhny Novgorod,Russia,56.32867,44.00205,Nizhniy Novgorod,Single coordinate match
+2168,Saint Petersburg,Russia,59.93863,30.31413,Saint Petersburg,Single coordinate match
+2169,Sochi,Russia,43.59699,39.72477,Sochi,Single coordinate match
+2170,Veliky Novgorod,Russia,58.52131,31.27104,Velikiy Novgorod,Single coordinate match
+2171,Vladivostok,Russia,43.10562,131.87353,Vladivostok,Single coordinate match
+2172,Yekaterinburg,Russia,56.85733,60.61529,Yekaterinburg,Single coordinate match
+2173,Apia,Samoa,-13.83333,-171.76666,Apia,Single coordinate match
+2174,Si'umu,Samoa,-14.00943,-171.77682,Si’umu,Single coordinate match
+2175,San Marino,San Marino,43.93667,12.44639,San Marino,Single coordinate match
+2176,São Tomé,Sao Tome and Principe,0.33756,6.7299,São Tomé,Single coordinate match
+2177,Dammam,Saudi Arabia,26.43442,50.10326,Dammam,Single coordinate match
+2178,Jeddah,Saudi Arabia,21.49012,39.18624,Jeddah,Single coordinate match
+2179,Mecca,Saudi Arabia,21.42664,39.82563,Makkah,Single coordinate match
+2180,Medina,Saudi Arabia,24.46861,39.61417,Madinah,Single coordinate match
+2181,Riyadh,Saudi Arabia,24.68773,46.72185,Riyadh,Single coordinate match
+2182,Dakar,Senegal,14.6937,-17.44406,Dakar,Single coordinate match
+2183,Belgrade,Serbia,44.80401,20.46513,Belgrade,Single coordinate match
+2185,Niš,Serbia,43.32472,21.90333,Niš,Single coordinate match
+2186,Novi Sad,Serbia,45.25167,19.83694,Novi Sad,Single coordinate match
+2187,Stari Grad,Serbia,44.81789,20.46186,Stari Grad,Single coordinate match
+2188,Subotica,Serbia,46.1,19.66667,Subotica,Single coordinate match
+2189,Zlatibor,Serbia,43.729,19.70029,Zlatibor,Single coordinate match
+2190,Victoria,Seychelles,-4.62001,55.45501,Victoria,Single coordinate match
+2191,Singapore,Singapore,1.28967,103.85007,Singapore,Single coordinate match
+2192,Bratislava,Slovakia,48.14816,17.10674,Bratislava,Single coordinate match
+2193,Košice,Slovakia,48.71441,21.25802,Košice,Single coordinate match
+2194,Poprad,Slovakia,49.06144,20.29798,Poprad,Single coordinate match
+2195,Bled,Slovenia,46.36859,14.11652,Bled,Single coordinate match
+2196,Bovec,Slovenia,46.33808,13.55245,Bovec,Single coordinate match
+2197,Koper,Slovenia,45.5482,13.72963,Koper,Single coordinate match
+2198,Ljubljana,Slovenia,46.05108,14.50513,Ljubljana,Single coordinate match
+2199,Maribor,Slovenia,46.55583,15.64593,Maribor,Single coordinate match
+2200,Novo Mesto,Slovenia,45.80397,15.16886,Novo Mesto,Single coordinate match
+2201,Piran,Slovenia,45.52778,13.57056,Piran,Single coordinate match
+2202,Postojna,Slovenia,45.77435,14.21528,Postojna,Single coordinate match
+2203,Honiara,Solomon Islands,-9.43333,159.95,Honiara,Single coordinate match
+2204,Cape Town,South Africa,-33.92584,18.42322,Cape Town,Single coordinate match
+2205,Durban,South Africa,-29.8579,31.0292,Durban,Single coordinate match
+2206,Johannesburg,South Africa,-26.20227,28.04363,Johannesburg,Single coordinate match
+2207,Port Elizabeth,South Africa,-33.96109,25.61494,Gqeberha,Single coordinate match
+2208,Pretoria,South Africa,-25.74486,28.18783,Pretoria,Single coordinate match
+2209,Andong,South Korea,36.56798,128.72972,Andong,Single coordinate match
+2210,Busan,South Korea,35.10168,129.03004,Busan,Single coordinate match
+2211,Chuncheon,South Korea,37.88302,127.7289,Chuncheon,Single coordinate match
+2212,Jeonju,South Korea,35.82483,127.14796,Jeonju,Single coordinate match
+2213,Seoul,South Korea,37.566,126.9784,Seoul,Single coordinate match
+2214,"Palma, Balearic Islands",Spain,39.56939,2.65024,Palma,Single coordinate match
+2215,"Las Palmas de Gran Canaria, Canary Islands",Spain,28.10178,-15.41573,Las Palmas de Gran Canaria,Single coordinate match
+2216,"Santa Cruz de Tenerife, Tenerife",Spain,28.46824,-16.25462,Santa Cruz de Tenerife,Single coordinate match
+2217,Alicante,Spain,38.34517,-0.48149,Alicante,Single coordinate match
+2218,Almeria,Spain,36.83814,-2.45974,Almería,Single coordinate match
+2219,Barcelona,Spain,41.38879,2.15899,Barcelona,Single coordinate match
+2220,Begur,Spain,41.95,3.21667,Begur,Single coordinate match
+2221,Benidorm,Spain,38.53816,-0.13098,Benidorm,Single coordinate match
+2222,Bilbao,Spain,43.26271,-2.92528,Bilbao,Single coordinate match
+2223,Burgos,Spain,42.34106,-3.70184,Burgos,Single coordinate match
+2224,Cadaques,Spain,42.28856,3.27706,Cadaqués,Single coordinate match
+2225,Cadiz,Spain,36.52672,-6.2891,Cadiz,Single coordinate match
+2226,Cartagena,Spain,37.60197,-0.98397,Cartagena,Single coordinate match
+2227,Córdoba,Spain,37.89155,-4.77275,Córdoba,Single coordinate match
+2228,Figueres,Spain,42.26645,2.96163,Figueres,Single coordinate match
+2229,Girona,Spain,41.98311,2.82493,Girona,Single coordinate match
+2230,Granada,Spain,37.18817,-3.60667,Granada,Single coordinate match
+2232,Madrid,Spain,40.4165,-3.70256,Madrid,Single coordinate match
+2233,Malaga,Spain,36.72016,-4.42034,Málaga,Single coordinate match
+2234,Pamplona,Spain,42.81687,-1.64323,Pamplona,Single coordinate match
+2235,Ronda,Spain,36.74231,-5.16709,Ronda,Single coordinate match
+2236,Salamanca,Spain,40.96882,-5.66388,Salamanca,High-confidence candidate
+2237,Sant Joan Despí,Spain,41.36718,2.0574,Sant Joan Despí,Single coordinate match
+2238,Santiago de Compostela,Spain,42.88052,-8.54569,Santiago de Compostela,Single coordinate match
+2239,Segovia,Spain,40.94808,-4.11839,Segovia,Single coordinate match
+2240,Sevilla,Spain,37.38283,-5.97317,Sevilla,Single coordinate match
+2241,Sitges,Spain,41.23506,1.81193,Sitges,Single coordinate match
+2242,Toledo,Spain,39.8581,-4.02263,Toledo,Single coordinate match
+2243,Valencia,Spain,39.47391,-0.37966,Valencia,Single coordinate match
+2244,Valladolid,Spain,41.65541,-4.72353,Valladolid,Single coordinate match
+2245,Vigo,Spain,42.23282,-8.72264,Vigo,Single coordinate match
+2246,Zaragoza,Spain,41.65606,-0.87734,Zaragoza,Single coordinate match
+2247,Colombo,Sri Lanka,6.93548,79.84868,Colombo,Single coordinate match
+2248,Galle,Sri Lanka,6.0461,80.2103,Galle,Single coordinate match
+2249,Kandy,Sri Lanka,7.2906,80.6336,Kandy,Single coordinate match
+2254,Paramaribo,Suriname,5.86638,-55.16682,Paramaribo,Single coordinate match
+2255,Göteborg,Sweden,57.70716,11.96679,Gothenburg,Single coordinate match
+2256,Gothenburg,Sweden,57.70716,11.96679,Gothenburg,Single coordinate match
+2257,Kiruna,Sweden,67.85572,20.22513,Kiruna,Single coordinate match
+2258,Luleå,Sweden,65.58415,22.15465,Luleå,Single coordinate match
+2259,Malmö,Sweden,55.60587,13.00073,Malmö,Single coordinate match
+2260,Stockholm,Sweden,59.32938,18.06871,Stockholm,Single coordinate match
+2261,Uppsala,Sweden,59.85882,17.63889,Uppsala,Single coordinate match
+2262,Visby,Sweden,57.64089,18.29602,Visby,Single coordinate match
+2263,Basel,Switzerland,47.55839,7.57327,Basel,Single coordinate match
+2264,Bern,Switzerland,46.94809,7.44744,Bern,Single coordinate match
+2265,Brienz,Switzerland,46.7545,8.03847,Brienz,Single coordinate match
+2266,Geneva,Switzerland,46.20222,6.14569,Geneva,Single coordinate match
+2267,Gruyères,Switzerland,46.58338,7.08207,Gruyères,Single coordinate match
+2268,Interlaken,Switzerland,46.68387,7.86638,Interlaken,Single coordinate match
+2269,Lausanne,Switzerland,46.516,6.63282,Lausanne,Single coordinate match
+2270,Lauterbrunnen,Switzerland,46.59307,7.90938,Lauterbrunnen,Single coordinate match
+2271,Lugano,Switzerland,46.01008,8.96004,Lugano,Single coordinate match
+2272,Luzern,Switzerland,47.05048,8.30635,Luzern,Single coordinate match
+2273,Meyrin,Switzerland,46.23424,6.08025,Meyrin,Single coordinate match
+2274,Montreux,Switzerland,46.43301,6.91143,Montreux,Single coordinate match
+2275,St. Moritz,Switzerland,46.49937,9.84327,St. Moritz,Single coordinate match
+2276,Stein am Rhein,Switzerland,47.65933,8.85964,Stein am Rhein,Single coordinate match
+2277,Zermatt,Switzerland,46.01998,7.74863,Zermatt,Single coordinate match
+2278,Zürich,Switzerland,47.36667,8.55,Zürich,Single coordinate match
+2279,"Kaohsiung, Taiwan",Taiwan,22.61626,120.31333,Kaohsiung,Single coordinate match
+2281,"Taipei, Taiwan",Taiwan,25.05306,121.52639,Taipei,Single coordinate match
+2282,Dushanbe,Tajikistan,38.53575,68.77905,Dushanbe,Single coordinate match
+2283,Dar es Salaam,Tanzania,-6.82349,39.26951,Dar es Salaam,Single coordinate match
+2284,Zanzibar,Tanzania,-6.16394,39.19793,Zanzibar,Single coordinate match
+2285,Ayutthaya,Thailand,14.35167,100.57739,Phra Nakhon Si Ayutthaya,Single coordinate match
+2286,Bankok,Thailand,13.75398,100.50144,Bangkok,Single coordinate match
+2287,Chiang Mai,Thailand,18.79038,98.98468,Chiang Mai,Single coordinate match
+2288,Pai,Thailand,19.36168,98.43973,Pai,Single coordinate match
+2289,Phang Nga,Thailand,8.45091,98.52985,Phang Nga,Single coordinate match
+2290,Phi Phi Don,Thailand,7.74044,98.772,Phi Phi Don,Single coordinate match
+2291,Phuket,Thailand,7.89059,98.3981,Phuket,Single coordinate match
+2293,Sukhothai,Thailand,17.00778,99.823,Sukhothai,Single coordinate match
+2294,Trang,Thailand,7.55633,99.61141,Trang,Single coordinate match
+2295,Port of Spain,Trinidad and Tobago,10.66668,-61.51889,Port of Spain,Single coordinate match
+2296,Scarborough,Trinidad and Tobago,11.18229,-60.73525,Scarborough,Single coordinate match
+2297,Djerba,Tunisia,33.87576,10.85745,Houmt Souk,Single coordinate match
+2298,Monastir,Tunisia,35.77799,10.82617,Monastir,Single coordinate match
+2299,Sidi Bou Saïd,Tunisia,36.8687,10.34174,Sidi Bou Said,Single coordinate match
+2300,Tunis,Tunisia,36.81897,10.16579,Tunis,Single coordinate match
+2301,Alaçatı,Turkey,38.28246,26.37459,Alaçatı,Single coordinate match
+2302,Alanya,Turkey,36.54375,31.99982,Alanya,Single coordinate match
+2303,Ankara,Turkey,39.91987,32.85427,Ankara,Single coordinate match
+2304,Antalya,Turkey,36.90812,30.69556,Antalya,Single coordinate match
+2305,Bodrum,Turkey,37.03833,27.42917,Bodrum,Single coordinate match
+2306,Ephesus,Turkey,37.95137,27.36849,Selçuk,Single coordinate match
+2307,Göreme,Turkey,38.64284,34.82885,Göreme,Single coordinate match
+2308,Istanbul,Turkey,41.01384,28.94966,Istanbul,Single coordinate match
+2309,Izmir,Turkey,38.41273,27.13838,İzmir,Single coordinate match
+2310,Konya,Turkey,37.87135,32.48464,Konya,Single coordinate match
+2311,Mardin,Turkey,37.31309,40.74357,Mardin,Single coordinate match
+2312,Marmaris,Turkey,36.855,28.27417,Marmaris,Single coordinate match
+2313,Selçuk,Turkey,37.95137,27.36849,Selçuk,Single coordinate match
+2315,Kampala,Uganda,0.31628,32.58219,Kampala,Single coordinate match
+2317,Chernihiv,Ukraine,51.50541,31.28656,Chernihiv,Single coordinate match
+2318,Kiev,Ukraine,50.45466,30.5238,Kyiv,Single coordinate match
+2319,Lviv,Ukraine,49.83826,24.02324,Lviv,Single coordinate match
+2320,Odessa,Ukraine,46.48572,30.74383,Odesa,Single coordinate match
+2321,Zhytomyr,Ukraine,50.26235,28.67913,Zhytomyr,Single coordinate match
+2322,Abu Dhabi,United Arab Emirates,24.45118,54.39696,Abu Dhabi,Single coordinate match
+2323,Al Ain,United Arab Emirates,24.19167,55.76056,Al Ain City,Single coordinate match
+2324,Dubai,United Arab Emirates,25.07725,55.30927,Dubai,Single coordinate match
+2325,"Bath, England",United Kingdom,51.3751,-2.36172,Bath,Single coordinate match
+2326,"Birmingham, England",United Kingdom,52.48142,-1.89983,Birmingham,Single coordinate match
+2327,"Brighton, England",United Kingdom,50.82838,-0.13947,Brighton,Single coordinate match
+2328,"Bristol, England",United Kingdom,51.45523,-2.59665,Bristol,Single coordinate match
+2329,"Cambridge, England",United Kingdom,52.2,0.11667,Cambridge,Single coordinate match
+2330,"Crawley, England",United Kingdom,51.11303,-0.18312,Crawley,Single coordinate match
+2331,"Leeds, England",United Kingdom,53.79648,-1.54785,Leeds,Single coordinate match
+2332,"Liverpool, England",United Kingdom,53.41058,-2.97794,Liverpool,Single coordinate match
+2334,"Manchester, England",United Kingdom,53.48095,-2.23743,Manchester,Single coordinate match
+2335,"Oxford, England",United Kingdom,51.75222,-1.25596,Oxford,Single coordinate match
+2336,"Southampton, England",United Kingdom,50.90395,-1.40428,Southampton,Single coordinate match
+2337,"York, England",United Kingdom,53.95763,-1.08271,York,Single coordinate match
+2339,"Belfast, Northern Ireland",United Kingdom,54.59682,-5.92541,Belfast,Single coordinate match
+2340,"Derry, Northern Ireland",United Kingdom,54.9981,-7.30934,Derry,Single coordinate match
+2341,"Aberdeen, Scotland",United Kingdom,57.14369,-2.09814,Aberdeen,Single coordinate match
+2342,"Edinburgh, Scotland",United Kingdom,55.95206,-3.19648,Edinburgh,Single coordinate match
+2343,"Fort William, Scotland",United Kingdom,56.81648,-5.11208,Fort William,Single coordinate match
+2344,"Glasgow, Scotland",United Kingdom,55.86515,-4.25763,Glasgow,Single coordinate match
+2345,"Inverness, Scotland",United Kingdom,57.47908,-4.22398,Inverness,Single coordinate match
+2346,"Islay, Scotland",United Kingdom,55.78526,-6.23886,Isle of Islay,Single coordinate match
+2347,"St. Andrews, Scotland",United Kingdom,56.33871,-2.79902,Saint Andrews,Single coordinate match
+2348,"Cardiff, Wales",United Kingdom,51.48,-3.18,Cardiff,Single coordinate match
+2349,"Swansea, Wales",United Kingdom,51.62079,-3.94323,Swansea,Single coordinate match
+2350,"Tenby, Wales",United Kingdom,51.67279,-4.70447,Tenby,Single coordinate match
+2353,"Dothan, Alabama",United States,31.22323,-85.39049,Dothan,Single coordinate match
+2355,"Gulf Shores, Alabama",United States,30.24604,-87.70082,Gulf Shores,Single coordinate match
+2357,"Hoover, Alabama",United States,33.40539,-86.81138,Hoover,Single coordinate match
+2359,"Mobile, Alabama",United States,30.69436,-88.04305,Mobile,Single coordinate match
+2361,"Orange Beach, Alabama",United States,30.29437,-87.57359,Orange Beach,Single coordinate match
+2363,"Scottsboro, Alabama",United States,34.67231,-86.03415,Scottsboro,Single coordinate match
+2364,"Tuscaloosa, Alabama",United States,33.20984,-87.56917,Tuscaloosa,Single coordinate match
+2366,"Fairbanks, Alaska",United States,64.83778,-147.71639,Fairbanks,Single coordinate match
+2367,"Healy, Alaska",United States,63.85694,-148.96611,Healy,Single coordinate match
+2369,"Hoonah, Alaska",United States,58.11,-135.44361,Hoonah,Single coordinate match
+2371,"Kenai, Alaska",United States,60.55444,-151.25833,Kenai,Single coordinate match
+2372,"Ketchikan, Alaska",United States,55.3418,-131.64757,Ketchikan,Single coordinate match
+2373,"McCarthy, Alaska",United States,64.1525,-145.84222,Big Delta,Single coordinate match
+2376,"Sitka, Alaska",United States,57.05315,-135.33088,Sitka,Single coordinate match
+2377,"Skagway, Alaska",United States,59.45833,-135.31389,Skagway,Single coordinate match
+2378,"Soldotna, Alaska",United States,60.48778,-151.05833,Soldotna,Single coordinate match
+2379,"Talkeetna, Alaska",United States,62.32389,-150.10944,Talkeetna,Single coordinate match
+2380,"Wasilla, Alaska",United States,61.5809,-149.4415,Wasilla,Single coordinate match
+2381,"Whittier, Alaska",United States,33.97918,-118.03284,Whittier,Single coordinate match
+2382,"Apache Junction, Arizona",United States,33.41505,-111.54958,Apache Junction,Single coordinate match
+2383,"Bisbee, Arizona",United States,31.44815,-109.92841,Bisbee,Single coordinate match
+2385,"Flagstaff, Arizona",United States,35.19807,-111.65127,Flagstaff,Single coordinate match
+2386,"Grand Canyon, Arizona",United States,36.05443,-112.13934,Grand Canyon,Single coordinate match
+2389,"Mesa, Arizona",United States,33.42227,-111.82264,Mesa,Single coordinate match
+2390,"Page, Arizona",United States,36.91472,-111.45583,Page,Single coordinate match
+2393,"Scottsdale, Arizona",United States,33.50921,-111.89903,Scottsdale,Single coordinate match
+2394,"Sedona, Arizona",United States,34.86974,-111.76099,Sedona,Single coordinate match
+2396,"Tempe, Arizona",United States,33.41477,-111.90931,Tempe,Single coordinate match
+2397,"Tombstone, Arizona",United States,31.71287,-110.06758,Tombstone,Single coordinate match
+2398,"Tucson, Arizona",United States,32.22174,-110.92648,Tucson,Single coordinate match
+2399,"Tusayan, Arizona",United States,35.9736,-112.12656,Tusayan,Single coordinate match
+2402,"Eureka Springs, Arkansas",United States,36.40118,-93.73797,Eureka Springs,Single coordinate match
+2404,"Fort Smith, Arkansas",United States,35.38592,-94.39855,Fort Smith,Single coordinate match
+2408,"West Memphis, Arkansas",United States,35.14648,-90.18454,West Memphis,Single coordinate match
+2409,"Anaheim, California",United States,33.83529,-117.9145,Anaheim,Single coordinate match
+2412,"Big Bear Lake, California",United States,34.2439,-116.91142,Big Bear Lake,Single coordinate match
+2413,"Big Sur, California",United States,36.27024,-121.80745,Big Sur,Single coordinate match
+2414,"Burney, California",United States,40.88238,-121.66082,Burney,Single coordinate match
+2415,"Calistoga, California",United States,38.5788,-122.57971,Calistoga,Single coordinate match
+2424,"Los Angeles, California",United States,34.05223,-118.24368,Los Angeles,Single coordinate match
+2425,"Malibu, California",United States,34.02577,-118.7804,Malibu,Single coordinate match
+2426,"Mill Valley, California",United States,37.90604,-122.54498,Mill Valley,Single coordinate match
+2428,"Napa, California",United States,38.29714,-122.28553,Napa,Single coordinate match
+2429,"Newport Beach, California",United States,33.61891,-117.92895,Newport Beach,Single coordinate match
+2434,"Paso Robles, California",United States,35.62664,-120.691,Paso Robles,Single coordinate match
+2435,"Pismo Beach, California",United States,35.14275,-120.64128,Pismo Beach,Single coordinate match
+2437,"Sacramento, California",United States,38.58157,-121.4944,Sacramento,Single coordinate match
+2439,"San Francisco, California",United States,37.77493,-122.41942,San Francisco,Single coordinate match
+2442,"Santa Cruz, California",United States,36.97412,-122.0308,Santa Cruz,Single coordinate match
+2443,"Santa Monica, California",United States,34.01949,-118.49138,Santa Monica,Single coordinate match
+2444,"Sausalito, California",United States,37.85909,-122.48525,Sausalito,Single coordinate match
+2446,"Temecula, California",United States,33.49364,-117.14836,Temecula,Single coordinate match
+2447,"Truckee, California",United States,39.32796,-120.18325,Truckee,Single coordinate match
+2452,"Aspen, Colorado",United States,39.1911,-106.81754,Aspen,Single coordinate match
+2456,"Colorado Springs, Colorado",United States,38.83388,-104.82136,Colorado Springs,Single coordinate match
+2457,"Crested Butte, Colorado",United States,38.86971,-106.98782,Crested Butte,Single coordinate match
+2459,"Durango, Colorado",United States,37.27528,-107.88007,Durango,Single coordinate match
+2460,"Estes Park, Colorado",United States,40.37721,-105.52167,Estes Park,Single coordinate match
+2461,"Fort Collins, Colorado",United States,40.58526,-105.08442,Fort Collins,Single coordinate match
+2462,"Glenwood Springs, Colorado",United States,39.55054,-107.32478,Glenwood Springs,Single coordinate match
+2465,"Pagosa Springs, Colorado",United States,37.26945,-107.00976,Pagosa Springs,Single coordinate match
+2466,"Pueblo, Colorado",United States,35.7114,-109.54205,Ganado,Single coordinate match
+2467,"Steamboat Springs, Colorado",United States,40.48498,-106.83172,Steamboat Springs,Single coordinate match
+2468,"Telluride, Colorado",United States,37.93749,-107.81229,Telluride,Single coordinate match
+2476,"Uncasville, Connecticut",United States,41.43454,-72.1098,Uncasville,Single coordinate match
+2477,"Bethany Beach, Delaware",United States,38.53956,-75.05518,Bethany Beach,Single coordinate match
+2479,"Lewes, Delaware",United States,38.77456,-75.13935,Lewes,Single coordinate match
+2480,"Rehoboth Beach, Delaware",United States,38.72095,-75.07601,Rehoboth Beach,Single coordinate match
+2481,"Wilmington, Delaware",United States,39.74595,-75.54659,Wilmington,Single coordinate match
+2484,"Boca Raton, Florida",United States,26.35869,-80.0831,Boca Raton,Single coordinate match
+2485,"Cape Canaveral, Florida",United States,28.40584,-80.60477,Cape Canaveral,Single coordinate match
+2487,"Daytona Beach, Florida",United States,29.21081,-81.02283,Daytona Beach,Single coordinate match
+2488,"Destin, Florida",United States,30.39353,-86.49578,Destin,Single coordinate match
+2489,"Fort Lauderdale, Florida",United States,26.12231,-80.14338,Fort Lauderdale,Single coordinate match
+2492,"Key Largo, Florida",United States,25.08652,-80.44728,Key Largo,Single coordinate match
+2493,"Key West, Florida",United States,24.55524,-81.78163,Key West,Single coordinate match
+2494,"Kissimmee, Florida",United States,28.30468,-81.41667,Kissimmee,Single coordinate match
+2498,"Naples, Florida",United States,26.14234,-81.79596,Naples,Single coordinate match
+2500,"Panama City Beach, Florida",United States,30.17659,-85.80549,Panama City Beach,Single coordinate match
+2501,"Pensacola, Florida",United States,30.42131,-87.21691,Pensacola,Single coordinate match
+2502,"Sarasota, Florida",United States,27.33643,-82.53065,Sarasota,Single coordinate match
+2503,"St. Augustine, Florida",United States,29.89469,-81.31452,Saint Augustine,Single coordinate match
+2504,"St. Petersburg, Florida",United States,27.77086,-82.67927,St. Petersburg,Single coordinate match
+2505,"Tallahassee, Florida",United States,30.43826,-84.28073,Tallahassee,Single coordinate match
+2506,"Tampa, Florida",United States,27.94752,-82.45843,Tampa,Single coordinate match
+2507,"West Palm Beach, Florida",United States,26.71534,-80.05337,West Palm Beach,Single coordinate match
+2513,"Dahlonega, Georgia",United States,34.53259,-83.98491,Dahlonega,Single coordinate match
+2514,"Helen, Georgia",United States,34.70148,-83.73157,Helen,Single coordinate match
+2515,"Jekyll Island, Georgia",United States,31.07021,-81.42272,Jekyll Island,Single coordinate match
+2518,"Savannah, Georgia",United States,32.08354,-81.09983,Savannah,Single coordinate match
+2519,"Stone Mountain, Georgia",United States,33.80816,-84.1702,Stone Mountain,Single coordinate match
+2520,"Tybee Island, Georgia",United States,32.00022,-80.84567,Tybee Island,Single coordinate match
+2521,"Valdosta, Georgia",United States,30.83334,-83.28032,Valdosta,Single coordinate match
+2522,"Hana, Hawaii",United States,20.75806,-155.99028,Hana,Single coordinate match
+2523,"Hilo, Hawaii",United States,19.72991,-155.09073,Hilo,Single coordinate match
+2524,"Honolulu, Hawaii",United States,21.30694,-157.85833,Honolulu,Single coordinate match
+2525,"Kahului, Hawaii",United States,20.88933,-156.47293,Kahului,Single coordinate match
+2526,"Kapaa, Hawaii",United States,22.07521,-159.31895,Kapa‘a,Single coordinate match
+2527,"Kapolei, Hawaii",United States,21.33555,-158.0582,Kapolei,Single coordinate match
+2528,"Lahaina, Hawaii",United States,20.87526,-156.67982,Lahaina,Single coordinate match
+2529,"Lihue, Hawaii",United States,21.98121,-159.3721,Lihue,Single coordinate match
+2530,"Poipu, Hawaii",United States,21.8735,-159.44857,Po‘ipū,Single coordinate match
+2531,"Puako, Hawaii",United States,19.97041,-155.83659,Puako,Single coordinate match
+2532,"Waikoloa, Hawaii",United States,19.93942,-155.78931,Waikoloa,Single coordinate match
+2533,"Wailea, Hawaii",United States,20.68973,-156.4419,Wailea,Single coordinate match
+2534,"Boise, Idaho",United States,43.6135,-116.20345,Boise,Single coordinate match
+2535,"Coeur d'Alene, Idaho",United States,47.67768,-116.78047,Coeur d'Alene,Single coordinate match
+2536,"Driggs, Idaho",United States,43.72325,-111.11133,Driggs,Single coordinate match
+2537,"Idaho Falls, Idaho",United States,43.46658,-112.03414,Idaho Falls,Single coordinate match
+2538,"Island Park, Idaho",United States,40.60427,-73.65541,Island Park,Single coordinate match
+2539,"Ketchum, Idaho",United States,43.68074,-114.36366,Ketchum,Single coordinate match
+2543,"Pocatello, Idaho",United States,42.8713,-112.44553,Pocatello,Single coordinate match
+2546,"Twin Falls, Idaho",United States,42.56297,-114.46087,Twin Falls,Single coordinate match
+2549,"Champaign, Illinois",United States,40.11642,-88.24338,Champaign,Single coordinate match
+2556,"Fort Wayne, Indiana",United States,41.1306,-85.12886,Fort Wayne,Single coordinate match
+2557,"Indianapolis, Indiana",United States,39.76838,-86.15804,Indianapolis,Single coordinate match
+2558,"Michigan City, Indiana",United States,41.70754,-86.89503,Michigan City,Single coordinate match
+2563,"Cedar Rapids, Iowa",United States,42.00833,-91.64407,Cedar Rapids,Single coordinate match
+2564,"Council Bluffs, Iowa",United States,41.26194,-95.86083,Council Bluffs,Single coordinate match
+2567,"Dubuque, Iowa",United States,42.50056,-90.66457,Dubuque,Single coordinate match
+2568,"Iowa City, Iowa",United States,41.66113,-91.53017,Iowa City,Single coordinate match
+2569,"Sioux City, Iowa",United States,42.49999,-96.40031,Sioux City,Single coordinate match
+2571,"Fort Scott, Kansas",United States,37.83976,-94.7083,Fort Scott,Single coordinate match
+2575,"Lindsborg, Kansas",United States,38.57362,-97.67448,Lindsborg,Single coordinate match
+2578,"Overland Park, Kansas",United States,38.98223,-94.67079,Overland Park,Single coordinate match
+2581,"Wamego, Kansas",United States,39.20194,-96.305,Wamego,Single coordinate match
+2591,"Middlesboro, Kentucky",United States,36.60842,-83.71658,Middlesboro,Single coordinate match
+2592,"Newport, Kentucky",United States,39.09145,-84.49578,Newport,Single coordinate match
+2593,"Owensboro, Kentucky",United States,37.77422,-87.11333,Owensboro,Single coordinate match
+2596,"Baton Rouge, Louisiana",United States,30.44332,-91.18747,Baton Rouge,Single coordinate match
+2597,"Bossier City, Louisiana",United States,32.51599,-93.73212,Bossier City,Single coordinate match
+2600,"Lake Charles, Louisiana",United States,30.21309,-93.2044,Lake Charles,Single coordinate match
+2601,"Natchitoches, Louisiana",United States,31.76072,-93.08627,Natchitoches,Single coordinate match
+2602,"New Orleans, Louisiana",United States,29.95465,-90.07507,New Orleans,Single coordinate match
+2603,"Shreveport, Louisiana",United States,32.52515,-93.75018,Shreveport,Single coordinate match
+2606,"Bar Harbor, Maine",United States,44.38758,-68.2039,Bar Harbor,Single coordinate match
+2607,"Boothbay Harbor, Maine",United States,43.8523,-69.6281,Boothbay Harbor,Single coordinate match
+2609,"Kennebunkport, Maine",United States,43.36175,-70.47672,Kennebunkport,Single coordinate match
+2610,"Ogunquit, Maine",United States,43.24898,-70.59922,Ogunquit,Single coordinate match
+2611,"Old Orchard Beach, Maine",United States,43.51731,-70.37755,Old Orchard Beach,Single coordinate match
+2615,"Annapolis, Maryland",United States,38.97859,-76.49184,Annapolis,Single coordinate match
+2620,"McHenry, Maryland",United States,42.33335,-88.26675,McHenry,Single coordinate match
+2622,"Silver Spring, Maryland",United States,38.99067,-77.02609,Silver Spring,Single coordinate match
+2627,"Edgartown, Massachusetts",United States,41.38901,-70.51336,Edgartown,Single coordinate match
+2632,"Nantucket, Massachusetts",United States,41.28346,-70.09946,Nantucket,Single coordinate match
+2634,"Provincetown, Massachusetts",United States,42.05295,-70.1864,Provincetown,Single coordinate match
+2635,"Salem, Massachusetts",United States,42.51977,-70.89552,Salem,Single coordinate match
+2637,"Sudbury, Massachusetts",United States,42.38343,-71.41617,Sudbury,Single coordinate match
+2639,"Ann Arbor, Michigan",United States,42.27756,-83.74088,Ann Arbor,Single coordinate match
+2640,"Charlevoix, Michigan",United States,45.31806,-85.2584,Charlevoix,Single coordinate match
+2644,"Kalamazoo, Michigan",United States,42.29171,-85.58723,Kalamazoo,Single coordinate match
+2648,"Muskegon, Michigan",United States,43.23418,-86.24839,Muskegon,Single coordinate match
+2649,"Petoskey, Michigan",United States,45.37334,-84.95533,Petoskey,Single coordinate match
+2650,"Saugatuck, Michigan",United States,42.65502,-86.20198,Saugatuck,Single coordinate match
+2651,"Traverse City, Michigan",United States,44.76306,-85.62063,Traverse City,Single coordinate match
+2652,"Ypsilanti, Michigan",United States,42.24115,-83.61299,Ypsilanti,Single coordinate match
+2661,"Two Harbors, Minnesota",United States,47.02271,-91.67073,Two Harbors,Single coordinate match
+2662,"Biloxi, Mississippi",United States,30.39603,-88.88531,Biloxi,Single coordinate match
+2663,"Clarksdale, Mississippi",United States,34.20011,-90.57093,Clarksdale,Single coordinate match
+2665,"Hattiesburg, Mississippi",United States,31.32712,-89.29034,Hattiesburg,Single coordinate match
+2670,"Tunica, Mississippi",United States,34.68455,-90.38288,Tunica,Single coordinate match
+2671,"Tupelo, Mississippi",United States,34.25807,-88.70464,Tupelo,Single coordinate match
+2673,"Branson, Missouri",United States,36.64367,-93.21851,Branson,Single coordinate match
+2679,"Lake Ozark, Missouri",United States,38.19864,-92.6388,Lake Ozark,Single coordinate match
+2680,"Osage Beach, Missouri",United States,38.12956,-92.65277,Osage Beach,Single coordinate match
+2684,"Big Sky, Montana",United States,45.28465,-111.36829,Big Sky,Single coordinate match
+2691,"Kalispell, Montana",United States,48.19579,-114.31291,Kalispell,Single coordinate match
+2692,"Missoula, Montana",United States,46.87215,-113.994,Missoula,Single coordinate match
+2693,"Red Lodge, Montana",United States,45.18578,-109.24682,Red Lodge,Single coordinate match
+2695,"West Yellowstone, Montana",United States,44.66215,-111.10411,West Yellowstone,Single coordinate match
+2699,"North Platte, Nebraska",United States,41.12389,-100.76542,North Platte,Single coordinate match
+2701,"Valentine, Nebraska",United States,42.87278,-100.55097,Valentine,Single coordinate match
+2704,"Incline Village, Nevada",United States,39.2513,-119.97297,Incline Village,Single coordinate match
+2706,"Laughlin, Nevada",United States,35.16778,-114.57302,Laughlin,Single coordinate match
+2720,"North Conway, New Hampshire",United States,44.05368,-71.1284,North Conway,Single coordinate match
+2726,"Jersey City, New Jersey",United States,40.72816,-74.07764,Jersey City,Single coordinate match
+2731,"Seaside Heights, New Jersey",United States,39.94429,-74.07291,Seaside Heights,Single coordinate match
+2732,"Spring Lake, New Jersey",United States,40.15345,-74.02819,Spring Lake,Single coordinate match
+2734,"Albuquerque, New Mexico",United States,35.08449,-106.65114,Albuquerque,Single coordinate match
+2736,"Gallup, New Mexico",United States,35.52808,-108.74258,Gallup,Single coordinate match
+2737,"Las Cruces, New Mexico",United States,32.31232,-106.77834,Las Cruces,Single coordinate match
+2742,"Ruidoso, New Mexico",United States,33.33175,-105.67304,Ruidoso,Single coordinate match
+2746,"Binghamton, New York",United States,42.09869,-75.91797,Binghamton,Single coordinate match
+2750,"Lake George, New York",United States,43.42618,-73.71234,Lake George,Single coordinate match
+2752,"Montauk, New York",United States,41.03594,-71.95451,Montauk,Single coordinate match
+2753,"New York City, New York",United States,40.71427,-74.00597,New York City,Single coordinate match
+2754,"Poughkeepsie, New York",United States,41.70037,-73.92097,Poughkeepsie,Single coordinate match
+2758,"Ticonderoga, New York",United States,43.84867,-73.42345,Ticonderoga,Single coordinate match
+2760,"Blowing Rock, North Carolina",United States,36.13513,-81.67761,Blowing Rock,Single coordinate match
+2765,"Davidson, North Carolina",United States,35.50233,-80.83912,Davidson,Single coordinate match
+2768,"Kill Devil Hills, North Carolina",United States,36.03072,-75.67601,Kill Devil Hills,Single coordinate match
+2769,"Nags Head, North Carolina",United States,35.95739,-75.62406,Nags Head,Single coordinate match
+2770,"New Bern, North Carolina",United States,35.10849,-77.04411,New Bern,Single coordinate match
+2773,"Wilmington, North Carolina",United States,34.23556,-77.94604,Wilmington,Single coordinate match
+2774,"Winston-Salem, North Carolina",United States,36.09986,-80.24422,Winston-Salem,Single coordinate match
+2777,"Fargo, North Dakota",United States,46.87719,-96.7898,Fargo,Single coordinate match
+2778,"Grand Forks, North Dakota",United States,47.92526,-97.03285,Grand Forks,Single coordinate match
+2785,"Cincinnati, Ohio",United States,39.12711,-84.51439,Cincinnati,Single coordinate match
+2792,"Norman, Oklahoma",United States,35.22257,-97.43948,Norman,Single coordinate match
+2793,"Oklahoma City, Oklahoma",United States,35.46756,-97.51643,Oklahoma City,Single coordinate match
+2794,"Tulsa, Oklahoma",United States,36.15398,-95.99277,Tulsa,Single coordinate match
+2798,"Cannon Beach, Oregon",United States,45.89177,-123.96153,Cannon Beach,Single coordinate match
+2799,"Eugene, Oregon",United States,44.05207,-123.08675,Eugene,Single coordinate match
+2801,"Joseph, Oregon",United States,45.35432,-117.22961,Joseph,Single coordinate match
+2804,"Newport, Oregon",United States,44.63678,-124.05345,Newport,Single coordinate match
+2806,"Salem, Oregon",United States,44.9429,-123.0351,Salem,Single coordinate match
+2808,"Sisters, Oregon",United States,44.29095,-121.54921,Sisters,Single coordinate match
+2809,"The Dalles, Oregon",United States,45.59456,-121.17868,The Dalles,Single coordinate match
+2810,"Tillamook, Oregon",United States,45.4564,-123.84553,Tillamook,Single coordinate match
+2814,"Harrisburg, Pennsylvania",United States,40.2737,-76.88442,Harrisburg,Single coordinate match
+2825,"Rincon, Puerto Rico",United States,32.29603,-81.23539,Rincon,Single coordinate match
+2828,"Bristol, Rhode Island",United States,41.67705,-71.26616,Bristol,Single coordinate match
+2832,"Newport, Rhode Island",United States,41.4901,-71.31283,Newport,Single coordinate match
+2837,"Folly Beach, South Carolina",United States,32.65518,-79.94037,Folly Beach,Single coordinate match
+2840,"Hilton Head, South Carolina",United States,32.21632,-80.75261,Hilton Head,Single coordinate match
+2841,"Isle of Palms, South Carolina",United States,32.78684,-79.7948,Isle of Palms,Single coordinate match
+2842,"Myrtle Beach, South Carolina",United States,33.68906,-78.88669,Myrtle Beach,Single coordinate match
+2843,"Spartanburg, South Carolina",United States,34.94957,-81.93205,Spartanburg,Single coordinate match
+2844,"Sullivan's Island, South Carolina",United States,32.76323,-79.83675,Sullivans Island,Single coordinate match
+2845,"Custer, South Dakota",United States,43.76665,-103.59881,Custer,Single coordinate match
+2846,"Deadwood, South Dakota",United States,44.37665,-103.72964,Deadwood,Single coordinate match
+2850,"Pierre, South Dakota",United States,44.36832,-100.35097,Pierre,Single coordinate match
+2852,"Sioux Falls, South Dakota",United States,43.54369,-96.72796,Sioux Falls,Single coordinate match
+2853,"Spearfish, South Dakota",United States,44.49082,-103.85937,Spearfish,Single coordinate match
+2856,"Chattanooga, Tennessee",United States,35.04563,-85.30968,Chattanooga,Single coordinate match
+2859,"Gatlinburg, Tennessee",United States,35.71453,-83.51189,Gatlinburg,Single coordinate match
+2866,"Pigeon Forge, Tennessee",United States,35.78842,-83.55433,Pigeon Forge,Single coordinate match
+2868,"Amarillo, Texas",United States,35.222,-101.8313,Amarillo,Single coordinate match
+2872,"Corpus Christi, Texas",United States,27.80058,-97.39638,Corpus Christi,Single coordinate match
+2875,"Fort Worth, Texas",United States,32.72541,-97.32085,Fort Worth,Single coordinate match
+2879,"Laredo, Texas",United States,27.50641,-99.50754,Laredo,Single coordinate match
+2880,"Lubbock, Texas",United States,33.57786,-101.85517,Lubbock,Single coordinate match
+2882,"New Braunfels, Texas",United States,29.703,-98.12445,New Braunfels,Single coordinate match
+2883,"San Antonio, Texas",United States,29.42412,-98.49363,San Antonio,Single coordinate match
+2884,"South Padre Island, Texas",United States,26.10369,-97.16469,South Padre Island,Single coordinate match
+2888,"Kanab, Utah",United States,37.04749,-112.52631,Kanab,Single coordinate match
+2892,"Provo, Utah",United States,40.23384,-111.65853,Provo,Single coordinate match
+2894,"Salt Lake City, Utah",United States,40.76078,-111.89105,Salt Lake City,Single coordinate match
+2895,"Sandy City, Utah",United States,40.59161,-111.8841,Sandy,Single coordinate match
+2898,"Brattleboro, Vermont",United States,42.85092,-72.55787,Brattleboro,Single coordinate match
+2908,"Chincoteague Island, Virginia",United States,37.93318,-75.37881,Chincoteague,Single coordinate match
+2916,"Virginia Beach, Virginia",United States,36.85293,-75.97799,Virginia Beach,Single coordinate match
+2920,"Kennewick, Washington",United States,46.21125,-119.13723,Kennewick,Single coordinate match
+2922,"Olympia, Washington",United States,47.04491,-122.90169,Olympia,Single coordinate match
+2923,"Port Angeles, Washington",United States,48.11815,-123.43074,Port Angeles,Single coordinate match
+2924,"Seattle, Washington",United States,47.60621,-122.33207,Seattle,Single coordinate match
+2926,"Spokane, Washington",United States,47.65966,-117.42908,Spokane,Single coordinate match
+2927,"Tacoma, Washington",United States,47.25288,-122.44429,Tacoma,Single coordinate match
+2928,"Walla Walla, Washington",United States,46.06458,-118.34302,Walla Walla,Single coordinate match
+2929,"Beckley, West Virginia",United States,37.77817,-81.18816,Beckley,Single coordinate match
+2933,"Harpers Ferry, West Virginia",United States,39.32924,-82.10126,Athens,Single coordinate match
+2935,"Morgantown, West Virginia",United States,39.62953,-79.9559,Morgantown,Single coordinate match
+2936,"Bayfield, Wisconsin",United States,37.22556,-107.59811,Bayfield,Single coordinate match
+2937,"Egg Harbor, Wisconsin",United States,39.52873,-74.64794,Egg Harbor City,Single coordinate match
+2939,"Green Bay, Wisconsin",United States,44.51916,-88.01983,Green Bay,Single coordinate match
+2943,"Sturgeon Bay, Wisconsin",United States,44.83416,-87.37704,Sturgeon Bay,Single coordinate match
+2945,"Wisconsin Dells, Wisconsin",United States,43.62748,-89.77096,Wisconsin Dells,Single coordinate match
+2946,"Casper, Wyoming",United States,42.86663,-106.31308,Casper,Single coordinate match
+2948,"Cody, Wyoming",United States,44.52634,-109.05653,Cody,Single coordinate match
+2950,"Laramie, Wyoming",United States,41.31137,-105.5911,Laramie,Single coordinate match
+2951,"Moran, Wyoming",United States,37.91615,-95.17025,Moran,Single coordinate match
+2954,Carmelo,Uruguay,-34.00023,-58.28402,Carmelo,Single coordinate match
+2955,Colonia del Sacramento,Uruguay,-34.46262,-57.83976,Colonia del Sacramento,Single coordinate match
+2956,Montevideo,Uruguay,-34.90328,-56.18816,Montevideo,Single coordinate match
+2957,Piriapolis,Uruguay,-34.86287,-55.27471,Piriápolis,Single coordinate match
+2959,Punta del Este,Uruguay,-34.94747,-54.93382,Punta del Este,Single coordinate match
+2960,Bukhara,Uzbekistan,39.77026,64.43069,Bukhara,Single coordinate match
+2961,Samarkand,Uzbekistan,39.65456,66.96445,Samarkand,Single coordinate match
+2962,Tashkent,Uzbekistan,41.26465,69.21627,Tashkent,Single coordinate match
+2963,Port Vila,Vanuatu,-17.73648,168.31366,Port-Vila,Single coordinate match
+2964,Hanoi,Vietnam,21.0245,105.84117,Hanoi,High-confidence candidate
+2965,Ho Chi Minh City,Vietnam,10.82302,106.62965,Ho Chi Minh City,Single coordinate match
+2966,Hoi An,Vietnam,15.87944,108.335,Hoi An,Single coordinate match
+2967,Hue,Vietnam,16.4619,107.59546,Huế,Single coordinate match
+2968,Nha Trang,Vietnam,12.24507,109.19432,Nha Trang,Single coordinate match
+2969,Phu Quoc,Vietnam,10.28715,104.01047,Phú Quốc,High-confidence candidate
+2970,Lusaka,Zambia,-15.40669,28.28713,Lusaka,Single coordinate match
+2971,Harare,Zimbabwe,-17.82772,31.05337,Harare,Single coordinate match
+2972,Victoria Falls,Zimbabwe,-17.93285,25.83066,Victoria Falls,Single coordinate match

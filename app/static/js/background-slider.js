@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
         // Japan - cherry blossoms
         "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=2400&q=90",
 
-       // Istanbul - Galata Tower and Golden Horn Bridge
-"https://images.unsplash.com/photo-1781628449518-2c7f3b14d40d?auto=format&fit=crop&w=2400&q=90",
+        // Istanbul - your uploaded Bosphorus photo
+        "/static/images/istanbul-bosphorus.webp",
 
         // Switzerland - Alps
         "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=2400&q=90",
@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 `url("${images[nextIndex]}")`;
 
             currentIndex = nextIndex;
-
             console.log("Background changed:", nextIndex + 1);
         };
 

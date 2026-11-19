@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
 
     <style>
         .recommendations-section {
@@ -96,6 +100,45 @@
             padding: 22px;
         }
 
+        .surprise-result {
+            margin-top: 22px;
+            max-width: 520px;
+        }
+
+        .surprise-result:empty {
+            display: none;
+        }
+
+        .surprise-result .recommendation-card {
+            border-color: rgba(169, 130, 73, .28);
+            background: #fffdf8;
+            border-radius: 3px;
+            box-shadow: 0 14px 36px rgba(23, 43, 58, .08);
+        }
+
+        .surprise-result .recommendation-card h3 {
+            color: #172b3a;
+            font-family: "Playfair Display", serif;
+            font-size: 25px;
+        }
+
+        .surprise-result .surprise-label {
+            display: block;
+            margin-bottom: 10px;
+            color: #a18456;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+        }
+
+        .surprise-result .surprise-details {
+            margin-top: 14px;
+            color: #78818a;
+            font-size: 12px;
+            line-height: 1.8;
+        }
+
         @media (max-width: 600px) {
             .recommendations-section {
                 padding: 56px 6%;
@@ -106,6 +149,607 @@
             }
         }
     </style>
+
+
+    <style>
+        /* CURATED DESTINATIONS: separate section below the hero */
+        .destination-showcase {
+            position: relative !important;
+            inset: auto !important;
+            transform: none !important;
+            width: min(1320px, calc(100% - 80px)) !important;
+            max-width: 1320px !important;
+            margin: 0 auto !important;
+            padding: 88px 0 82px !important;
+            color: #172b3a !important;
+            z-index: 1;
+        }
+
+        .carousel-heading {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            margin: 0 0 28px !important;
+            color: #172b3a !important;
+        }
+
+        .carousel-heading span:first-child {
+            color: #172b3a !important;
+            font-size: 11px !important;
+            letter-spacing: .22em !important;
+            font-weight: 700 !important;
+        }
+
+        .carousel-count {
+            color: #8b795d !important;
+            font-size: 10px !important;
+            letter-spacing: .18em !important;
+        }
+
+        .destination-cards {
+            display: grid !important;
+            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            gap: 22px !important;
+            overflow: visible !important;
+            perspective: none !important;
+        }
+
+        .destination-card,
+        .destination-card:nth-child(n) {
+            display: block !important;
+            position: relative !important;
+            width: 100% !important;
+            min-width: 0 !important;
+            height: 350px !important;
+            flex: initial !important;
+            margin: 0 !important;
+            transform: none !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            border: 1px solid rgba(23, 43, 58, .18) !important;
+            box-shadow: 0 12px 30px rgba(23, 43, 58, .10) !important;
+            background: #172b3a !important;
+        }
+
+        .destination-card:hover,
+        .destination-card:nth-child(n):hover {
+            transform: translateY(-5px) !important;
+        }
+
+        .destination-card img {
+            display: block !important;
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            object-position: center !important;
+        }
+
+        .destination-card .card-shade {
+            position: absolute !important;
+            inset: 0 !important;
+            background: linear-gradient(
+                180deg,
+                rgba(8, 20, 29, .02) 30%,
+                rgba(8, 20, 29, .78) 100%
+            ) !important;
+        }
+
+        .destination-card .card-info {
+            position: absolute !important;
+            left: 22px !important;
+            right: 18px !important;
+            bottom: 22px !important;
+            z-index: 2 !important;
+        }
+
+        .destination-card .card-region {
+            display: block !important;
+            margin-bottom: 9px !important;
+            color: rgba(255,255,255,.85) !important;
+            font-size: 9px !important;
+            letter-spacing: .18em !important;
+        }
+
+        .destination-card .card-info h2 {
+            margin: 0 0 7px !important;
+            color: #fffdf8 !important;
+            font-family: "Playfair Display", serif !important;
+            font-size: clamp(23px, 2.2vw, 31px) !important;
+            line-height: 1.1 !important;
+        }
+
+        .destination-card .card-info p {
+            margin: 0 !important;
+            color: rgba(255,255,255,.88) !important;
+            font-size: 12px !important;
+            line-height: 1.5 !important;
+        }
+
+        .destination-card .card-bookmark {
+            position: absolute !important;
+            top: 16px !important;
+            right: 16px !important;
+            z-index: 3 !important;
+        }
+
+        .destination-showcase .carousel-controls {
+            display: none !important;
+        }
+
+        @media (max-width: 900px) {
+            .destination-showcase {
+                width: min(760px, calc(100% - 48px)) !important;
+                padding: 65px 0 !important;
+            }
+
+            .destination-cards {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                gap: 18px !important;
+            }
+
+            .destination-card,
+            .destination-card:nth-child(n) {
+                height: 320px !important;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .destination-showcase {
+                width: calc(100% - 36px) !important;
+                padding: 48px 0 58px !important;
+            }
+
+            .carousel-heading {
+                margin-bottom: 20px !important;
+            }
+
+            .destination-cards {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                gap: 12px !important;
+            }
+
+            .destination-card,
+            .destination-card:nth-child(n) {
+                height: 245px !important;
+            }
+
+            .destination-card .card-info {
+                left: 13px !important;
+                right: 10px !important;
+                bottom: 14px !important;
+            }
+
+            .destination-card .card-info h2 {
+                font-size: 20px !important;
+            }
+
+            .destination-card .card-info p {
+                font-size: 10px !important;
+            }
+
+            .destination-card .card-region {
+                font-size: 7px !important;
+            }
+
+            .destination-card .card-bookmark {
+                top: 10px !important;
+                right: 10px !important;
+            }
+        }
+    </style>
+
+
+<style>
+/* SMART TRAVEL — EDITORIAL HOMEPAGE REDESIGN */
+
+/* HERO */
+.travel-showcase {
+    height: min(900px, 100svh) !important;
+    min-height: 720px !important;
+    max-height: none !important;
+    background: #122532 !important;
+}
+
+.background-image {
+    filter: saturate(.78) brightness(.82) !important;
+    transform: scale(1.04);
+}
+
+.background-shade {
+    background:
+        linear-gradient(90deg,
+            rgba(12, 27, 39, .82) 0%,
+            rgba(12, 27, 39, .48) 48%,
+            rgba(12, 27, 39, .08) 100%),
+        linear-gradient(0deg,
+            rgba(12, 27, 39, .38),
+            transparent 55%) !important;
+}
+
+/* NAVIGATION */
+.topbar {
+    min-height: 88px !important;
+    padding: 0 7% !important;
+    background: rgba(15, 31, 43, .48) !important;
+    border-bottom: 1px solid rgba(255, 253, 248, .18) !important;
+    backdrop-filter: blur(16px) !important;
+}
+
+.brand {
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 3px !important;
+}
+
+.navigation {
+    gap: 38px !important;
+}
+
+.navigation a {
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 12px !important;
+    letter-spacing: .3px !important;
+}
+
+.navigation a:hover {
+    color: #d6bd91 !important;
+}
+
+/* HERO CONTENT */
+.hero-content {
+    left: 14% !important;
+    top: 51% !important;
+    width: min(620px, 65%) !important;
+    transform: translateY(-42%) !important;
+}
+
+.eyebrow {
+    color: #d6bd91 !important;
+    letter-spacing: .25em !important;
+    font-size: 10px !important;
+}
+
+.hero-content h1 {
+    font-family: "DM Sans", sans-serif !important;
+    font-size: clamp(76px, 9vw, 128px) !important;
+    font-weight: 500 !important;
+    letter-spacing: -.085em !important;
+    line-height: .88 !important;
+    color: #fffdf8 !important;
+    margin: 30px 0 !important;
+}
+
+.hero-content h1 em {
+    font-family: "Playfair Display", serif !important;
+    font-weight: 400 !important;
+    letter-spacing: -.06em !important;
+    color: #d6bd91 !important;
+}
+
+.hero-description {
+    max-width: 470px !important;
+    font-size: 14px !important;
+    line-height: 1.9 !important;
+    color: rgba(255, 253, 248, .82) !important;
+}
+
+.hero-button {
+    min-width: 205px !important;
+    min-height: 58px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 24px !important;
+    margin-top: 22px !important;
+    background: #c4a879 !important;
+    color: #172b3a !important;
+    border-radius: 2px !important;
+}
+
+.hero-button:hover {
+    background: #fffdf8 !important;
+    transform: translateY(-3px) !important;
+}
+
+.hero-note {
+    margin-top: 35px !important;
+    color: rgba(255, 253, 248, .75) !important;
+}
+
+/* DESTINATION MAGAZINE GRID */
+.destination-showcase {
+    width: min(1380px, calc(100% - 100px)) !important;
+    padding: 110px 0 !important;
+}
+
+.carousel-heading {
+    margin-bottom: 38px !important;
+}
+
+.carousel-heading span:first-child {
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 11px !important;
+    letter-spacing: .24em !important;
+}
+
+.destination-cards {
+    display: grid !important;
+    grid-template-columns: 1.15fr .85fr .85fr 1.15fr !important;
+    grid-template-rows: 260px 220px !important;
+    gap: 18px !important;
+}
+
+.destination-card,
+.destination-card:nth-child(n) {
+    height: 100% !important;
+    min-height: 0 !important;
+    border-radius: 3px !important;
+    box-shadow: 0 15px 38px rgba(23, 43, 58, .10) !important;
+}
+
+.destination-card:nth-child(1) {
+    grid-column: 1 / 3 !important;
+    grid-row: 1 / 3 !important;
+}
+
+.destination-card:nth-child(2) {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+}
+
+.destination-card:nth-child(3) {
+    grid-column: 4 !important;
+    grid-row: 1 / 3 !important;
+}
+
+.destination-card:nth-child(4) {
+    grid-column: 3 !important;
+    grid-row: 2 !important;
+}
+
+.destination-card:nth-child(5) {
+    grid-column: 1 !important;
+    grid-row: 3 !important;
+}
+
+.destination-card:nth-child(6) {
+    grid-column: 2 !important;
+    grid-row: 3 !important;
+}
+
+.destination-card:nth-child(7) {
+    grid-column: 3 !important;
+    grid-row: 3 !important;
+}
+
+.destination-card:nth-child(8) {
+    grid-column: 4 !important;
+    grid-row: 3 !important;
+}
+
+.destination-card .card-info h2 {
+    font-size: clamp(24px, 2.4vw, 36px) !important;
+}
+
+.destination-card:hover {
+    transform: translateY(-6px) !important;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+    .hero-content {
+        left: 9% !important;
+        width: 75% !important;
+    }
+
+    .destination-cards {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(4, 280px) !important;
+    }
+
+    .destination-card:nth-child(n) {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .destination-card:nth-child(1) {
+        grid-column: 1 / 3 !important;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 560px) {
+    .travel-showcase {
+        min-height: 720px !important;
+        height: auto !important;
+    }
+
+    .hero-content {
+        left: 7% !important;
+        width: 86% !important;
+        top: 52% !important;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(58px, 15vw, 82px) !important;
+    }
+
+    .destination-showcase {
+        width: calc(100% - 36px) !important;
+        padding: 65px 0 !important;
+    }
+
+    .destination-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(4, 220px) !important;
+        gap: 12px !important;
+    }
+
+    .destination-card:nth-child(n) {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .destination-card:nth-child(1) {
+        grid-column: 1 / 3 !important;
+    }
+}
+
+/* BALANCED HOMEPAGE REFINEMENT */
+
+.hero-content h1 {
+    font-size: clamp(64px, 7vw, 94px) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.065em !important;
+    margin: 24px 0 !important;
+}
+
+.hero-description {
+    font-size: 13px !important;
+    max-width: 440px !important;
+    line-height: 1.8 !important;
+}
+
+/* Equal destination cards */
+.destination-cards {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, 310px) !important;
+    gap: 20px !important;
+}
+
+.destination-card:nth-child(n) {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    height: 310px !important;
+}
+
+.destination-card .card-info h2 {
+    font-size: 27px !important;
+}
+
+.destination-card .card-info p {
+    font-size: 12px !important;
+}
+
+@media (max-width: 900px) {
+    .destination-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(4, 280px) !important;
+    }
+
+    .destination-card:nth-child(n) {
+        height: 280px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .hero-content h1 {
+        font-size: clamp(54px, 13vw, 72px) !important;
+    }
+
+    .destination-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(4, 220px) !important;
+        gap: 12px !important;
+    }
+
+    .destination-card:nth-child(n) {
+        height: 220px !important;
+    }
+
+    .destination-card .card-info h2 {
+        font-size: 20px !important;
+    }
+}
+
+</style>
+
+<style>
+    /* SMART TRAVEL INTERACTIVE WORLD MAP */
+    .world-map-section {
+        padding: 100px 7%;
+        background: #f7f5f0;
+        color: #172b3a;
+    }
+    .world-map-heading {
+        max-width: 760px;
+        margin: 0 auto 35px;
+        text-align: center;
+    }
+    .world-map-eyebrow {
+        display: block;
+        margin-bottom: 15px;
+        color: #a18456;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .2em;
+    }
+    .world-map-heading h2 {
+        margin: 0 0 14px;
+        font-family: "Playfair Display", serif;
+        font-size: clamp(34px, 5vw, 54px);
+        font-weight: 400;
+    }
+    .world-map-heading p {
+        color: #78818a;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .world-map-toolbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        max-width: 1200px;
+        margin: 0 auto 18px;
+    }
+    .world-map-toolbar input,
+    .world-map-toolbar select {
+        min-height: 48px;
+        padding: 0 15px;
+        border: 1px solid #ded8cd;
+        border-radius: 3px;
+        background: #fff;
+        color: #172b3a;
+        font: inherit;
+    }
+    .world-map-toolbar input { flex: 1; min-width: 0; }
+    .world-map-toolbar select { min-width: 190px; }
+    .world-map-container {
+        max-width: 1200px;
+        height: 540px;
+        margin: auto;
+        overflow: hidden;
+        border: 1px solid rgba(23, 43, 58, .12);
+        border-radius: 5px;
+        box-shadow: 0 15px 40px rgba(23, 43, 58, .09);
+        background: #e8e6df;
+    }
+    #worldMap { width: 100%; height: 100%; z-index: 1; }
+    .world-map-status {
+        max-width: 1200px;
+        margin: 15px auto 0;
+        color: #78818a;
+        font-size: 12px;
+        text-align: right;
+    }
+    .map-popup-title {
+        margin-bottom: 5px;
+        color: #172b3a;
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .map-popup-country { color: #78818a; font-size: 12px; }
+    @media (max-width: 600px) {
+        .world-map-section { padding: 65px 18px; }
+        .world-map-toolbar { flex-direction: column; }
+        .world-map-toolbar select { width: 100%; }
+        .world-map-container { height: 430px; }
+    }
+</style>
+</head>
+
 
 </head>
 
@@ -195,12 +839,20 @@
 
     </section>
 
+    <div class="hero-footer">
+        <span>01 / DISCOVER</span>
+        <span>MADE FOR THE CURIOUS</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+    </div>
+
+</main>
+
     <!-- Destination cards -->
     <section class="destination-showcase" id="journeys">
 
         <div class="carousel-heading">
             <span>CURATED DESTINATIONS</span>
-            <span class="carousel-count">01 — 04</span>
+            <span class="carousel-count">01 — 08</span>
         </div>
 
         <div class="destination-cards">
@@ -249,6 +901,50 @@
                 </div>
             </article>
 
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=700&q=85" alt="Lisbon Portugal city view">
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">EUROPE</span>
+                    <h2>Lisbon</h2>
+                    <p>City of golden light</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=700&q=85" alt="Marrakech Morocco architecture">
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">AFRICA</span>
+                    <h2>Marrakech</h2>
+                    <p>Colors, culture and souks</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=700&q=85" alt="Bali Indonesia tropical landscape">
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">ASIA</span>
+                    <h2>Bali</h2>
+                    <p>Island of serenity</p>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=85" alt="Banff Canada mountain lake">
+                <div class="card-shade"></div>
+                <span class="card-bookmark">♡</span>
+                <div class="card-info">
+                    <span class="card-region">NORTH AMERICA</span>
+                    <h2>Banff</h2>
+                    <p>Where mountains meet lakes</p>
+                </div>
+            </article>
+
         </div>
 
         <div class="carousel-controls">
@@ -258,13 +954,37 @@
 
     </section>
 
-    <div class="hero-footer">
-        <span>01 / DISCOVER</span>
-        <span>MADE FOR THE CURIOUS</span>
-        <span>SCROLL TO EXPLORE ↓</span>
+
+
+
+<!-- Interactive World Map -->
+<section class="world-map-section" id="worldMapSection">
+    <div class="world-map-heading">
+        <span class="world-map-eyebrow" id="mapEyebrow">EXPLORE THE WORLD</span>
+        <h2 id="mapTitle">Discover destinations.</h2>
+        <p id="mapDescription">Explore destinations around the world and find your next adventure.</p>
     </div>
 
-</main>
+    <div class="world-map-toolbar">
+        <input type="search" id="mapSearch" placeholder="Search a destination or country..." aria-label="Search destinations">
+        <select id="mapRegionFilter" aria-label="Filter by region">
+            <option value="all">All regions</option>
+            <option value="e">Europe</option>
+            <option value="n">North America</option>
+            <option value="c">Caribbean</option>
+            <option value="a">Asia</option>
+            <option value="s">South America</option>
+            <option value="m">Middle East</option>
+            <option value="f">Africa</option>
+            <option value="o">Oceania</option>
+        </select>
+    </div>
+
+    <div class="world-map-container">
+        <div id="worldMap"></div>
+    </div>
+    <p class="world-map-status" id="mapStatus" aria-live="polite">Loading destinations...</p>
+</section>
 
 <!-- Experiences -->
 <section class="experience-section" id="experiences">
@@ -296,7 +1016,8 @@
                 Leave the planning behind. Let a random destination
                 inspire your next adventure.
             </p>
-            <a href="#preferences">Take me somewhere <span>↗</span></a>
+            <a href="#surpriseResult" id="surpriseButton">Take me somewhere <span>↗</span></a>
+            <div id="surpriseResult" class="surprise-result" aria-live="polite"></div>
         </article>
 
     </div>
@@ -757,10 +1478,18 @@ const translations = {
         region2: "EUROPE",
         region3: "ASIA",
         region4: "AFRICA",
+        region5: "EUROPE",
+        region6: "AFRICA",
+        region7: "ASIA",
+        region8: "NORTH AMERICA",
         card1: "Mountains of wonder",
         card2: "Land of ice and fire",
         card3: "Tradition meets beauty",
         card4: "Beyond the ordinary",
+        card5: "City of golden light",
+        card6: "Colors, culture and souks",
+        card7: "Island of serenity",
+        card8: "Where mountains meet lakes",
         footerDiscover: "01 / DISCOVER",
         footerCurious: "MADE FOR THE CURIOUS",
         footerScroll: "SCROLL TO EXPLORE ↓",
@@ -803,10 +1532,18 @@ const translations = {
         region2: "AVRUPA",
         region3: "ASYA",
         region4: "AFRİKA",
+        region5: "AVRUPA",
+        region6: "AFRİKA",
+        region7: "ASYA",
+        region8: "KUZEY AMERİKA",
         card1: "Büyüleyici dağlar",
         card2: "Buz ve ateşin ülkesi",
         card3: "Gelenek ve güzellik",
         card4: "Sıradanlığın ötesinde",
+        card5: "Altın ışıkların şehri",
+        card6: "Renkler, kültür ve çarşılar",
+        card7: "Huzur adası",
+        card8: "Dağların ve göllerin buluştuğu yer",
         footerDiscover: "01 / KEŞFET",
         footerCurious: "MERAKLILAR İÇİN TASARLANDI",
         footerScroll: "KEŞFETMEK İÇİN KAYDIR ↓",
@@ -877,11 +1614,14 @@ function changeLanguage(language) {
     setText(".destination-card:nth-child(2) .card-region", t.region2);
     setText(".destination-card:nth-child(3) .card-region", t.region3);
     setText(".destination-card:nth-child(4) .card-region", t.region4);
+    setText(".destination-card:nth-child(5) .card-region", t.region5);
+    setText(".destination-card:nth-child(6) .card-region", t.region6);
+    setText(".destination-card:nth-child(7) .card-region", t.region7);
+    setText(".destination-card:nth-child(8) .card-region", t.region8);
 
-    setText(".destination-card:nth-child(1) .card-info p", t.card1);
-    setText(".destination-card:nth-child(2) .card-info p", t.card2);
-    setText(".destination-card:nth-child(3) .card-info p", t.card3);
-    setText(".destination-card:nth-child(4) .card-info p", t.card4);
+    for (let i = 1; i <= 8; i++) {
+        setText(`.destination-card:nth-child(${i}) .card-info p`, t[`card${i}`]);
+    }
 
     setText(".hero-footer span:nth-child(1)", t.footerDiscover);
     setText(".hero-footer span:nth-child(2)", t.footerCurious);
@@ -1273,9 +2013,111 @@ document.getElementById("preferenceForm").addEventListener("submit", async funct
 
 });
 
+
+// Surprise Me: request a random destination without repeating shown results.
+const surpriseButton = document.getElementById("surpriseButton");
+const surpriseResult = document.getElementById("surpriseResult");
+const shownSurpriseIds = new Set();
+
+const regionNames = {
+    e: { en: "Europe", tr: "Avrupa" },
+    n: { en: "North America", tr: "Kuzey Amerika" },
+    c: { en: "Caribbean", tr: "Karayipler" },
+    a: { en: "Asia", tr: "Asya" },
+    s: { en: "South America", tr: "Güney Amerika" },
+    m: { en: "Middle East", tr: "Orta Doğu" },
+    f: { en: "Africa", tr: "Afrika" },
+    o: { en: "Oceania", tr: "Okyanusya" }
+};
+
+surpriseButton.addEventListener("click", async function(event) {
+    event.preventDefault();
+
+    const language = languageSwitcher.value;
+    const isTurkish = language === "tr";
+
+    surpriseButton.style.pointerEvents = "none";
+    surpriseButton.setAttribute("aria-disabled", "true");
+    surpriseResult.innerHTML = "";
+    surpriseResult.textContent = isTurkish
+        ? "Sana yeni bir destinasyon buluyoruz..."
+        : "Finding a new destination for you...";
+
+    try {
+        const response = await fetch("/api/surprise", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                excluded_ids: Array.from(shownSurpriseIds)
+            })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok || !data.success || !data.destination) {
+            throw new Error(data.message || "Surprise destination request failed.");
+        }
+
+        const destination = data.destination;
+        shownSurpriseIds.add(destination.destination_id);
+
+        surpriseResult.innerHTML = "";
+
+        const card = document.createElement("article");
+        card.className = "recommendation-card";
+
+        const label = document.createElement("span");
+        label.className = "surprise-label";
+        label.textContent = isTurkish ? "SÜRPRİZ DESTİNASYONUN" : "YOUR SURPRISE DESTINATION";
+
+        const name = document.createElement("h3");
+        name.textContent = destination.destination_name || "Destination";
+
+        const country = document.createElement("p");
+        country.className = "recommendation-country";
+        country.textContent = destination.country || "";
+
+        card.append(label, name, country);
+
+        const region = regionNames[destination.region];
+        if (region) {
+            const regionText = document.createElement("p");
+            regionText.className = "recommendation-score";
+            regionText.textContent = (isTurkish ? "Bölge: " : "Region: ") + region[language];
+            card.appendChild(regionText);
+        }
+
+        if (destination.description) {
+            const description = document.createElement("p");
+            description.className = "surprise-details";
+            description.textContent = destination.description;
+            card.appendChild(description);
+        }
+
+        surpriseResult.appendChild(card);
+        surpriseResult.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    } catch (error) {
+        console.error("Surprise Me error:", error);
+        surpriseResult.textContent = isTurkish
+            ? "Bir destinasyon seçerken sorun oluştu. Lütfen tekrar dene."
+            : "There was a problem finding a destination. Please try again.";
+        surpriseResult.classList.add("recommendation-error");
+    } finally {
+        surpriseButton.style.pointerEvents = "";
+        surpriseButton.removeAttribute("aria-disabled");
+    }
+});
+
 </script>
 
 <script src="{{ url_for('static', filename='js/background-slider.js') }}"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="{{ url_for('static', filename='js/world-map.js') }}"></script>
+
 
 </body>
 </html>
